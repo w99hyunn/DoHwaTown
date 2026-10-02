@@ -8,6 +8,7 @@ namespace DoHwa
     {
         [SerializeField] private Transform cameraTransform;
         [SerializeField] private Animator animator;
+        [SerializeField] private ModularCharacter modularCharacter;
         [SerializeField] private SpriteRenderer spriteRenderer;
         [SerializeField] private bool useOriginalFrontArt = true;
         [SerializeField] private bool useEightWayAnimations;
@@ -18,6 +19,7 @@ namespace DoHwa
         [SerializeField] private float dashDuration = 0.28f;
         [SerializeField] private float dashCooldown = 0.65f;
 
+        private bool useModularCharacter;
         private CharacterController controller;
         private InputAction move;
         private InputAction run;
@@ -56,6 +58,7 @@ namespace DoHwa
         private void Awake()
         {
             TryGetComponent<CharacterController>(out controller);
+            useModularCharacter = modularCharacter;
             move = new InputAction("Move", InputActionType.Value);
             move.AddCompositeBinding("2DVector").With("Up", "<Keyboard>/w").With("Down", "<Keyboard>/s")
                 .With("Left", "<Keyboard>/a").With("Right", "<Keyboard>/d");
@@ -136,12 +139,20 @@ namespace DoHwa
             {
                 float x = Vector3.Dot(facing, right);
                 float y = Vector3.Dot(facing, forward);
-                facingRow = useEightWayAnimations
+                facingRow = useModularCharacter || useEightWayAnimations
                     ? Mathf.RoundToInt(Mathf.Atan2(x, -y) * Mathf.Rad2Deg / 45f + 8f) % 8
                     : Mathf.Abs(x) > Mathf.Abs(y) * 0.85f ? 1 : y > 0f ? 2 : 0;
                 flip = facingRow == 1 && x < 0f;
             }
             int motion = dashing ? 3 : !moving ? 0 : run.IsPressed() ? 2 : 1;
+            if (useModularCharacter)
+            {
+                float playbackRate = dashing ? 0.32f / dashDuration
+                    : moving ? Mathf.Clamp(displacement.magnitude / Mathf.Max(dt, 0.0001f) / (run.IsPressed() ? runSpeed : walkSpeed), 0f, 1f) : 1f;
+                modularCharacter.Animate((AvatarFacing)facingRow, (AvatarMotion)motion, dt, playbackRate);
+                wasDashing = dashing;
+                return;
+            }
             int state = useEightWayAnimations ? EightWayStates[facingRow, motion] : States[useOriginalFrontArt ? 0 : facingRow, motion];
             if (state != currentState || (dashing && !wasDashing))
             {

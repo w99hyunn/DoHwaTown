@@ -20,3 +20,5 @@ DoHwa/Apply PixelLab Motions 메뉴로 현재 자산을 갱신할 수 있습니�
 
 WASD / 방향키: 걷기. Shift: 달리기. Space: 대시.
 게임패드: 왼쪽 스틱 이동, 오른쪽 트리거 달리기, 아래쪽 버튼 대시.
+
+

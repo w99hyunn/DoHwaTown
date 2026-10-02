@@ -173,7 +173,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0.04, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 7230570570875729353}
   m_Father: {fileID: 3734465301418910037}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &5984267889463558423
@@ -184,7 +185,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5179785669654146913}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -244,7 +245,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5179785669654146913}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 839fbe1b08ccc464a9237cd60189c7e3, type: 2}
   m_CullingMode: 0
@@ -422,6 +423,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DoHwa.HeroMotor
   cameraTransform: {fileID: 4152626051511885961}
   animator: {fileID: 767313708845917162}
+  modularCharacter: {fileID: 4018457539764181910}
   spriteRenderer: {fileID: 5984267889463558423}
   useOriginalFrontArt: 1
   useEightWayAnimations: 1
@@ -431,3 +433,76 @@ MonoBehaviour:
   dashSpeed: 12
   dashDuration: 0.28
   dashCooldown: 0.65
+--- !u!1001 &7203069937397943477
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7466332842816404992}
+    m_Modifications:
+    - target: {fileID: 553472514548218236, guid: afcf2a147d5ed4844a8762aa4be2cd5e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 553472514548218236, guid: afcf2a147d5ed4844a8762aa4be2cd5e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 553472514548218236, guid: afcf2a147d5ed4844a8762aa4be2cd5e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 553472514548218236, guid: afcf2a147d5ed4844a8762aa4be2cd5e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 553472514548218236, guid: afcf2a147d5ed4844a8762aa4be2cd5e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 553472514548218236, guid: afcf2a147d5ed4844a8762aa4be2cd5e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 553472514548218236, guid: afcf2a147d5ed4844a8762aa4be2cd5e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 553472514548218236, guid: afcf2a147d5ed4844a8762aa4be2cd5e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 553472514548218236, guid: afcf2a147d5ed4844a8762aa4be2cd5e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 553472514548218236, guid: afcf2a147d5ed4844a8762aa4be2cd5e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7831427744871102228, guid: afcf2a147d5ed4844a8762aa4be2cd5e, type: 3}
+      propertyPath: m_Name
+      value: ModularHero
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: afcf2a147d5ed4844a8762aa4be2cd5e, type: 3}
+--- !u!114 &4018457539764181910 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6066942600580175651, guid: afcf2a147d5ed4844a8762aa4be2cd5e, type: 3}
+  m_PrefabInstance: {fileID: 7203069937397943477}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09d3434dedcf39a4fa8a879c189b3241, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoHwa.ModularCharacter
+--- !u!4 &7230570570875729353 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 553472514548218236, guid: afcf2a147d5ed4844a8762aa4be2cd5e, type: 3}
+  m_PrefabInstance: {fileID: 7203069937397943477}
+  m_PrefabAsset: {fileID: 0}
