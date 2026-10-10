@@ -5,7 +5,7 @@ Shader "DoHwa/Peach Forest Ground"
         _BaseMap("Painted atlas", 2D) = "white" {}
         _BaseColor("Tint", Color) = (1,1,1,1)
         _PathColor("Warm worn earth", Color) = (0.42,0.32,0.23,1)
-        _MossColor("Sage forest floor", Color) = (.18,.25,.19,1)
+        _MossColor("Leaf litter floor", Color) = (.38,.29,.30,1)
     }
     SubShader
     {
@@ -49,8 +49,8 @@ Shader "DoHwa/Peach Forest Ground"
                     SAMPLE_TEXTURE2D(_BaseMap,sampler_BaseMap,uv2).rgb,0.42);
                                 moss *= half3(0.75,0.83,0.92);
                 half mossLuma=dot(moss,half3(.25,.60,.15));
-                moss=lerp(mossLuma.xxx,moss,.72);
-                moss=lerp(_MossColor.rgb,moss*half3(.82,.95,1.05),.34);
+                // Keep the painted surface grain without carrying its green moss hue.
+                moss=_MossColor.rgb*(.72+mossLuma*.80);
                 moss*=.97+.035*sin(p.x*.28)*cos(p.y*.19);
                 float pathX=1.7*sin(p.y*0.115)-0.9*sin(p.y*0.23);
                 float edge=0.10*sin(p.y*2.1)+0.09*sin(p.x*3.7+p.y*1.3);

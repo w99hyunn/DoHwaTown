@@ -79,6 +79,13 @@ Shader "DoHwa/Peach Forest Painted"
                 float2 uv = _AtlasRect.xy + 0.008 + frac(coordinates) * (_AtlasRect.zw - 0.016);
                 return SAMPLE_TEXTURE2D(_BaseMap, sampler_BaseMap, uv).rgb;
             }
+            half3 ProjectedPaint(float2 coordinates)
+            {
+                // A rock occupies one continuous atlas region, including negative coordinates.
+                // Wrapping at zero split each projection into four unrelated texture quarters.
+                float2 uv = _AtlasRect.xy + 0.008 + saturate(coordinates + 0.5) * (_AtlasRect.zw - 0.016);
+                return SAMPLE_TEXTURE2D(_BaseMap, sampler_BaseMap, uv).rgb;
+            }
             half4 Frag(Varyings input) : SV_Target
             {
                 UNITY_SETUP_INSTANCE_ID(input);
@@ -88,7 +95,7 @@ Shader "DoHwa/Peach Forest Painted"
                     half3 weights = pow(abs(normalize(input.normalOS)), 4);
                     weights /= max(0.001, weights.x + weights.y + weights.z);
                     float3 p = input.positionOS * _TextureScale;
-                    paint = Paint(p.zy) * weights.x + Paint(p.xz) * weights.y + Paint(p.xy) * weights.z;
+                    paint = ProjectedPaint(p.zy) * weights.x + ProjectedPaint(p.xz) * weights.y + ProjectedPaint(p.xy) * weights.z;
                 }
                 paint = lerp(_SurfaceMidColor.rgb, paint, _DetailContrast);
                 paint *= _BaseColor.rgb;
