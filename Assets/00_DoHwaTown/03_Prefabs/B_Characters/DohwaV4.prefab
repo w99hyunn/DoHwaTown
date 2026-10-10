@@ -1,0 +1,3156 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7831427744871102228
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 553472514548218236}
+  - component: {fileID: 372724310078260252}
+  - component: {fileID: 6066942600580175651}
+  - component: {fileID: 7066942600580175651}
+  m_Layer: 0
+  m_Name: DohwaV4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &553472514548218236
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7831427744871102228}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1001}
+  - {fileID: 1011}
+  - {fileID: 1021}
+  - {fileID: 1031}
+  - {fileID: 1041}
+  - {fileID: 1051}
+  - {fileID: 1061}
+  - {fileID: 1071}
+  - {fileID: 1081}
+  - {fileID: 1091}
+  - {fileID: 1101}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!210 &372724310078260252
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7831427744871102228}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
+  m_Sort3DAs2D: 0
+--- !u!1 &1000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1001}
+  - component: {fileID: 1002}
+  m_Layer: 0
+  m_Name: hair_back
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1001
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 553472514548218236}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1002
+SpriteRenderer:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: d5af4548443bbba4dad1d477a01e2f8d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: 21300000, guid: 4d2d8b402cef57eeb8aa296f76e0e179, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2.176, y: 2.176}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 0
+  m_BlendShapeWeights: []
+--- !u!1 &1010
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1011}
+  - component: {fileID: 1012}
+  m_Layer: 0
+  m_Name: body
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1011
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 553472514548218236}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1012
+SpriteRenderer:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: c64c50eade065a20a13015b861bcfcbf, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: 21300000, guid: 41c79f4bc7e058fd9c6fef323dee87cf, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2.176, y: 2.176}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 0
+  m_BlendShapeWeights: []
+--- !u!1 &1020
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1021}
+  - component: {fileID: 1022}
+  m_Layer: 0
+  m_Name: boots
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1021
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1020}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 553472514548218236}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1022
+SpriteRenderer:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1020}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: d5af4548443bbba4dad1d477a01e2f8d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: 21300000, guid: fea5d84a621b5375af8667dc4b9f0d62, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2.176, y: 2.176}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 0
+  m_BlendShapeWeights: []
+--- !u!1 &1030
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1031}
+  - component: {fileID: 1032}
+  m_Layer: 0
+  m_Name: bottom
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1031
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 553472514548218236}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1032
+SpriteRenderer:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: d5af4548443bbba4dad1d477a01e2f8d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 3
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: 21300000, guid: 4d306ab826ba5fa78f6d7e32cf615339, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2.176, y: 2.176}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 0
+  m_BlendShapeWeights: []
+--- !u!1 &1040
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1041}
+  - component: {fileID: 1042}
+  m_Layer: 0
+  m_Name: cape
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1041
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1040}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 553472514548218236}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1042
+SpriteRenderer:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1040}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: d5af4548443bbba4dad1d477a01e2f8d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 4
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: 21300000, guid: fb7017148b5358079ddd71b4131f0ff2, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2.176, y: 2.176}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 0
+  m_BlendShapeWeights: []
+--- !u!1 &1050
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1051}
+  - component: {fileID: 1052}
+  m_Layer: 0
+  m_Name: top
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1051
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1050}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 553472514548218236}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1052
+SpriteRenderer:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1050}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: d5af4548443bbba4dad1d477a01e2f8d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 5
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: 21300000, guid: 1e975f4213215db8a746228ac682b750, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2.176, y: 2.176}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 0
+  m_BlendShapeWeights: []
+--- !u!1 &1060
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1061}
+  - component: {fileID: 1062}
+  m_Layer: 0
+  m_Name: sleeve_left
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1061
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1060}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 553472514548218236}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1062
+SpriteRenderer:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1060}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: d5af4548443bbba4dad1d477a01e2f8d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 6
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: 21300000, guid: bda9cbb2137f5e1ca87ea98bfe92eb5a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2.176, y: 2.176}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 0
+  m_BlendShapeWeights: []
+--- !u!1 &1070
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1071}
+  - component: {fileID: 1072}
+  m_Layer: 0
+  m_Name: sleeve_right
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1071
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1070}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 553472514548218236}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1072
+SpriteRenderer:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1070}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: d5af4548443bbba4dad1d477a01e2f8d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 7
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: 21300000, guid: 4d3f522cfb025e1cb97c1e0289a7c019, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2.176, y: 2.176}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 0
+  m_BlendShapeWeights: []
+--- !u!1 &1080
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1081}
+  - component: {fileID: 1082}
+  m_Layer: 0
+  m_Name: hair_front
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1081
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1080}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 553472514548218236}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1082
+SpriteRenderer:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1080}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: d5af4548443bbba4dad1d477a01e2f8d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 8
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: 21300000, guid: 8fa4449223d1590fbac7eed21a5072d6, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2.176, y: 2.176}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 0
+  m_BlendShapeWeights: []
+--- !u!1 &1090
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1091}
+  - component: {fileID: 1092}
+  m_Layer: 0
+  m_Name: ornament
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1091
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1090}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 553472514548218236}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1092
+SpriteRenderer:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1090}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: d5af4548443bbba4dad1d477a01e2f8d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 9
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: 21300000, guid: 365994e38eab5c9f9e1ded1a38e9ac66, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2.176, y: 2.176}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 0
+  m_BlendShapeWeights: []
+--- !u!1 &1100
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1101}
+  - component: {fileID: 1102}
+  m_Layer: 0
+  m_Name: exposed_skin
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1101
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1100}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 553472514548218236}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1102
+SpriteRenderer:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1100}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: f7519b0d951e5f5c8c3affb06e9a5b51, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 10
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: 21300000, guid: a52ebf43658c5f80a4a91f752066a81a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2.176, y: 2.176}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 0
+  m_BlendShapeWeights: []
+--- !u!114 &6066942600580175651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7831427744871102228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3294fc144955551a7b5a8d866c3b335, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoHwa.DohwaLayeredCharacter
+  layers:
+  - {fileID: 1002}
+  - {fileID: 1012}
+  - {fileID: 1022}
+  - {fileID: 1032}
+  - {fileID: 1042}
+  - {fileID: 1052}
+  - {fileID: 1062}
+  - {fileID: 1072}
+  - {fileID: 1082}
+  - {fileID: 1092}
+  - {fileID: 1102}
+  directions:
+  - idle:
+      parts:
+      - {fileID: 21300000, guid: 4d2d8b402cef57eeb8aa296f76e0e179, type: 3}
+      - {fileID: 21300000, guid: 41c79f4bc7e058fd9c6fef323dee87cf, type: 3}
+      - {fileID: 21300000, guid: fea5d84a621b5375af8667dc4b9f0d62, type: 3}
+      - {fileID: 21300000, guid: 4d306ab826ba5fa78f6d7e32cf615339, type: 3}
+      - {fileID: 21300000, guid: fb7017148b5358079ddd71b4131f0ff2, type: 3}
+      - {fileID: 21300000, guid: 1e975f4213215db8a746228ac682b750, type: 3}
+      - {fileID: 21300000, guid: bda9cbb2137f5e1ca87ea98bfe92eb5a, type: 3}
+      - {fileID: 21300000, guid: 4d3f522cfb025e1cb97c1e0289a7c019, type: 3}
+      - {fileID: 21300000, guid: 8fa4449223d1590fbac7eed21a5072d6, type: 3}
+      - {fileID: 21300000, guid: 365994e38eab5c9f9e1ded1a38e9ac66, type: 3}
+      - {fileID: 21300000, guid: a52ebf43658c5f80a4a91f752066a81a, type: 3}
+      bodyMask: {fileID: 2800000, guid: 11c46372d9a25ff1982dd4cd6602aa6e, type: 3}
+      skinMask: {fileID: 2800000, guid: 35a8375896bb573eb93c5a41e181085f, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: 766fd6b360b253498a048202b1f7fa0b, type: 3}
+      - {fileID: 21300000, guid: d8090e0ab903512aaea5e4dde6497ea1, type: 3}
+      - {fileID: 21300000, guid: 652e50ce5b815b87a5979258cccc829d, type: 3}
+      - {fileID: 21300000, guid: 9b306c15bc475919a1ac26e2223f1479, type: 3}
+      - {fileID: 21300000, guid: d70bb16f12185bdd863315f92e19a301, type: 3}
+      - {fileID: 21300000, guid: 6245140b07ed539f87fe082e53a3512f, type: 3}
+      - {fileID: 21300000, guid: 0988673397cc5a3abd24ca03a925c7ba, type: 3}
+      - {fileID: 21300000, guid: c881d391e848571295223b12bab0e9e9, type: 3}
+      - {fileID: 21300000, guid: 0335f1f1bef254bea3e6f854b5834e11, type: 3}
+      - {fileID: 21300000, guid: 9c47e953539c51eb8f54385126a6865c, type: 3}
+      - {fileID: 21300000, guid: 53f5cef9b6c85314a764787cfa61a0f5, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: 45f315974a855d24aa82cbdb91202810, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: d8c4c3d6241d5619b262378e3d05ec80, type: 3}
+    walk:
+    - parts:
+      - {fileID: 21300000, guid: fcafdeca81dc5c5cad301c878bc62a81, type: 3}
+      - {fileID: 21300000, guid: 7e49ebbc7213523298e42cee24e50ff0, type: 3}
+      - {fileID: 21300000, guid: 89fe090f5659506199bb6deb2cfc6857, type: 3}
+      - {fileID: 21300000, guid: 6f1a9379e3fe5e85aaa2ee98da28fad2, type: 3}
+      - {fileID: 21300000, guid: 7a9fb5e8b52f58c699a712d1c37d83a3, type: 3}
+      - {fileID: 21300000, guid: 21c427d038c9520684087ac8da66155e, type: 3}
+      - {fileID: 21300000, guid: 79ce943f2d275033bbbfaadca76c56e6, type: 3}
+      - {fileID: 21300000, guid: 6719f9844a6d5df6b1a0aa32c182c7a7, type: 3}
+      - {fileID: 21300000, guid: 93c6c9ef0ad85811baeabdce20b522ca, type: 3}
+      - {fileID: 21300000, guid: 975b6e017a7d5fbe9b77220e28b880b5, type: 3}
+      - {fileID: 21300000, guid: 0353214b073c53529eb4f5d359a59d38, type: 3}
+      bodyMask: {fileID: 2800000, guid: e2a96d54f8475203ad54369c62fb51b8, type: 3}
+      skinMask: {fileID: 2800000, guid: e84af9b3126f5e7da1bb9b2865f92b89, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: 65065da41854532c9085f8bc6960ab99, type: 3}
+      - {fileID: 21300000, guid: 97e9eb79f17b57b5845b9fa1969ceadb, type: 3}
+      - {fileID: 21300000, guid: ef64747a2d015e75b78ce3f684c1831f, type: 3}
+      - {fileID: 21300000, guid: e20cfb6088735247aa505867b808ff4c, type: 3}
+      - {fileID: 21300000, guid: 355d00d27c64506d9f40c5b474b2c4e5, type: 3}
+      - {fileID: 21300000, guid: 5f6bf5467f0e565c81a12550f7bb29cc, type: 3}
+      - {fileID: 21300000, guid: b3c81954926a5093aca7f1b6567d6043, type: 3}
+      - {fileID: 21300000, guid: 0983c15f65895ae5bfc004e20959dbc8, type: 3}
+      - {fileID: 21300000, guid: 6622a07fed6c5634a7661908b0dc7d61, type: 3}
+      - {fileID: 21300000, guid: bbc903e1d414534c8a072f4367fbd076, type: 3}
+      - {fileID: 21300000, guid: 71c3d56e979353bea1da7e87c10e55e9, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: 8a853dd1307c5d16847e9e2f743a78cc, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: 712070442a5458beb5e3e42102c15a24, type: 3}
+    - parts:
+      - {fileID: 21300000, guid: 767583c9307c575e818aa172e77bc753, type: 3}
+      - {fileID: 21300000, guid: f83063979cd6582c90dad87d6827fe39, type: 3}
+      - {fileID: 21300000, guid: 5767691681e559aeb3837ecb39adfd03, type: 3}
+      - {fileID: 21300000, guid: d3af5bb9042b550fbc7018d5b0d926bd, type: 3}
+      - {fileID: 21300000, guid: dc158cd563aa59518484daa3cdf18ba8, type: 3}
+      - {fileID: 21300000, guid: c08c85c0cc865feba28f54e0f897f5ba, type: 3}
+      - {fileID: 21300000, guid: f837241130c452299b2ec43eed5c5117, type: 3}
+      - {fileID: 21300000, guid: 5c99266b4a2c5536bb4382170c3573e3, type: 3}
+      - {fileID: 21300000, guid: c23b517bffdb51f696377e2312d306f8, type: 3}
+      - {fileID: 21300000, guid: 673d6028e91e5c1494739a1ae35e5d44, type: 3}
+      - {fileID: 21300000, guid: 3aaaccee3e65543fb33dee8ae20aab87, type: 3}
+      bodyMask: {fileID: 2800000, guid: f08210d87bcd5c52b3ae44aee6eb5b5d, type: 3}
+      skinMask: {fileID: 2800000, guid: 63508cac9e2457ec971463169998bb55, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: 5fcfe39d5d6d5a019fe86df6af0758ad, type: 3}
+      - {fileID: 21300000, guid: aad740d178375a2396543c837e01bfbe, type: 3}
+      - {fileID: 21300000, guid: 9634c3ae10f9514ca94fbb127770ae40, type: 3}
+      - {fileID: 21300000, guid: ea8b7c38e35755168baf9f638ba5e5a7, type: 3}
+      - {fileID: 21300000, guid: 1c9eccc731675f5388f73b2ebc0723fc, type: 3}
+      - {fileID: 21300000, guid: fd797f689e83546db92e61a7dd3759bb, type: 3}
+      - {fileID: 21300000, guid: c855409cbc4b505ba3b24f9769072f4d, type: 3}
+      - {fileID: 21300000, guid: 9a1e85b36d3253789a687426d1cd5841, type: 3}
+      - {fileID: 21300000, guid: 3d8a2d289cf856df8a272fc9082a3453, type: 3}
+      - {fileID: 21300000, guid: 21a0bf89e52e577a89c9a22e9ecdbecf, type: 3}
+      - {fileID: 21300000, guid: 25469188ce5f506192616ab94ee171e5, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: d75367975f3d5b9e8cdc5a24412fc96c, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: b453b6bbb69a50cb90f9122fc50cec32, type: 3}
+    - parts:
+      - {fileID: 21300000, guid: 110ff01fb37e593bbe9da2a2de58be74, type: 3}
+      - {fileID: 21300000, guid: 1c56bc5f55085c7687f904fa9db1e945, type: 3}
+      - {fileID: 21300000, guid: 02394ef9c86c58d091f6b7775e184bb8, type: 3}
+      - {fileID: 21300000, guid: 608a7315f4895e609d4c9fc121415bea, type: 3}
+      - {fileID: 21300000, guid: a29a1c41018d52dca6367826ea2ff7a7, type: 3}
+      - {fileID: 21300000, guid: b8b011fb1ce55d848bd6d081ec1302e2, type: 3}
+      - {fileID: 21300000, guid: 0874bf52d8c653fea42d713bafe5f6a9, type: 3}
+      - {fileID: 21300000, guid: 337211b843555427b9f8d62bf491f511, type: 3}
+      - {fileID: 21300000, guid: 2eeea69a8ec150f9b9800e9b550f3ab1, type: 3}
+      - {fileID: 21300000, guid: 51f6cae1c794501c967455522b845592, type: 3}
+      - {fileID: 21300000, guid: e16cafe40c835b71af7dc02119f6efc2, type: 3}
+      bodyMask: {fileID: 2800000, guid: 3711edaa11aa5639b02d545899471c19, type: 3}
+      skinMask: {fileID: 2800000, guid: ce8a64df96b55583b071c81bf5453029, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: 95b13f497c0458708af44a05162aebc9, type: 3}
+      - {fileID: 21300000, guid: f184c7b262f051d689d0ad95fb0f977f, type: 3}
+      - {fileID: 21300000, guid: a6eb1c5c5fd25412b09ba6d7306445ef, type: 3}
+      - {fileID: 21300000, guid: 75023d3da8bb534b8eebc0bce2c13c7b, type: 3}
+      - {fileID: 21300000, guid: 7b86d25b85b25c8ca419004e8141b289, type: 3}
+      - {fileID: 21300000, guid: 422d8be4c7035327b2903d343e331b83, type: 3}
+      - {fileID: 21300000, guid: 9a7c6defd47957e0b8ead27c157b156a, type: 3}
+      - {fileID: 21300000, guid: 99eeab4f2f5e5dfd8b95c81f711a5eae, type: 3}
+      - {fileID: 21300000, guid: 19875b33338c5ed5868418c587cbc1b7, type: 3}
+      - {fileID: 21300000, guid: 2fc3d3d827a85cd1966a5d3effad7fe7, type: 3}
+      - {fileID: 21300000, guid: 08092290ae4f522a8daa10de669cab3d, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: f6cdc9886d2d50bab398f2a63861dcb5, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: 8ab7f36ba252553aa7614b59ca7f7b3b, type: 3}
+    - parts:
+      - {fileID: 21300000, guid: 275274909a3259539130c81cd6b7caad, type: 3}
+      - {fileID: 21300000, guid: 5bc70aa8da5450a3bc597cb6893bd724, type: 3}
+      - {fileID: 21300000, guid: cab4e30816ee58c3aa7b7601e075e0e6, type: 3}
+      - {fileID: 21300000, guid: 412e026617e35fb5a744f63ab345d1d4, type: 3}
+      - {fileID: 21300000, guid: 44f3fa5aeefe5e68b0a073a1fd2e73c0, type: 3}
+      - {fileID: 21300000, guid: 0315159824095a94b81edf7440fa8de7, type: 3}
+      - {fileID: 21300000, guid: e5d88dca1c0956779750d6b0c4ee14b3, type: 3}
+      - {fileID: 21300000, guid: 33b6867edc9a583a8ddece8f74dbce17, type: 3}
+      - {fileID: 21300000, guid: 7242f5129248508fb341a1f7e11745b7, type: 3}
+      - {fileID: 21300000, guid: 71ecc33e239e514f9d08a66a82cc0fa2, type: 3}
+      - {fileID: 21300000, guid: eba0aa9f9093576b8d23b81bc6dbb957, type: 3}
+      bodyMask: {fileID: 2800000, guid: 8fec4fefa34e509db711f82317e619a9, type: 3}
+      skinMask: {fileID: 2800000, guid: 003a46258c2b58c48130b22b35601f5b, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: 21b21fcdacb154ce9fbc0c0c973a5575, type: 3}
+      - {fileID: 21300000, guid: 07447eab44ee5489806661b23a09b0ad, type: 3}
+      - {fileID: 21300000, guid: 3e24752880fb5a4fbbda6b72f220064b, type: 3}
+      - {fileID: 21300000, guid: 15bf6bca09b05464a7f1af9c19a6e51c, type: 3}
+      - {fileID: 21300000, guid: 0164c78a5195544bb7c99ea8372dc70f, type: 3}
+      - {fileID: 21300000, guid: 1f0f23cbf0835d259f2fc686e62ac2bc, type: 3}
+      - {fileID: 21300000, guid: 6a18896496785c0d9f7f3dc7c9714015, type: 3}
+      - {fileID: 21300000, guid: 21babf08063b53909aae85785c0f94ff, type: 3}
+      - {fileID: 21300000, guid: 36fc45ca4f2150eaadfdbf547e9b7931, type: 3}
+      - {fileID: 21300000, guid: 9083201fcb1c54c9b5ad7a505fb125bf, type: 3}
+      - {fileID: 21300000, guid: f815317e82185ffda80a0b6f2598dac0, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: 89bc4470b61654fabe061911a8194745, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: 3da9403830565d8e86e0cdf595451f7c, type: 3}
+    - parts:
+      - {fileID: 21300000, guid: 36e7fdbcf14953ae9e572dd1e4b0bdce, type: 3}
+      - {fileID: 21300000, guid: 894b7e4e017654d4b16c524ba77de830, type: 3}
+      - {fileID: 21300000, guid: 1b6717761d665822aaba74c227a98537, type: 3}
+      - {fileID: 21300000, guid: 3ca178c6ca555d4e827631d3f29a9b1b, type: 3}
+      - {fileID: 21300000, guid: 0753468d7e5f5be6abab4b1791ad6a0f, type: 3}
+      - {fileID: 21300000, guid: 678d50e54ecb5861a7234e66dd1eabd4, type: 3}
+      - {fileID: 21300000, guid: 07e5346f729f556189331c9976c47b0c, type: 3}
+      - {fileID: 21300000, guid: 348909dcf7bb5a3287f790269545115b, type: 3}
+      - {fileID: 21300000, guid: b12acb4f30cc5026996395023fdb18a8, type: 3}
+      - {fileID: 21300000, guid: 2cc9e024bc975f18b25f26bdfd47faf2, type: 3}
+      - {fileID: 21300000, guid: 90bf6b6a4d3353d182694cc28dbdcfc3, type: 3}
+      bodyMask: {fileID: 2800000, guid: fcfe2a310a685f909d43a2f1c64d30b5, type: 3}
+      skinMask: {fileID: 2800000, guid: 5f4599f8b01e5dbd83e1c83aad73c5a7, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: 65cd5a62303d5b8d9ccd7e3c9d92a948, type: 3}
+      - {fileID: 21300000, guid: 8dd7b24ebd3856f98295a13fe46888e4, type: 3}
+      - {fileID: 21300000, guid: 632e173d341a5840a84e7e884ebfc758, type: 3}
+      - {fileID: 21300000, guid: d828abb3c7545038843d51a17f13e867, type: 3}
+      - {fileID: 21300000, guid: aaefb5468bd65671a2798a2790e433bf, type: 3}
+      - {fileID: 21300000, guid: 4203d1d0c5fa5315bdf6113ab661d455, type: 3}
+      - {fileID: 21300000, guid: 2c2e3fe669fa5066aafbdf4ee9391c69, type: 3}
+      - {fileID: 21300000, guid: 57ec77272fec5c5db346bee5ceb7d7ad, type: 3}
+      - {fileID: 21300000, guid: c7be08a790525b02a7a0d6480ea41c5c, type: 3}
+      - {fileID: 21300000, guid: 8f8bc1c1eb335033afa1292cd752e749, type: 3}
+      - {fileID: 21300000, guid: 17a330eece4f54d78fcf5d5d1a4aafc4, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: a57dc2350d3b5086a7fb70473412acf4, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: f1833276baf65e69a4314b6dae040d54, type: 3}
+    - parts:
+      - {fileID: 21300000, guid: 3a220b5d6b2d5c78b42b87c768637e90, type: 3}
+      - {fileID: 21300000, guid: 4fae6fe39c2d5950b28b7c6dadddd80c, type: 3}
+      - {fileID: 21300000, guid: 713f919021fa52ab83982dd37521dd96, type: 3}
+      - {fileID: 21300000, guid: 35d6fb00acd6537c904e6d9862b6c99d, type: 3}
+      - {fileID: 21300000, guid: 7e1d5159cd32515b828dcc5c078bd2ab, type: 3}
+      - {fileID: 21300000, guid: 68453f0993535cb692563bb2bd2ccef2, type: 3}
+      - {fileID: 21300000, guid: 3da5c1b620dc5eb6b4807144c93cb1fb, type: 3}
+      - {fileID: 21300000, guid: 505b7e913a3159919a7a05d675f1fae3, type: 3}
+      - {fileID: 21300000, guid: d4664e136fb955ae8afa973a7d5960c7, type: 3}
+      - {fileID: 21300000, guid: e5a9e1de07235dbd81f043941becc7c8, type: 3}
+      - {fileID: 21300000, guid: 9c253401683d528b9dae5435371622ed, type: 3}
+      bodyMask: {fileID: 2800000, guid: 908ead38cf2d56f38823c2d44e979bae, type: 3}
+      skinMask: {fileID: 2800000, guid: 0576823aa24558b7a4bbb1d1ac01eb23, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: b51e81743f61592aaa42754b65bb1764, type: 3}
+      - {fileID: 21300000, guid: 033faef1338f549d8dabd47e2ced95db, type: 3}
+      - {fileID: 21300000, guid: 5206c2b6f5c8527abe846e4cab95e531, type: 3}
+      - {fileID: 21300000, guid: 2595a932c13658358a2e9e3cd4dbd8d9, type: 3}
+      - {fileID: 21300000, guid: 7605978e63855adb88d6924bbd9b48a0, type: 3}
+      - {fileID: 21300000, guid: d48e83714d645acca1f5ad02c94e79fa, type: 3}
+      - {fileID: 21300000, guid: fe7c2ad7cd66553ea51dd0cb500cd369, type: 3}
+      - {fileID: 21300000, guid: 018367409f4b58b6885a00dcac6c534b, type: 3}
+      - {fileID: 21300000, guid: d8a3ac37ccc95bfba9c73460c65c19fc, type: 3}
+      - {fileID: 21300000, guid: 0153b6e9b1b15b26b0c4859b04bce479, type: 3}
+      - {fileID: 21300000, guid: 0e9388383d83565fb53801c574831575, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: ba2082c5e4d15a9981d2b9d34b35f8ea, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: 307a29ccbc165a3297dec73217867578, type: 3}
+    - parts:
+      - {fileID: 21300000, guid: c9755450af4657b8b8700873bad3daec, type: 3}
+      - {fileID: 21300000, guid: ae972ad74ec5515e95e8c2b1a867cbef, type: 3}
+      - {fileID: 21300000, guid: 7864e37dbd525bc9bdf5e884c94356ae, type: 3}
+      - {fileID: 21300000, guid: 49ebcc86f2695b2aa02bac6ace4e7de9, type: 3}
+      - {fileID: 21300000, guid: b9defac63d085831a22057e58f5f1202, type: 3}
+      - {fileID: 21300000, guid: 4d1b220d2b0b52bfa7548cc7ad0721b2, type: 3}
+      - {fileID: 21300000, guid: 533154772ecb50d9bd5d63c057035da5, type: 3}
+      - {fileID: 21300000, guid: 6aaf876eb751503483273342f36f5661, type: 3}
+      - {fileID: 21300000, guid: 414ea532ead45fdcb5b4c793c48e1647, type: 3}
+      - {fileID: 21300000, guid: 4beeda7f16c05fc8a4e9d2f94827f666, type: 3}
+      - {fileID: 21300000, guid: 5e24b8e8abae5e9fa9a11e71900f4b16, type: 3}
+      bodyMask: {fileID: 2800000, guid: a8d56fdf39d75657b06b1157fb0691cd, type: 3}
+      skinMask: {fileID: 2800000, guid: 3ce7819b55935def924e3cbdb2ced413, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: 18c94504b60651948469abd82f4fa402, type: 3}
+      - {fileID: 21300000, guid: 1bfd1e29e01a5649a0d014fc83d4932f, type: 3}
+      - {fileID: 21300000, guid: 07be0f549b9b5ec3a86d11313b9fb0fc, type: 3}
+      - {fileID: 21300000, guid: f8e140a399ad55dfb72041a0286835b9, type: 3}
+      - {fileID: 21300000, guid: 188043029e2d5871bbb2f4b6b70d1441, type: 3}
+      - {fileID: 21300000, guid: fb16d4ba995c5acebd39989f5ad9589f, type: 3}
+      - {fileID: 21300000, guid: b75f7af3c0fe54379a90cf1aa331ba45, type: 3}
+      - {fileID: 21300000, guid: 3d61ab854cd1534e8112847ad855c907, type: 3}
+      - {fileID: 21300000, guid: 7b59578796475a30aebcc421f595c117, type: 3}
+      - {fileID: 21300000, guid: 69dd6a7934225f20a74854a9eb0e08c7, type: 3}
+      - {fileID: 21300000, guid: 66aef96bddce55ef9a36655cfbf16e27, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: 5030238c49a85b188dcd9b1314772907, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: 4c5ce592e8675b57b0e7ca6dab8e38ab, type: 3}
+    - parts:
+      - {fileID: 21300000, guid: 02a537d002285a1d846fa0a8a804b5df, type: 3}
+      - {fileID: 21300000, guid: 9ba8c351745c55eb8544dcf31ae65975, type: 3}
+      - {fileID: 21300000, guid: 0f439368c96d581483521907bdf6feb8, type: 3}
+      - {fileID: 21300000, guid: 32ac0b5fb3df5c7f839fe61b57e20f78, type: 3}
+      - {fileID: 21300000, guid: b87dd4a0c1bf5899a98e8ffb2ee19ce7, type: 3}
+      - {fileID: 21300000, guid: 5cd5dd321564564a806f569d6be82852, type: 3}
+      - {fileID: 21300000, guid: 6c5dd4efe7ce55b7846255d0f6f1717a, type: 3}
+      - {fileID: 21300000, guid: b2463bb5d9af5fd1bf9a5abb063b6b13, type: 3}
+      - {fileID: 21300000, guid: f237d52ae0eb55d6a3daf2b185b7acaf, type: 3}
+      - {fileID: 21300000, guid: 19e200d896a850ef81874cc7945f727f, type: 3}
+      - {fileID: 21300000, guid: 6af53c5e984e5ee5829d342d9f111e94, type: 3}
+      bodyMask: {fileID: 2800000, guid: aa6001db470a52a3b342c20792e8e7ab, type: 3}
+      skinMask: {fileID: 2800000, guid: c23b74b0d7b553ad91c937173cc2b9aa, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: e7f5a9f39ae257ccb62bb6edbc0e17cd, type: 3}
+      - {fileID: 21300000, guid: 8eecf6f482d55e1b82e99f58f311d2d9, type: 3}
+      - {fileID: 21300000, guid: beed5a8ac008596ea10287c0dd504cea, type: 3}
+      - {fileID: 21300000, guid: 112f719c979a5c7687d3ae71799d8716, type: 3}
+      - {fileID: 21300000, guid: fa2b30e60e995c9099c42c61a63a693e, type: 3}
+      - {fileID: 21300000, guid: 6d37b56fa0805a648fe38b327d906d86, type: 3}
+      - {fileID: 21300000, guid: ce9ce5f8a57b5a4c9fe7cd67c44515eb, type: 3}
+      - {fileID: 21300000, guid: 76ed0136bcc75ca0a4bfeb83f222741d, type: 3}
+      - {fileID: 21300000, guid: e1b6284344b85a9d808607af44d49427, type: 3}
+      - {fileID: 21300000, guid: e27923cdf59758a7b5c33a4f0cfc1a30, type: 3}
+      - {fileID: 21300000, guid: 1b94b8f428ad5511af0c5d06644ee4f7, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: bd6544f9645f5905b717aa939d1a2dc8, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: 8227d76f097e58f9ae41e70e56434f71, type: 3}
+  - idle:
+      parts:
+      - {fileID: 21300000, guid: f6d9a649772d5526be3eddbbfab99148, type: 3}
+      - {fileID: 21300000, guid: 1acd9af69aad52a78e000d33ac746a8a, type: 3}
+      - {fileID: 21300000, guid: 7014cdc6599f57b09fbb2e58e313fade, type: 3}
+      - {fileID: 21300000, guid: 155467b0872b5f96b9249b77842e6958, type: 3}
+      - {fileID: 21300000, guid: aac7364d5c425575a16ab7f5c85ed36f, type: 3}
+      - {fileID: 21300000, guid: 44721883f28453cd853e49aa30a78206, type: 3}
+      - {fileID: 21300000, guid: 903f2f1200975173a47d2f0f096153a1, type: 3}
+      - {fileID: 21300000, guid: 95c59b8826b55c66a05d2e723852d3a9, type: 3}
+      - {fileID: 21300000, guid: bf065319e37f50d7bff018cee49be9e3, type: 3}
+      - {fileID: 21300000, guid: 67f480bdf86f56e5b6935d68741024bf, type: 3}
+      - {fileID: 21300000, guid: 2d84d7ce64a2543482587725f6233fd6, type: 3}
+      bodyMask: {fileID: 2800000, guid: 313e76458c805dd79b9f0a836661b751, type: 3}
+      skinMask: {fileID: 2800000, guid: 6c8aab711a95572798d10eb617ed3e04, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: d238d8218a835b048709baf78dc4a15a, type: 3}
+      - {fileID: 21300000, guid: 4de4433fd42b5f10ad9da9b8f3626474, type: 3}
+      - {fileID: 21300000, guid: a606649ec8dc589797f02c313be49a33, type: 3}
+      - {fileID: 21300000, guid: 9d539f4b98a15e4e8aed3d8798300664, type: 3}
+      - {fileID: 21300000, guid: b65b900c984250dab25f991d7a98b40d, type: 3}
+      - {fileID: 21300000, guid: 8a7a11fc12ab54b480daad7194d092a0, type: 3}
+      - {fileID: 21300000, guid: 3a4a9de04bad5fa59fc8f31549f77dc8, type: 3}
+      - {fileID: 21300000, guid: 6fc96fc7cc695af19ba2dc2a430a562e, type: 3}
+      - {fileID: 21300000, guid: ee7a9263274359eaa4d62d895798b8fc, type: 3}
+      - {fileID: 21300000, guid: 20a4c68f696f5d05bbe3aeb53270a363, type: 3}
+      - {fileID: 21300000, guid: 61a8685242c15b4fa46526ca71eebf28, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: 20ee02a99e105d2785e47b62812aea84, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: 7c90923f30e85adea54f920046f2015f, type: 3}
+    walk:
+    - parts:
+      - {fileID: 21300000, guid: 92623963592e57ffa78511a94968a748, type: 3}
+      - {fileID: 21300000, guid: 4c48dbe4ce5a5338901ce88b8eaa04f4, type: 3}
+      - {fileID: 21300000, guid: ee4b62afd31f5145bbde966d5798a9a1, type: 3}
+      - {fileID: 21300000, guid: 7c420007656056659ac48b958f5c885e, type: 3}
+      - {fileID: 21300000, guid: fd2744dde9ef54f88b3fbd14ad0d4223, type: 3}
+      - {fileID: 21300000, guid: aebb9a8fb72a5d3989e7fb4ea48e8e58, type: 3}
+      - {fileID: 21300000, guid: e282c4c1fc66568191d8828353269a05, type: 3}
+      - {fileID: 21300000, guid: f4eefa891e64542bb426d48df3fac7de, type: 3}
+      - {fileID: 21300000, guid: bfc359f9a18053fb9f882dde81e33d05, type: 3}
+      - {fileID: 21300000, guid: 6a2efa65acbb511a9017ac35629d4009, type: 3}
+      - {fileID: 21300000, guid: 05058f5ffa4c58c4aa4fe3e0793a6e24, type: 3}
+      bodyMask: {fileID: 2800000, guid: 5ad28d00d74b54bb90e68d9a66ad4c13, type: 3}
+      skinMask: {fileID: 2800000, guid: 702ca6558ae95e1b89f3612c51dac30d, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: 84b8b45f0ac95031816ab1dc9142b80c, type: 3}
+      - {fileID: 21300000, guid: 95fff9117d235017b0e9a2d351e54c21, type: 3}
+      - {fileID: 21300000, guid: e96491d4c74c530e8946189588137464, type: 3}
+      - {fileID: 21300000, guid: cc69422dbfa15c7f9247c6a4836a200b, type: 3}
+      - {fileID: 21300000, guid: 96630184783a506baace901c517845a1, type: 3}
+      - {fileID: 21300000, guid: 5b16969d4e275e168738d6c084e81b88, type: 3}
+      - {fileID: 21300000, guid: ab8c6cdc727d56e28e1a609beca7ec1f, type: 3}
+      - {fileID: 21300000, guid: 8737f5ce311555368cc483456d1be94c, type: 3}
+      - {fileID: 21300000, guid: b92e4108d09a515582c8741e7b7e4e1c, type: 3}
+      - {fileID: 21300000, guid: f79b922984945b3d9988c73af8e3dbd7, type: 3}
+      - {fileID: 21300000, guid: 7c65358e7918503c90afed915c8675fe, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: fe3e1d7dd93150c0a9f2d8e5d32aa14c, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: ec1c4415f5d95969b5533e8eaa7b02e3, type: 3}
+    - parts:
+      - {fileID: 21300000, guid: 017ad26c893d5b4b930d4d40c325f7b1, type: 3}
+      - {fileID: 21300000, guid: a77088f1b50151e1a7e7562ccc66bab1, type: 3}
+      - {fileID: 21300000, guid: 2a4e1a52d8375bb687520911749ab4a7, type: 3}
+      - {fileID: 21300000, guid: 49921be4f18d5e939bbcf85c07f2b916, type: 3}
+      - {fileID: 21300000, guid: cfe2730571ce5e6d9ac62bcb8d6fb80c, type: 3}
+      - {fileID: 21300000, guid: 74354657c1a35378a574c206c23dd3c4, type: 3}
+      - {fileID: 21300000, guid: 48c903a9f3a751b596cd7bd1a70ad8d7, type: 3}
+      - {fileID: 21300000, guid: 16cf398ca752571fab5b5c8c850a113f, type: 3}
+      - {fileID: 21300000, guid: 8b4cca5c317858168a56609b5589f05c, type: 3}
+      - {fileID: 21300000, guid: 175d16e311a959088a4d4eba30e6ac74, type: 3}
+      - {fileID: 21300000, guid: 20b2dc61fa5b543198d0ce6f211fd0b0, type: 3}
+      bodyMask: {fileID: 2800000, guid: 468b58d8ca9359928c71c89e731a7fde, type: 3}
+      skinMask: {fileID: 2800000, guid: 6e8844690d5d51eca1f78bd10ec62664, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: 21857581986451a8934181a6f3274fa5, type: 3}
+      - {fileID: 21300000, guid: 0ca2307a05805b31897d2010fc2241cf, type: 3}
+      - {fileID: 21300000, guid: 4cad4804f9f45b06afe8a8dd9bcb9c16, type: 3}
+      - {fileID: 21300000, guid: 2677634bae4d54a6bd88faa3097aab50, type: 3}
+      - {fileID: 21300000, guid: 0b8ad42263755121bd505e2942c1281b, type: 3}
+      - {fileID: 21300000, guid: d6cb2a41b1f45b458b9a7a9ef799c711, type: 3}
+      - {fileID: 21300000, guid: 71c4cca3d4e053fda87263fbf87445a1, type: 3}
+      - {fileID: 21300000, guid: d22bbe09ceb658b8b8b6297f126d63c8, type: 3}
+      - {fileID: 21300000, guid: 14c332ecc1605a51911f49d5729ee49e, type: 3}
+      - {fileID: 21300000, guid: a30b309f00c85c21bd18dd1b4607e3ca, type: 3}
+      - {fileID: 21300000, guid: cef78d080fd15040a7795510db1a8385, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: c0bbdd3d404a582097d6e6839c310b37, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: 197e495ef94452a1ba2763d952a38d85, type: 3}
+    - parts:
+      - {fileID: 21300000, guid: 68f9b5e074fe56eca488b79d6fd0f887, type: 3}
+      - {fileID: 21300000, guid: e7073b6dd16b5315b4c4dd7a9f0fe4e1, type: 3}
+      - {fileID: 21300000, guid: dd8b8ea042dd5b4489961c4ccb1bbdba, type: 3}
+      - {fileID: 21300000, guid: dcfe6defa5375f4c84740bec75cfce6f, type: 3}
+      - {fileID: 21300000, guid: 308b99a1656852fc847f136bb622ca2e, type: 3}
+      - {fileID: 21300000, guid: 9e0006981fc35e66951539d79bf50068, type: 3}
+      - {fileID: 21300000, guid: bf4dea4dcf1655368c5733af4a7c97e6, type: 3}
+      - {fileID: 21300000, guid: 5508141fdb6557428438f2efd7417d28, type: 3}
+      - {fileID: 21300000, guid: da85c483aba45a2e97e949145c5fb0f1, type: 3}
+      - {fileID: 21300000, guid: 20e665f3e83e56a49695714874ae25fd, type: 3}
+      - {fileID: 21300000, guid: 30354e929f13554bab62d97487cb7229, type: 3}
+      bodyMask: {fileID: 2800000, guid: 4d007fdcdd1c5ca5bd6badcd03cb9ea6, type: 3}
+      skinMask: {fileID: 2800000, guid: adb0b942f3b15b4b9daf00908841f56c, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: 29b8158a5884565391294709cc8b862a, type: 3}
+      - {fileID: 21300000, guid: face715a79c851d2b7fe630d29986b64, type: 3}
+      - {fileID: 21300000, guid: 9a0ccde479915cf480291e6fe88467e1, type: 3}
+      - {fileID: 21300000, guid: 874b7269516156129b68c2e91e83cb0f, type: 3}
+      - {fileID: 21300000, guid: 7c2e4aac337250029f8c2076259a514b, type: 3}
+      - {fileID: 21300000, guid: effdeb5844b951bea50add6531cef225, type: 3}
+      - {fileID: 21300000, guid: c7884dfacb945fe690894956648543c0, type: 3}
+      - {fileID: 21300000, guid: a1086f5c5e2f5b86bf225c668564ea3c, type: 3}
+      - {fileID: 21300000, guid: fd6cd73fd80753818940f51fecc448ca, type: 3}
+      - {fileID: 21300000, guid: 612fcc5d3d6c5e45990638c35d878b37, type: 3}
+      - {fileID: 21300000, guid: 38019f7e930d593ea2774e2f73f5fd6c, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: 87fbb8dce09855c7aab9641bb19dae95, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: 3d06321e75835717a2e692550f2e66a9, type: 3}
+    - parts:
+      - {fileID: 21300000, guid: dd3e0c8652c957f1902f0a743d9e6a94, type: 3}
+      - {fileID: 21300000, guid: ae84f40818925005a54d8fbe8df69491, type: 3}
+      - {fileID: 21300000, guid: 88d61590bab35620b38ad5f669a24da7, type: 3}
+      - {fileID: 21300000, guid: 00238a9a28b55db7a365ac8ec88d27f0, type: 3}
+      - {fileID: 21300000, guid: f3b60159c10c5cba901fe056fa41163f, type: 3}
+      - {fileID: 21300000, guid: 4f30d148a95458e98a14b22fccec45ed, type: 3}
+      - {fileID: 21300000, guid: d086bf235cdc583cb6abe8cf992393c6, type: 3}
+      - {fileID: 21300000, guid: b49600e7d4475f4aaaf57bf689704d37, type: 3}
+      - {fileID: 21300000, guid: 1c5b981a447f5ebfa95ea8fe18230369, type: 3}
+      - {fileID: 21300000, guid: b88ef05486615b6e9235fc94d5c470b7, type: 3}
+      - {fileID: 21300000, guid: 1ed1cdc42fc15e32a9a1bbe110e46720, type: 3}
+      bodyMask: {fileID: 2800000, guid: 0347a5705e3c54209624f858ad8d4a49, type: 3}
+      skinMask: {fileID: 2800000, guid: cf5a4e38431c514783c1dac3175aa76b, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: d613fa63684d58ffb8ae8ce4b5ef23a5, type: 3}
+      - {fileID: 21300000, guid: dace6df1ed6f54d6aa50c1b92a2c3ef2, type: 3}
+      - {fileID: 21300000, guid: 797d87f0da9e51ecb20812afb252c1d4, type: 3}
+      - {fileID: 21300000, guid: 522b69fa2a7f58dc8eb9108c608d6a98, type: 3}
+      - {fileID: 21300000, guid: f2e18e32abfb5695b1741fdf85c0a790, type: 3}
+      - {fileID: 21300000, guid: 539240d052605ac392bdd5da9546234f, type: 3}
+      - {fileID: 21300000, guid: a9aa547f6b8d54edba9fb031d251cc95, type: 3}
+      - {fileID: 21300000, guid: 64c6f440f38453c19062c0df06af9bb9, type: 3}
+      - {fileID: 21300000, guid: a5fab00ab1fe53f2ba0081ced255ee6f, type: 3}
+      - {fileID: 21300000, guid: 64f1a37582545c0a95eaac46cb32b2f5, type: 3}
+      - {fileID: 21300000, guid: c8b0e468ebf15bc7b69b9b482a958363, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: 6d9f88a205da5ac594fd00f4363c1d62, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: 8f65732fa14e53e9846c5cbc102fa081, type: 3}
+    - parts:
+      - {fileID: 21300000, guid: 506ddff07ddd568ea3ed9122eb000653, type: 3}
+      - {fileID: 21300000, guid: 1cb99729d610573b97dc022dd758471a, type: 3}
+      - {fileID: 21300000, guid: fc2d56d9653c5241b85062c4492dc3a6, type: 3}
+      - {fileID: 21300000, guid: 25f13acd4cc253fcaa5dae7463912519, type: 3}
+      - {fileID: 21300000, guid: bc6a7f7b509e5f6abccdcab4f1d5dee3, type: 3}
+      - {fileID: 21300000, guid: f0d33afc9f24570cbc17604909b336b8, type: 3}
+      - {fileID: 21300000, guid: b325554803285a4f8024b66bd0fea45e, type: 3}
+      - {fileID: 21300000, guid: 472148c96d1e57edb16d14642756c34f, type: 3}
+      - {fileID: 21300000, guid: 7e67f511b154540ca6db9c54eeb92722, type: 3}
+      - {fileID: 21300000, guid: 937d9b40defa5d0dbf160785be3af114, type: 3}
+      - {fileID: 21300000, guid: 6361ed31075c54119555467c97b1e4c7, type: 3}
+      bodyMask: {fileID: 2800000, guid: 5b4bead7c5075d2abd75234f02208186, type: 3}
+      skinMask: {fileID: 2800000, guid: ebe32c261e2150ae84477b1ac42ec82a, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: 0aae96fc915b5ed193b7893eb0aa8b5b, type: 3}
+      - {fileID: 21300000, guid: ae3616bdcba057c99ce3ec94a3608d7c, type: 3}
+      - {fileID: 21300000, guid: e19a025c3df059dd93d5957d96620ff8, type: 3}
+      - {fileID: 21300000, guid: 27e758da7f905b3281897c58a0ffd085, type: 3}
+      - {fileID: 21300000, guid: c031153d7ee15529b83a802ff870027c, type: 3}
+      - {fileID: 21300000, guid: e5556fef183b597dab635b76f0a5ca81, type: 3}
+      - {fileID: 21300000, guid: c8ee485a287851b69d540bf4fd55afb2, type: 3}
+      - {fileID: 21300000, guid: 75a5024b4ca75f86b56b39983d4d4921, type: 3}
+      - {fileID: 21300000, guid: a02fc616e83a5776b73a816a4ccc8ca1, type: 3}
+      - {fileID: 21300000, guid: dc9cfc62b349517da7c26e443bb35897, type: 3}
+      - {fileID: 21300000, guid: 33905dff47ee54f784a20e363c3afd2f, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: aca5666e4d1c5e94bdb7a50bdc34eca5, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: 08a8d59187765116958da8f91cab4c00, type: 3}
+    - parts:
+      - {fileID: 21300000, guid: d77c9f1e78165858b55af78d4b9fb737, type: 3}
+      - {fileID: 21300000, guid: ac364030eb935d2b946c6e12becec530, type: 3}
+      - {fileID: 21300000, guid: ada71dbc814c5dcb976c07587851c45c, type: 3}
+      - {fileID: 21300000, guid: be3561bd98995ae6b527d2204bde7c03, type: 3}
+      - {fileID: 21300000, guid: 92b6f7b2604a5a08a0ecc749b0c1f1a5, type: 3}
+      - {fileID: 21300000, guid: c96764eadb175cc1b4ed776c1d2a7c11, type: 3}
+      - {fileID: 21300000, guid: 549b5311d3b45ff69637683c2b88ded2, type: 3}
+      - {fileID: 21300000, guid: fce2cf132ea2517bb924f7698e51ba40, type: 3}
+      - {fileID: 21300000, guid: 379a4d322a745e8dba65774861d20ca5, type: 3}
+      - {fileID: 21300000, guid: c5505d03f4685f88add4c33593af30d1, type: 3}
+      - {fileID: 21300000, guid: 5952d67d95355ac18e21e095363270c3, type: 3}
+      bodyMask: {fileID: 2800000, guid: 367ef8b811655a598c8782393037f66e, type: 3}
+      skinMask: {fileID: 2800000, guid: 4c7d38792b1c5a92b7a6accb07b27603, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: 8166b9ecf0ec55789641b69ab22f99cc, type: 3}
+      - {fileID: 21300000, guid: 8ce8074b85555ad9bc1a7dd268fefd4f, type: 3}
+      - {fileID: 21300000, guid: 05aa3b005ad350de86a45d75f3a7f501, type: 3}
+      - {fileID: 21300000, guid: 920de9d34ac051db951e41b3cb09097e, type: 3}
+      - {fileID: 21300000, guid: b8ca79b9bed9560c8c6fcd8eb7d5d6b7, type: 3}
+      - {fileID: 21300000, guid: fdbc8a3928665d04a2d69cf8ed39a15f, type: 3}
+      - {fileID: 21300000, guid: 133d1ebdc58252e1affa40c1eb053387, type: 3}
+      - {fileID: 21300000, guid: 56596a0336615bf7b1d1e39bf33d67da, type: 3}
+      - {fileID: 21300000, guid: e361876ea0225c5fb9dd5534480b3610, type: 3}
+      - {fileID: 21300000, guid: 6ada2c078268517996fef8ec4d9f56e5, type: 3}
+      - {fileID: 21300000, guid: bff7d29ad8905476ac51c77a62df7b5c, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: d0af150602155f6c9124313b9505eb51, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: 137fcd7aeaac5b40bf72c896f3d6dee8, type: 3}
+    - parts:
+      - {fileID: 21300000, guid: 4c5e767f16cb5f53a2c6bbdbb959faac, type: 3}
+      - {fileID: 21300000, guid: f13e52860d5253fabe9fa7fda3bc8219, type: 3}
+      - {fileID: 21300000, guid: 1188d6861edf534388c822b4cbeb0613, type: 3}
+      - {fileID: 21300000, guid: 3ffe21db0e075f618e5230491680cfd4, type: 3}
+      - {fileID: 21300000, guid: c67cf211e52651369d82789f3e0bc924, type: 3}
+      - {fileID: 21300000, guid: 0bc44faa7b9258f8b5c04d2fbaee392c, type: 3}
+      - {fileID: 21300000, guid: f9339c72b2545b988da132ff4fee52e7, type: 3}
+      - {fileID: 21300000, guid: cc0cab1aa34e50f683deef029b93b3c9, type: 3}
+      - {fileID: 21300000, guid: 8b14f093c1e65d1c97c21f441ad74f7c, type: 3}
+      - {fileID: 21300000, guid: 2f866cf3a9e55514a9d8ca99c62bfcc3, type: 3}
+      - {fileID: 21300000, guid: d3b52b24a79253a5a7a483bb0530eaa6, type: 3}
+      bodyMask: {fileID: 2800000, guid: 3d031408ff8a5c75890ebeb68b98609b, type: 3}
+      skinMask: {fileID: 2800000, guid: 803b1cd7be8b52eb980b34336f42bd5e, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: 0087952f57585e79ad016fc2ff0c41ce, type: 3}
+      - {fileID: 21300000, guid: 0fcd6b62384c5ffe95cb99546b8de86c, type: 3}
+      - {fileID: 21300000, guid: eb87c4f498c15597aaaa4cab8241c72b, type: 3}
+      - {fileID: 21300000, guid: 4115e548c7115629b4b5902b50981862, type: 3}
+      - {fileID: 21300000, guid: c069df19431c5637addd61c6b2d48e27, type: 3}
+      - {fileID: 21300000, guid: 51220f34189e58e2ad74a39fd1bc0f41, type: 3}
+      - {fileID: 21300000, guid: c9b0815c9d6152adab2c295bddc71ca2, type: 3}
+      - {fileID: 21300000, guid: 6d45e768448d524fb755060380f835f9, type: 3}
+      - {fileID: 21300000, guid: d6cfc78ae31d51be8663c3101f44bd4e, type: 3}
+      - {fileID: 21300000, guid: 2c7a4c82c6f1590d8a210271c104550f, type: 3}
+      - {fileID: 21300000, guid: b179bce93c9e5a339c1a70f7e9b432a5, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: 85621644a1a15d0a933775c157818cc4, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: 822f9eeaff1253788cdf586954717657, type: 3}
+    - parts:
+      - {fileID: 21300000, guid: 33bebe9efe2d55f1a134387d1d95509c, type: 3}
+      - {fileID: 21300000, guid: a21293345bf25ca38b177501bdc5635f, type: 3}
+      - {fileID: 21300000, guid: ac0a17b57a12586182f941eafe799f6c, type: 3}
+      - {fileID: 21300000, guid: 1c0e4864e3b05ff49b8211434ed66739, type: 3}
+      - {fileID: 21300000, guid: 6a1e606aed9b54dfaea0c7d635446408, type: 3}
+      - {fileID: 21300000, guid: eab2c65c750b5e0aa6237aa97da31413, type: 3}
+      - {fileID: 21300000, guid: 32d0067a1eee5a6c8eca8d89e907550f, type: 3}
+      - {fileID: 21300000, guid: 4687ee07819f5878b4c2f9520d7f905c, type: 3}
+      - {fileID: 21300000, guid: 4614c47fccac5574845d1f9805ead70f, type: 3}
+      - {fileID: 21300000, guid: 9a26c8e8cd975a959e421f1f0a20f2a3, type: 3}
+      - {fileID: 21300000, guid: 1fed4165207252f5b1fac4400dbb06b7, type: 3}
+      bodyMask: {fileID: 2800000, guid: 71c33d28c60457f7b3be048bac76e4b0, type: 3}
+      skinMask: {fileID: 2800000, guid: c0ac645704405dfbad6eea3b8874a364, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: a76e317c3b06589da8b7860ae3638d6c, type: 3}
+      - {fileID: 21300000, guid: fcce55f4af1756cc90a7aae60adcaa81, type: 3}
+      - {fileID: 21300000, guid: 628e33619a155215977e286e9577ce09, type: 3}
+      - {fileID: 21300000, guid: dadeb50160a057aeb0c52ef93c0ed54c, type: 3}
+      - {fileID: 21300000, guid: c8d3aa7425b557c2808ccedb23d8f11c, type: 3}
+      - {fileID: 21300000, guid: da33dd5fbe6e5947b029ae38fb56f416, type: 3}
+      - {fileID: 21300000, guid: 5678c2b85bd2513dbb681f1f4d6a1c94, type: 3}
+      - {fileID: 21300000, guid: d90877ee5b995f11b390026f9d9baaac, type: 3}
+      - {fileID: 21300000, guid: e52e62b0aea153e7ad81f56c8e85148e, type: 3}
+      - {fileID: 21300000, guid: ae684006ffd35b7fba90ced11753a725, type: 3}
+      - {fileID: 21300000, guid: a74e48ce4ce25afca5e84e5f2809891c, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: ca7fe82dec13594bb2ee8815636e64b7, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: 0918e758cc185d22b2f010971038c341, type: 3}
+  - idle:
+      parts:
+      - {fileID: 21300000, guid: 081274c0c6cd543bb24a9e7b1c2b2062, type: 3}
+      - {fileID: 21300000, guid: 2d5b3038035a5537a5f027e409741826, type: 3}
+      - {fileID: 21300000, guid: 6962cb608b6c5c7ca1db125b8171b19b, type: 3}
+      - {fileID: 21300000, guid: 24f922ca764d53768682bf7b525611d2, type: 3}
+      - {fileID: 21300000, guid: a0a370ffe1dd5d3c85601f80c26d91da, type: 3}
+      - {fileID: 21300000, guid: 4c83a2f187ad586492f3d203e1658212, type: 3}
+      - {fileID: 21300000, guid: 4b2fb00d88685ff8a8c778eb3b138791, type: 3}
+      - {fileID: 21300000, guid: cd1c8fb4b6e750e5b1e1b78f59f12b5b, type: 3}
+      - {fileID: 21300000, guid: 6eb83a9a420b59ff956f999f2444e319, type: 3}
+      - {fileID: 21300000, guid: 8a4a395483e259bc9ef77294a4342412, type: 3}
+      - {fileID: 21300000, guid: 17e21c34d9a4573591075acb2fad26e8, type: 3}
+      bodyMask: {fileID: 2800000, guid: 19e8b173f4a55c499496d26e5bdc8c6b, type: 3}
+      skinMask: {fileID: 2800000, guid: 543b4a9656d4579995671e9e84e4cc2d, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: e2ca6d3c23ca5dc183ce07fcc48bb171, type: 3}
+      - {fileID: 21300000, guid: f4ea61f63abc518b84248a6057dc0c0a, type: 3}
+      - {fileID: 21300000, guid: 3a4dcd1e0bd653d7a71cb7219a3c436a, type: 3}
+      - {fileID: 21300000, guid: 1f33b211b3dc5492994a587806423be1, type: 3}
+      - {fileID: 21300000, guid: 7ab6bb2102e6574f8fdc96b484ce82ca, type: 3}
+      - {fileID: 21300000, guid: 373c091be6d7545995ab73c440a7cce2, type: 3}
+      - {fileID: 21300000, guid: 6554d7340f4156969be81a02a3740d65, type: 3}
+      - {fileID: 21300000, guid: 49038c86fe2457b183fc88484279514a, type: 3}
+      - {fileID: 21300000, guid: df52f06079aa5309a3180e00b51230a3, type: 3}
+      - {fileID: 21300000, guid: 4bbd5591a7fc5a9a95f6086aee01eb80, type: 3}
+      - {fileID: 21300000, guid: c471acce22af5b25ac9a94eb98697261, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: b87a27b5734853839557af3ebe029778, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: 6c1dfa9483c45ac298fa513d6b4360b8, type: 3}
+    walk:
+    - parts:
+      - {fileID: 21300000, guid: 788806dca8b15e36912b5f3b000fa3c2, type: 3}
+      - {fileID: 21300000, guid: 5b147ad7eec25892bf6e473fd28d3729, type: 3}
+      - {fileID: 21300000, guid: 4566e44886a450a49c4976e087440d22, type: 3}
+      - {fileID: 21300000, guid: 6930e4de9e355808ac9b1a15975331f3, type: 3}
+      - {fileID: 21300000, guid: ad901534a50255588dd9394f33af97ef, type: 3}
+      - {fileID: 21300000, guid: 6d212415601e571f9c2649b10c4d051f, type: 3}
+      - {fileID: 21300000, guid: 05c23945a99d5174a48fb20f5dd3380e, type: 3}
+      - {fileID: 21300000, guid: f8e2e373bd175ba3800a81b6b9b73a26, type: 3}
+      - {fileID: 21300000, guid: 9746b33936c6518086de8a0852a6f194, type: 3}
+      - {fileID: 21300000, guid: 3070438f0c57552cbe70bb8fc704fc5a, type: 3}
+      - {fileID: 21300000, guid: 69bed0b385c556e3a8ac36f749f846dc, type: 3}
+      bodyMask: {fileID: 2800000, guid: a20ae88d95595b3282f3dd9507047739, type: 3}
+      skinMask: {fileID: 2800000, guid: d810f7f969fb528c9338b61251728ca2, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: f4baa75b0ec15884a517264c7cf4c04b, type: 3}
+      - {fileID: 21300000, guid: 505caade22145d91b7c5c727969d5493, type: 3}
+      - {fileID: 21300000, guid: 6cbcbea4d09d5186a9eda9f591a16102, type: 3}
+      - {fileID: 21300000, guid: f490528358ae55369ec5e6f8d0ed7615, type: 3}
+      - {fileID: 21300000, guid: 4a5de1e473265e88bc554bf7f4fb28c2, type: 3}
+      - {fileID: 21300000, guid: 8cc164ecc686520882ec09ac2e096d57, type: 3}
+      - {fileID: 21300000, guid: f9946a92b83a51a8b41483c9143346b2, type: 3}
+      - {fileID: 21300000, guid: 43d1e37dc35c5357a137856f9a82c3ff, type: 3}
+      - {fileID: 21300000, guid: cb3a71d488665c81bf632e9071375ca5, type: 3}
+      - {fileID: 21300000, guid: c039d656343158549967736a293bdd4b, type: 3}
+      - {fileID: 21300000, guid: 453055e1037d51bfa9e761ce15f63b4a, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: 1eb9fe039ded5541b0c2f5548270a7cd, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: 479c658b3c465d41b1f16a1afc5d1a82, type: 3}
+    - parts:
+      - {fileID: 21300000, guid: d789fe9d71d957e5b66d9855a01523a5, type: 3}
+      - {fileID: 21300000, guid: 8bfa013fa7b35bc898056ce9775a7068, type: 3}
+      - {fileID: 21300000, guid: bf7b028f451a5b9fb48040bc06eb88f4, type: 3}
+      - {fileID: 21300000, guid: 7625a9e8423157738126df7c19b3dc85, type: 3}
+      - {fileID: 21300000, guid: d02feaaae79258d3acace908472a2ede, type: 3}
+      - {fileID: 21300000, guid: edfdc8118bed5ec5a3e903758a7693c5, type: 3}
+      - {fileID: 21300000, guid: 01aa858edf73511f92c4c3eecaf797ca, type: 3}
+      - {fileID: 21300000, guid: 8311643e1b5f55e8bd32e635ce879775, type: 3}
+      - {fileID: 21300000, guid: 49623d76e6175994bb83771330512773, type: 3}
+      - {fileID: 21300000, guid: d476df4fbaa2561aa99835c31aa990fe, type: 3}
+      - {fileID: 21300000, guid: 6345a02b7d4254ed8732e97607e8cc13, type: 3}
+      bodyMask: {fileID: 2800000, guid: c02f7ab51eb75be6b2a847b2351d8a06, type: 3}
+      skinMask: {fileID: 2800000, guid: 4a59eb17f8605ec2b22d2d31c6919308, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: 8de477599a8855bfbca6fe22d38becb8, type: 3}
+      - {fileID: 21300000, guid: 01ba6a46ef5c5c34a144e94018f735c8, type: 3}
+      - {fileID: 21300000, guid: ab3fa00d8f5a50ee880813acce4db5b7, type: 3}
+      - {fileID: 21300000, guid: 5db30c2ea6c95addab3b5c027dac2caf, type: 3}
+      - {fileID: 21300000, guid: 09e0decaac0f5ce1b75f6e6f6e431c47, type: 3}
+      - {fileID: 21300000, guid: 12aa6ece45525ba0827bfe2ac8d1021b, type: 3}
+      - {fileID: 21300000, guid: 4a3ffcad491d51fca831bec8af73ddaa, type: 3}
+      - {fileID: 21300000, guid: 907ed448f8345f8d82ac538c6255a789, type: 3}
+      - {fileID: 21300000, guid: 53b16d7efed65f20b8b15b3fd02a5d8c, type: 3}
+      - {fileID: 21300000, guid: 4c0c178c2e46539a81e28a4e108471dc, type: 3}
+      - {fileID: 21300000, guid: 03d0359385995d2ebd9cd2aefb87d5ec, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: 4313441741ba57b4a5006ad4c99724f3, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: a3b2c29b624c541a8ac18466448c8dbd, type: 3}
+    - parts:
+      - {fileID: 21300000, guid: b818f94592b85ad7a22c91ca8db44826, type: 3}
+      - {fileID: 21300000, guid: cbf6cc2f0991598c9f3abbc94f80d4e1, type: 3}
+      - {fileID: 21300000, guid: 3315912759085f6c9aa67c0964e20a4d, type: 3}
+      - {fileID: 21300000, guid: 18f3aec0c3a85d1ca94c7a48fb96b97e, type: 3}
+      - {fileID: 21300000, guid: 698e471dadcc5ec4baf08724946dd8bc, type: 3}
+      - {fileID: 21300000, guid: a4d4097fac3e59bbad4f0f86c2524320, type: 3}
+      - {fileID: 21300000, guid: 66364382796b5a339ec075be1b98c2b3, type: 3}
+      - {fileID: 21300000, guid: 57dbc873499559f4ae5ed9ddcdaad4e5, type: 3}
+      - {fileID: 21300000, guid: 1376dcf7cb575ac494d40af4c5a89ca1, type: 3}
+      - {fileID: 21300000, guid: ecb2b86c1cba549fb379f5d1d738d472, type: 3}
+      - {fileID: 21300000, guid: 1658e8e274f557e5ade3ec736cd9f164, type: 3}
+      bodyMask: {fileID: 2800000, guid: 29e38b7eea0f54a5964d5454b659fadc, type: 3}
+      skinMask: {fileID: 2800000, guid: 744c4425b152505590aa87993b11cb60, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: 9fdfac1b84435a0988962b8afb8689cd, type: 3}
+      - {fileID: 21300000, guid: dc809f82e8335e25b261f1b6bb63d235, type: 3}
+      - {fileID: 21300000, guid: a2db3a9b73b8514aad07a028b0af36aa, type: 3}
+      - {fileID: 21300000, guid: 46c060d65b20508099f77363205af8a4, type: 3}
+      - {fileID: 21300000, guid: dd08fdc2a24d5e23874dcfe884ae790b, type: 3}
+      - {fileID: 21300000, guid: d2571932e7b75fcf9dc1cb2865380bc9, type: 3}
+      - {fileID: 21300000, guid: f70f601115b45778864a470c803862c8, type: 3}
+      - {fileID: 21300000, guid: abc0b54238715ae99598267a9d82fa40, type: 3}
+      - {fileID: 21300000, guid: 5b53b2088fa15864a6dac42631538d2a, type: 3}
+      - {fileID: 21300000, guid: 80284862cc9e5db0859097608261b20e, type: 3}
+      - {fileID: 21300000, guid: 6de00463acf455b5b0d0105cf1cfe0d9, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: 521050f955fe507ca7c8cd4be7385e9c, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: bdbf0a43774d57f1824248b825da2451, type: 3}
+    - parts:
+      - {fileID: 21300000, guid: 731bc16f97ce5813ad0207a30907efa9, type: 3}
+      - {fileID: 21300000, guid: c85162df389d54d9908373e079c45228, type: 3}
+      - {fileID: 21300000, guid: 01aa84a426195694a61ece473d810e5d, type: 3}
+      - {fileID: 21300000, guid: 069fc8e6948258f682ef1747d2f2c248, type: 3}
+      - {fileID: 21300000, guid: a4551c0c767c5aa78f425262f3cafe30, type: 3}
+      - {fileID: 21300000, guid: 58746c190ec85d03972de9d336be0a87, type: 3}
+      - {fileID: 21300000, guid: 6543e54b936d5409ade09fbe9c8fbbe0, type: 3}
+      - {fileID: 21300000, guid: fbc66fb1dfe059f9b48dc589ff8c74e7, type: 3}
+      - {fileID: 21300000, guid: 57a7e9b7a4ea5f10b6a9b00c4d673831, type: 3}
+      - {fileID: 21300000, guid: 6ba798ad1f3d570a9ea03b5d82e52815, type: 3}
+      - {fileID: 21300000, guid: e3a62d7fd85e56f49af3e009eb5cae6c, type: 3}
+      bodyMask: {fileID: 2800000, guid: 16890330e85f5fe8bc72ba641007a969, type: 3}
+      skinMask: {fileID: 2800000, guid: 538ab7a379ae517e9a6b1ece5b7116fd, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: 0eef493dbabd5718a8a332a963c2df8e, type: 3}
+      - {fileID: 21300000, guid: 6cb8d285834c506394dda2abb1a65904, type: 3}
+      - {fileID: 21300000, guid: 77559181494c5a1e88a954ba749b1f46, type: 3}
+      - {fileID: 21300000, guid: 01955817e9005092ae51e2ba27848673, type: 3}
+      - {fileID: 21300000, guid: e73a435204a353c2a2c0d427caf8f4cb, type: 3}
+      - {fileID: 21300000, guid: fb2cd2a68b035464b43a050194002eee, type: 3}
+      - {fileID: 21300000, guid: b35d50065dc3564290e1434b9dfbc519, type: 3}
+      - {fileID: 21300000, guid: a10191b342965c58bc15cf79afc341c0, type: 3}
+      - {fileID: 21300000, guid: 91f33a1ac3f8579eb813f90c58032402, type: 3}
+      - {fileID: 21300000, guid: 2d528e2d75fa5681921d401534be96be, type: 3}
+      - {fileID: 21300000, guid: 29725ef6a396576a9a08b86b06bbcc67, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: 64aed3de28e45bdb9bb4e33a6052e6fc, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: 553df5e1cf84570ea065e9fed3977a59, type: 3}
+    - parts:
+      - {fileID: 21300000, guid: 494414ee38ee5f5fa8d75c75f4d23e15, type: 3}
+      - {fileID: 21300000, guid: 9f211eebdfc45997a3b4b64da4301627, type: 3}
+      - {fileID: 21300000, guid: ad734af9b6c759d799581b25ff4c8c3a, type: 3}
+      - {fileID: 21300000, guid: 4ca6658043a853b9b8bd6280bcc07a60, type: 3}
+      - {fileID: 21300000, guid: 6790bbbf73785dcabc85b8e8a8a792bd, type: 3}
+      - {fileID: 21300000, guid: a40949dc3bc85ad6a6830172cf760a3f, type: 3}
+      - {fileID: 21300000, guid: e53c5ec541005182b58fdafdd4171806, type: 3}
+      - {fileID: 21300000, guid: 1f3440f779115beea759efdeca5cebc6, type: 3}
+      - {fileID: 21300000, guid: fa1cabb98a015425a3695e36184f1238, type: 3}
+      - {fileID: 21300000, guid: e7e8eb2d5fe25d7fa41435b59810aaab, type: 3}
+      - {fileID: 21300000, guid: 74f64952af585a369bc196defb1bc3bb, type: 3}
+      bodyMask: {fileID: 2800000, guid: 25857652632f5a9999f8fada6afab924, type: 3}
+      skinMask: {fileID: 2800000, guid: cbff127a770b5c9eaad583ba9db1aae7, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: 0db16b9393445d9db233eb3b9e37c2b8, type: 3}
+      - {fileID: 21300000, guid: c5551c5db02d5931a40a77c3a33bc8ff, type: 3}
+      - {fileID: 21300000, guid: 665356031ca15b44b1872ccc0a4934a9, type: 3}
+      - {fileID: 21300000, guid: 94ec0749498e5a73adda4a00bb148586, type: 3}
+      - {fileID: 21300000, guid: c08db235cfba5fceb572b93f824bbb79, type: 3}
+      - {fileID: 21300000, guid: 4b609628d0d05648aa48a2a49d7e7abc, type: 3}
+      - {fileID: 21300000, guid: 37a859c1047b50b3838b53fc7518a0d9, type: 3}
+      - {fileID: 21300000, guid: e856dbc6ef575009ad5f81a394b241df, type: 3}
+      - {fileID: 21300000, guid: d057589c56a55e90b114cc6ce71680ec, type: 3}
+      - {fileID: 21300000, guid: d6734a628d3a59ddab2e5909acf1f212, type: 3}
+      - {fileID: 21300000, guid: 5fc5f3876b935d7e8d48219699cc197c, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: 7b774c284b065296b058529a00090d27, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: d3fceffef46d5fa6a79cf2c155e0ede3, type: 3}
+    - parts:
+      - {fileID: 21300000, guid: 6fbd514c58635216a44016b22c4c3e20, type: 3}
+      - {fileID: 21300000, guid: ae3910e5dfc95d33b192981e89fd6e29, type: 3}
+      - {fileID: 21300000, guid: 7c709497574c51a4be8adf9a94e26637, type: 3}
+      - {fileID: 21300000, guid: 5476631fb796527192173f548ff0d901, type: 3}
+      - {fileID: 21300000, guid: 47d1bf7c128357cf9e1dd13fdeac956a, type: 3}
+      - {fileID: 21300000, guid: 34835bc68c1453dd98164126885866f4, type: 3}
+      - {fileID: 21300000, guid: f0a165e5f3ef54419383ed2c55250a0c, type: 3}
+      - {fileID: 21300000, guid: 3a37327d88d45911ba7b8a1e212135d5, type: 3}
+      - {fileID: 21300000, guid: d782404ca3b1534f83a99c6a26cfbae7, type: 3}
+      - {fileID: 21300000, guid: 4132976da72758e7b29a6795fcb2048d, type: 3}
+      - {fileID: 21300000, guid: ce82c46029195c2b970ee03e769c4681, type: 3}
+      bodyMask: {fileID: 2800000, guid: b2da403dc9d153dd9a20c9ec22cb9e62, type: 3}
+      skinMask: {fileID: 2800000, guid: f898808cc6005f9291e8d0f071017913, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: 616287294323581ea5dececfbfff4dcb, type: 3}
+      - {fileID: 21300000, guid: e9f59d6d8fb55f3d996dcbc0bc106b9b, type: 3}
+      - {fileID: 21300000, guid: 9ae0706cdf6a52018929fe2031b6463b, type: 3}
+      - {fileID: 21300000, guid: fad1594f5f1f51eebaffc7cc3fcebc8e, type: 3}
+      - {fileID: 21300000, guid: 3acdd7086adb552286ec18a7f8136426, type: 3}
+      - {fileID: 21300000, guid: 350e7bc0a4715fc38269d1fefb62c30d, type: 3}
+      - {fileID: 21300000, guid: 911e523da0645135a47986ce718d6e95, type: 3}
+      - {fileID: 21300000, guid: 0b3ca585767b5732a9b2bdb65188d5a5, type: 3}
+      - {fileID: 21300000, guid: f69046acae745ae982d996344e669731, type: 3}
+      - {fileID: 21300000, guid: 57ca3e1d03ca5d9299f0a30a4fe5668f, type: 3}
+      - {fileID: 21300000, guid: 61dabd2f6a2d5fbaa385b94eb3832783, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: c3ef4fb6912e5f44be75eb38867fc462, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: d8f5f6b78ee9592e9ce67c539a8952c5, type: 3}
+    - parts:
+      - {fileID: 21300000, guid: c27dee45da9d52f7aa2a21267f5e8327, type: 3}
+      - {fileID: 21300000, guid: 31b4bee5094f5a7abb9c1de254f0be18, type: 3}
+      - {fileID: 21300000, guid: b82384e8297c5022bf467761e92c0752, type: 3}
+      - {fileID: 21300000, guid: f6bd35de3ccb50a0ab4fc7205c56fddc, type: 3}
+      - {fileID: 21300000, guid: 04368ee87d4e5b91bc3c9c06bf631793, type: 3}
+      - {fileID: 21300000, guid: f942930474d050758d43865d21916393, type: 3}
+      - {fileID: 21300000, guid: 9d4cc67b93545dc2acd83746b5732508, type: 3}
+      - {fileID: 21300000, guid: 84fe6b9696235e72b23d8af21f135851, type: 3}
+      - {fileID: 21300000, guid: 3dc7c26709c45caea459efb5a76ee01e, type: 3}
+      - {fileID: 21300000, guid: fb9ddc935d445ded868f0c7deab7f1fc, type: 3}
+      - {fileID: 21300000, guid: daf6012777e356f5b2b91600477a6e47, type: 3}
+      bodyMask: {fileID: 2800000, guid: cbf765fac3dd5cd48abbf160d88b8694, type: 3}
+      skinMask: {fileID: 2800000, guid: 6dd29f4f15cd521b8e668f2c79142f66, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: 8236656313975fe093ed9c578887addf, type: 3}
+      - {fileID: 21300000, guid: 653c1d8780105b529a7633dffed97630, type: 3}
+      - {fileID: 21300000, guid: 9788c70356cd57028b9566caf787154d, type: 3}
+      - {fileID: 21300000, guid: 64ff44c6c6695faeb992d26bd21c579e, type: 3}
+      - {fileID: 21300000, guid: 6eb05af6b0135a3cabefd7615920bcf9, type: 3}
+      - {fileID: 21300000, guid: edb675ba476e526fbb91d346fdc1cc2c, type: 3}
+      - {fileID: 21300000, guid: a984333b0436501fa1b7a9ce930f5bb4, type: 3}
+      - {fileID: 21300000, guid: 54da7f1e46345ce3ab5244c57aedaeaa, type: 3}
+      - {fileID: 21300000, guid: 1325be6275a75f11a46ac6f5741e2c5a, type: 3}
+      - {fileID: 21300000, guid: 677431debde15d819a9be40ba2f67f77, type: 3}
+      - {fileID: 21300000, guid: 9ba4a922597650ee9bca5e82c7f57d94, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: 6ca4b03455be528d903def954e0511f8, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: 2694eb1db7185a658eb2d684e8a1506d, type: 3}
+    - parts:
+      - {fileID: 21300000, guid: 24d9f7f314b65ad1bab15c421f6fff07, type: 3}
+      - {fileID: 21300000, guid: 2a8ddf86e9a75c07b1824707a2b3e61b, type: 3}
+      - {fileID: 21300000, guid: 47ff64cfe65a50b0accc45928bcf2d34, type: 3}
+      - {fileID: 21300000, guid: 4833efaf0d9550df873e513827aadb29, type: 3}
+      - {fileID: 21300000, guid: 35e90db6d3f1594bbb00517b305b1135, type: 3}
+      - {fileID: 21300000, guid: ee579fea77e45e7c947d68b7b9d48623, type: 3}
+      - {fileID: 21300000, guid: f490fb6d50755423891e505d76ae15e3, type: 3}
+      - {fileID: 21300000, guid: 55f07ab82193530c987e091298da9701, type: 3}
+      - {fileID: 21300000, guid: 7bbc2423f6425f9fbd179fa1bab8ed69, type: 3}
+      - {fileID: 21300000, guid: 02dbb8b57513555ca185d460b4943bbb, type: 3}
+      - {fileID: 21300000, guid: 3ccec39ab71f596da2327b9d88ee5e50, type: 3}
+      bodyMask: {fileID: 2800000, guid: fa499435477051eaa628467599a20fb9, type: 3}
+      skinMask: {fileID: 2800000, guid: a6901b47ae6b592e9f3824b8bdb16bf8, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: f04c1a4dd7f05bf68fddedfd166803b4, type: 3}
+      - {fileID: 21300000, guid: 59a061d0e0d65a498b75f851768d39b8, type: 3}
+      - {fileID: 21300000, guid: f683f6af6b2c5327aa2a43294773c693, type: 3}
+      - {fileID: 21300000, guid: f95d24e9725d5d6fbc97613ed7881be4, type: 3}
+      - {fileID: 21300000, guid: da80131a28aa521abc5ea73d910cc2b1, type: 3}
+      - {fileID: 21300000, guid: 33ffb354c9455aa5b619c8806689f946, type: 3}
+      - {fileID: 21300000, guid: aa6f4ac3fd5d5feea51c92764af416b5, type: 3}
+      - {fileID: 21300000, guid: afff37da8f8a5744b4cc0f1ac7a462cc, type: 3}
+      - {fileID: 21300000, guid: 862f68433eed5442b1a4b17db2640cce, type: 3}
+      - {fileID: 21300000, guid: 73b0933edaa65e91a4916a142336e3d3, type: 3}
+      - {fileID: 21300000, guid: 992a9e572f9a54dab7829b535b670d3a, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: fa661bf236c3541d8449c820b2f0b49f, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: 37a0bb5891d85ae7af411688bda40448, type: 3}
+  - idle:
+      parts:
+      - {fileID: 21300000, guid: 80d665c055f25a56889275f8ebfb6f6e, type: 3}
+      - {fileID: 21300000, guid: f754d1db65865d7891d961f7f659ffa8, type: 3}
+      - {fileID: 21300000, guid: 42b9452d72855e4d9a49c2035802814f, type: 3}
+      - {fileID: 21300000, guid: bd6807f2083451c2a165c358bc0b9faf, type: 3}
+      - {fileID: 21300000, guid: 23b550f2c6bb5798ad80118a1ec54926, type: 3}
+      - {fileID: 21300000, guid: 1832250ed50e5e08acf14266be44ae54, type: 3}
+      - {fileID: 21300000, guid: e0130e5956725317aedc84a83864ba8a, type: 3}
+      - {fileID: 21300000, guid: 336c6a8d5237586b9f9ab454f9d72e8f, type: 3}
+      - {fileID: 21300000, guid: bfe11ca152465ce5b6cac985f5e0c0d6, type: 3}
+      - {fileID: 21300000, guid: a834fd0f31035a7ab351a5a73182cd9e, type: 3}
+      - {fileID: 21300000, guid: 596e731533205e8d82bc26b57bb9607d, type: 3}
+      bodyMask: {fileID: 2800000, guid: 77ba6f2680a8516b8d9d3229b7fa8a22, type: 3}
+      skinMask: {fileID: 2800000, guid: 1c3a99f351b95e1fba26d76b0126e522, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: 3a17e59610d15c7fa02e54fecbb82af6, type: 3}
+      - {fileID: 21300000, guid: 489f1f507b1850ecb50edf7aa46fcf78, type: 3}
+      - {fileID: 21300000, guid: 2bc854731470550daaa30dec7725192f, type: 3}
+      - {fileID: 21300000, guid: be8ac272fa0b53b8a2fcc995c9defc94, type: 3}
+      - {fileID: 21300000, guid: b4d9b1d0cba358b19e9e12a8e9dbf04a, type: 3}
+      - {fileID: 21300000, guid: 6c7448f3cda75f1b9f91c0137f2d45fb, type: 3}
+      - {fileID: 21300000, guid: 1320b4af347a591e966aef5f2acfffe0, type: 3}
+      - {fileID: 21300000, guid: 2741ddc6a74c5bca93d87269945fdbe3, type: 3}
+      - {fileID: 21300000, guid: ae190eee53465296b8a7713d6361be4a, type: 3}
+      - {fileID: 21300000, guid: 721983d1efa65b86996846403491b368, type: 3}
+      - {fileID: 21300000, guid: c5eb893b1e645b42935a828d4c216fe3, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: cab45ccc7ae857afa1958cad5de7b169, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: 575f1ca934ad5fb4aa81e87a268a6eef, type: 3}
+    walk:
+    - parts:
+      - {fileID: 21300000, guid: 58a47a4835f95bd68c4021f532df9d25, type: 3}
+      - {fileID: 21300000, guid: 1a5a5718f55f50e3868225c171602cc5, type: 3}
+      - {fileID: 21300000, guid: 7b7474d9fc185369a8d65ebefdc8fa5c, type: 3}
+      - {fileID: 21300000, guid: 900e9eac63dc57b4888181c06052d0e1, type: 3}
+      - {fileID: 21300000, guid: 7303e7a6b5045cdbba23d3765534a9a0, type: 3}
+      - {fileID: 21300000, guid: c0442a3fd9c25f488c6fa45ff863f2aa, type: 3}
+      - {fileID: 21300000, guid: 76e984a9003c54389e95cde766b3c1c7, type: 3}
+      - {fileID: 21300000, guid: 39bfb73420f4558081c985b5aac245f1, type: 3}
+      - {fileID: 21300000, guid: 448b108b082859af923894ea9c7f355c, type: 3}
+      - {fileID: 21300000, guid: 82854782df73553fae92f201a19485d7, type: 3}
+      - {fileID: 21300000, guid: b4a8d928a9b05f63a4c52ba738f62a66, type: 3}
+      bodyMask: {fileID: 2800000, guid: 1cc43fbd51b256e1836a700e7e192461, type: 3}
+      skinMask: {fileID: 2800000, guid: 0d245d2bf69a55db9fdac5198508c5bc, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: 1fcecf2a2bfd5e4f98b2bf679ae4fc3c, type: 3}
+      - {fileID: 21300000, guid: 5aa0a64042a45765b7ff28d96c1abd2e, type: 3}
+      - {fileID: 21300000, guid: b1d43f4d52395b71bde4d7c9a3a05ba0, type: 3}
+      - {fileID: 21300000, guid: e4b05984d0825bf7b0a7674f2e35f9fc, type: 3}
+      - {fileID: 21300000, guid: 853922248a495c2c96e8e6412d908582, type: 3}
+      - {fileID: 21300000, guid: e7ae0040b04c56369b927b0755ca73ce, type: 3}
+      - {fileID: 21300000, guid: 63d1657190425822a6edd91967d97938, type: 3}
+      - {fileID: 21300000, guid: 962693e81df752de808371305cf2be8a, type: 3}
+      - {fileID: 21300000, guid: c34ad426b92e53adbe2a234866610113, type: 3}
+      - {fileID: 21300000, guid: 91da15119c56522d9266af1346aaa030, type: 3}
+      - {fileID: 21300000, guid: 8f857d5f241152fd968d9cfa0db89faa, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: 8bf3423998a25a4997f9ce1f373a8bb0, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: 63284fedc244533082fa2e66670aa4e2, type: 3}
+    - parts:
+      - {fileID: 21300000, guid: b020f9b3c7e7561b9de40bf955582af8, type: 3}
+      - {fileID: 21300000, guid: 2bd8bba1e0745cb1953372a6c2665a0b, type: 3}
+      - {fileID: 21300000, guid: db25750ef4965486938cc8537806b9e3, type: 3}
+      - {fileID: 21300000, guid: 0d82b45f9cd25995927950c408ab3213, type: 3}
+      - {fileID: 21300000, guid: 19c68af1d1e05b66b9197d7edee3a59f, type: 3}
+      - {fileID: 21300000, guid: e4bdde5ac9c65c6f9a81702ee51f582a, type: 3}
+      - {fileID: 21300000, guid: 1d7e67454297550aae2bd792e4e5a93a, type: 3}
+      - {fileID: 21300000, guid: b2a2d2639db75ed8afaea05d0a1a7dc5, type: 3}
+      - {fileID: 21300000, guid: 182bceed2fc35f708bd2af81dfaf372c, type: 3}
+      - {fileID: 21300000, guid: a4c6f4b85353504c849dd8d1e1da76d1, type: 3}
+      - {fileID: 21300000, guid: 2f1dd9ebd6765d21be46b0b9fc3349ca, type: 3}
+      bodyMask: {fileID: 2800000, guid: e7ccb61a2ecc5e3a92adeb2ef91334e9, type: 3}
+      skinMask: {fileID: 2800000, guid: 77e78e25c13c536286b981d60fca49c5, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: 04a9d77942c75071b407082d9461fc7d, type: 3}
+      - {fileID: 21300000, guid: db6b99363d835fe0b534f321bc6fefbc, type: 3}
+      - {fileID: 21300000, guid: 54766cdbe91654a6a2d5592e063281ca, type: 3}
+      - {fileID: 21300000, guid: 219df02d5899532fbcf90a548ba51177, type: 3}
+      - {fileID: 21300000, guid: df0e9d1ac72d549f8f63b88886a615be, type: 3}
+      - {fileID: 21300000, guid: 089c5483533c56389f42cf1fd5d3384f, type: 3}
+      - {fileID: 21300000, guid: ccd73c275be95268a99b86141eeaddf3, type: 3}
+      - {fileID: 21300000, guid: 354779c3cf205664aef7f5f1625dd3a0, type: 3}
+      - {fileID: 21300000, guid: cd28fe5735ec54b78264a34d0f25e739, type: 3}
+      - {fileID: 21300000, guid: 04408a66df96540d80db16d43f1f7b5b, type: 3}
+      - {fileID: 21300000, guid: 39acda2826e05d32acecb2aefd5cb326, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: 59a63a47bf9c51fdb41c9376de8077d5, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: ed5d660c49575d9a958b5f0ede4649dd, type: 3}
+    - parts:
+      - {fileID: 21300000, guid: 61a653ad24eb5293a4c336a9f4876b58, type: 3}
+      - {fileID: 21300000, guid: 74e890942ce25a37b6bd43c38f2a86a9, type: 3}
+      - {fileID: 21300000, guid: 8f0eabc65aaa5e6db11b92cd32a90d5d, type: 3}
+      - {fileID: 21300000, guid: e5ee20cd993b52fb85742d3df0f8b54f, type: 3}
+      - {fileID: 21300000, guid: f934992045f25c569b1e77a0881ac947, type: 3}
+      - {fileID: 21300000, guid: c52c4e1a1b25572ab8fe800eea03674c, type: 3}
+      - {fileID: 21300000, guid: a1447eaaaf7557748d42bfbe744ca298, type: 3}
+      - {fileID: 21300000, guid: c76068442c6752b98b7de4906672815a, type: 3}
+      - {fileID: 21300000, guid: 385a09a0763f5f79b84974f850ab5100, type: 3}
+      - {fileID: 21300000, guid: 49bc50d1117351558fc2ee4ad8be8601, type: 3}
+      - {fileID: 21300000, guid: 72dad647582f567fb1393500fabde4e1, type: 3}
+      bodyMask: {fileID: 2800000, guid: c8c8642fc76e52e79db8356b2d4b795f, type: 3}
+      skinMask: {fileID: 2800000, guid: 321ae208eeab5f7bb814c62ee1f8b677, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: ead80039f5fd5d0ebea0eb9f5d66cd0d, type: 3}
+      - {fileID: 21300000, guid: 805faf698f6558c4ae7f0331c4939f19, type: 3}
+      - {fileID: 21300000, guid: eabe2fb0171f5cfc8be39c09e74af4b1, type: 3}
+      - {fileID: 21300000, guid: 4064245eb52e58348807c5008d3336c6, type: 3}
+      - {fileID: 21300000, guid: 3b1f9d497a865d779eb11a02881d6920, type: 3}
+      - {fileID: 21300000, guid: 4009153ce1c75390bd7e2c41dd5ee631, type: 3}
+      - {fileID: 21300000, guid: efae9d9f9337590c87e979be27720da0, type: 3}
+      - {fileID: 21300000, guid: 641b3e2d7dbe5ef6b051f916ced78d38, type: 3}
+      - {fileID: 21300000, guid: 6cba2c8f1d755be78e2d6200ffe70366, type: 3}
+      - {fileID: 21300000, guid: 2f90e91f8c565bf891c13f22f4f1948d, type: 3}
+      - {fileID: 21300000, guid: ff0c0debfa555a9bb85c635e446eda1a, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: d055e4aa3c09565e996640dcb16bbb3f, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: 316524df32e155458860cf4a57e81c7b, type: 3}
+    - parts:
+      - {fileID: 21300000, guid: 32cf74a3e34f56f99456d09b5d4db67b, type: 3}
+      - {fileID: 21300000, guid: d0019a1007695a468770ab72549680ef, type: 3}
+      - {fileID: 21300000, guid: 6eee3682a05657eab21465745afcc55c, type: 3}
+      - {fileID: 21300000, guid: 95e81ba226895e3f854eae7b5631bec6, type: 3}
+      - {fileID: 21300000, guid: 15c3ddcd3cf65614b2d0663de59adff5, type: 3}
+      - {fileID: 21300000, guid: 4b030d81383b596c95f700e6e1bad4af, type: 3}
+      - {fileID: 21300000, guid: c5f8bdc39a845642bf1c17f0c07e99ce, type: 3}
+      - {fileID: 21300000, guid: c557c3b52ffc5d44b26d96bd3995d2f1, type: 3}
+      - {fileID: 21300000, guid: a09b5972fcc3526db424afcecf53b81f, type: 3}
+      - {fileID: 21300000, guid: 642550f8d2e15c9bafabeff210851815, type: 3}
+      - {fileID: 21300000, guid: d5890b91f476552cb2ca221499753e9a, type: 3}
+      bodyMask: {fileID: 2800000, guid: 7e1ab26a98a854d5a6897c913f4d8c2d, type: 3}
+      skinMask: {fileID: 2800000, guid: aabd7ef0c899511b919c528b38d91570, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: 729cfa59099d5898a0863b0182f29dcd, type: 3}
+      - {fileID: 21300000, guid: 0c3014b67bc555549f376a4d63d572b5, type: 3}
+      - {fileID: 21300000, guid: 206223aa1dcd5ceba4fe9e57461f143e, type: 3}
+      - {fileID: 21300000, guid: 9347f0c7040356c0b9a15f2fabb2712f, type: 3}
+      - {fileID: 21300000, guid: e3404219467b51479e29e038275b20e8, type: 3}
+      - {fileID: 21300000, guid: 2a8a36c01f815c49bedc870d175ed7c5, type: 3}
+      - {fileID: 21300000, guid: d7479c87f83b5820a11e788576d9a197, type: 3}
+      - {fileID: 21300000, guid: 83bf6c55f3ab541b8fb8bd826d6db68d, type: 3}
+      - {fileID: 21300000, guid: 06861fa90c3b561ea9bd5c918e7c0a27, type: 3}
+      - {fileID: 21300000, guid: d02eb314431a5d3ba549e99f9a1400f2, type: 3}
+      - {fileID: 21300000, guid: 04700272ce86594a99f46596c29f6984, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: b9f39b9b40e550bdbffb374ee3e07f30, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: ba4ff64d1ced5de18fb3325cc579c189, type: 3}
+    - parts:
+      - {fileID: 21300000, guid: 7e01c3881f505816aaa02c699289c6c5, type: 3}
+      - {fileID: 21300000, guid: 1666abadf0425b41afde6c0c311f3e4b, type: 3}
+      - {fileID: 21300000, guid: a1a409472c02518d82499712d625a9d6, type: 3}
+      - {fileID: 21300000, guid: 79d5080e280c5084a9f576187b0eaf84, type: 3}
+      - {fileID: 21300000, guid: 8a7221b2bc595bfdadba297557f62c69, type: 3}
+      - {fileID: 21300000, guid: 94fe9920033459388a74a1b6d1558222, type: 3}
+      - {fileID: 21300000, guid: eaa8a5005c125471b257592b840023be, type: 3}
+      - {fileID: 21300000, guid: 1baf374e520951ceb137986e00f4632a, type: 3}
+      - {fileID: 21300000, guid: 691e03dbf91450cdadb8bca716739b87, type: 3}
+      - {fileID: 21300000, guid: f1a10d419b23585c8933bb102e762e30, type: 3}
+      - {fileID: 21300000, guid: 7998a27964875421a402dba0e67a5fbd, type: 3}
+      bodyMask: {fileID: 2800000, guid: 419756fb5180571bb3902f846507e74f, type: 3}
+      skinMask: {fileID: 2800000, guid: 71f1eb3fa33c5f3f8a7c18f0b72cbfdb, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: 3165b27b4fb2506d84e6d666d70d2899, type: 3}
+      - {fileID: 21300000, guid: fe6652a4c0875701b862961f7b27b765, type: 3}
+      - {fileID: 21300000, guid: 110dcc1224585533afb27b082c8c2ab0, type: 3}
+      - {fileID: 21300000, guid: fbc14ee2897052efbd2669f9792dcdaf, type: 3}
+      - {fileID: 21300000, guid: cc3e4fa22d4556cdb4a097b9432ffbd5, type: 3}
+      - {fileID: 21300000, guid: 4e4531d8a3645200abd6837b5e76e813, type: 3}
+      - {fileID: 21300000, guid: 17361d3e07235bf78eff9edfe09637cc, type: 3}
+      - {fileID: 21300000, guid: 24ee0514aa465a829e44a07a4a2ff9b5, type: 3}
+      - {fileID: 21300000, guid: d04c341408715c4cab66675291b89cfb, type: 3}
+      - {fileID: 21300000, guid: 7bff14056ae35c81b05b0ce7be64edf4, type: 3}
+      - {fileID: 21300000, guid: 148d8d1c2839577ba84102b08c31c8d8, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: db7bd89d08225ea4a0026a39d21083fe, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: c7bd9764061852fd9b0fe681aa09ff57, type: 3}
+    - parts:
+      - {fileID: 21300000, guid: a20fb4b7d7ea5d08bc83735fc279f158, type: 3}
+      - {fileID: 21300000, guid: 6d88188ac1e8505f89da8b3ddce199e1, type: 3}
+      - {fileID: 21300000, guid: 9fad0d84c1d75069b76103505f44e06f, type: 3}
+      - {fileID: 21300000, guid: f82dc23f34da5e9484418bc6eac8a978, type: 3}
+      - {fileID: 21300000, guid: ef406af79be45ae6941d3ad8534ddc29, type: 3}
+      - {fileID: 21300000, guid: 6fbc301a7ba5564f94800897cba6b774, type: 3}
+      - {fileID: 21300000, guid: 6d82d54fa6bb5777b4e8eadd37f7eb7f, type: 3}
+      - {fileID: 21300000, guid: 9eaa9d939f175ca4bdca5248c02fb926, type: 3}
+      - {fileID: 21300000, guid: b83b73c1b7cf548e912893e51bdfd6cf, type: 3}
+      - {fileID: 21300000, guid: 941f7e11c041506d84ccb714d7338ba1, type: 3}
+      - {fileID: 21300000, guid: 0748bf7e3902519ea809f525d6359cfc, type: 3}
+      bodyMask: {fileID: 2800000, guid: 36523b2b605b5c81b64bca99c7cb7023, type: 3}
+      skinMask: {fileID: 2800000, guid: de22c52dfaa353c2a08f14da27067232, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: a5915c5764fa5e42b64976949277e62a, type: 3}
+      - {fileID: 21300000, guid: 8d17afcececa594e8d94d99538f03903, type: 3}
+      - {fileID: 21300000, guid: b001f1fe91375ec5ba5665fb3340e1c1, type: 3}
+      - {fileID: 21300000, guid: 4913bf6c51ad5a3688163c39489b690c, type: 3}
+      - {fileID: 21300000, guid: f40a6b713aea5268ae8bc75cbaa5a28f, type: 3}
+      - {fileID: 21300000, guid: 6c90881916aa51088c2ca2e36f373034, type: 3}
+      - {fileID: 21300000, guid: fef3b521178551a8bf5016471d530087, type: 3}
+      - {fileID: 21300000, guid: f39f808241915fe5ae00bf390d096bc1, type: 3}
+      - {fileID: 21300000, guid: c2ac49e21ca85d3cae9fb50a312a3533, type: 3}
+      - {fileID: 21300000, guid: a23162b758e3533e9034fc0b0128eab0, type: 3}
+      - {fileID: 21300000, guid: 1c6e4da13b405b6d96ca2baf8b4674e9, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: 57e6d21eb57a5b2b99b5491253c43ede, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: 158121af9a3b5ddf91a354b272dbdb50, type: 3}
+    - parts:
+      - {fileID: 21300000, guid: 3ad88b2835975a8ea21eb7c22d196d7c, type: 3}
+      - {fileID: 21300000, guid: bc39f103226658ff91cb881be2d55543, type: 3}
+      - {fileID: 21300000, guid: 5ca24e35f7e8533baeed3421452fcaf4, type: 3}
+      - {fileID: 21300000, guid: 10d0898b38cf536f93c9c62f7305ce38, type: 3}
+      - {fileID: 21300000, guid: 801e0ea8c96654348026175af786f1e8, type: 3}
+      - {fileID: 21300000, guid: bc2996c78e705fc38844a8fdab79a652, type: 3}
+      - {fileID: 21300000, guid: 87fc11a776e45a609935cb24ba863bca, type: 3}
+      - {fileID: 21300000, guid: a1527eb4b06c59919d4ed8a5827a67bc, type: 3}
+      - {fileID: 21300000, guid: 5e2e35645a6c5e10bfc30507095bbb1b, type: 3}
+      - {fileID: 21300000, guid: 57f21a26511e5b10a91300c87790961c, type: 3}
+      - {fileID: 21300000, guid: 698ca98683275366853b9dceed2cc05a, type: 3}
+      bodyMask: {fileID: 2800000, guid: a311943cb8ce5aa595920018d7ca4524, type: 3}
+      skinMask: {fileID: 2800000, guid: 3668d60b41e05cdfbd19fc3b507600dd, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: 0fa42659ba545dd2b7e33fc6f0eb4dea, type: 3}
+      - {fileID: 21300000, guid: f7669b5d87455a36b0667177e1ed091f, type: 3}
+      - {fileID: 21300000, guid: 1980cb533af758c9abc8771fd074a0c8, type: 3}
+      - {fileID: 21300000, guid: b5e2d21c7c2b5f249f1fcdb2b1fd7370, type: 3}
+      - {fileID: 21300000, guid: 224051152be75443bc5474f03da59375, type: 3}
+      - {fileID: 21300000, guid: 8f84c083e56059cba6fd3a35815d8831, type: 3}
+      - {fileID: 21300000, guid: 64177129879b5cbfa1521bc1248e0fbd, type: 3}
+      - {fileID: 21300000, guid: 153f2f12075f5355bc062c78c5f8ad1c, type: 3}
+      - {fileID: 21300000, guid: 334e206aaec0519991eef1c809aa9c1f, type: 3}
+      - {fileID: 21300000, guid: c60c22abd59c5ca894eb2d6b908450b1, type: 3}
+      - {fileID: 21300000, guid: c1b8120101b05c4c84895452f80eed87, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: 85e3557e7d7457f480ae1689493da4d1, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: 4a2d0908106050c0a5fa8d606639a85f, type: 3}
+    - parts:
+      - {fileID: 21300000, guid: 46bdeef1fb535e69b81a252972be2d8e, type: 3}
+      - {fileID: 21300000, guid: 48e71b4f1e925fa0b0ee549f4391e3cc, type: 3}
+      - {fileID: 21300000, guid: 5cdf71ac50ae5b9e84a422c7063e06c5, type: 3}
+      - {fileID: 21300000, guid: 1e61071e4def59f2a1f67ce44de35a96, type: 3}
+      - {fileID: 21300000, guid: 147abe5cfa2651d78a465a3b0b8f709a, type: 3}
+      - {fileID: 21300000, guid: da64bb6626cb5cecbf64c0502b75ed49, type: 3}
+      - {fileID: 21300000, guid: 330960bf786356e899498d983067f662, type: 3}
+      - {fileID: 21300000, guid: 9b1341be08255e3689eaefc02518c9ac, type: 3}
+      - {fileID: 21300000, guid: c02a0cf28f44510ba4419ce750b0e515, type: 3}
+      - {fileID: 21300000, guid: ae8e866ac1f35d9e861c788ccaa4c683, type: 3}
+      - {fileID: 21300000, guid: 8b8ad931a61c5ce2ac0ae2edda669474, type: 3}
+      bodyMask: {fileID: 2800000, guid: 340abc8949845b64896f20ff237f0a14, type: 3}
+      skinMask: {fileID: 2800000, guid: e8fa741f4fcc54f0b0292dea9ebac79a, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: dd34875217ca52ef82a41df71de42800, type: 3}
+      - {fileID: 21300000, guid: ac2af74413035e50ba5995420f79e498, type: 3}
+      - {fileID: 21300000, guid: dc7044397ce956c68d5ec597cde3ae39, type: 3}
+      - {fileID: 21300000, guid: 9c1ad1989fbd59be8773881f6260bb41, type: 3}
+      - {fileID: 21300000, guid: 9bcdb3d372d15e18a0b26c7e73ab2cb4, type: 3}
+      - {fileID: 21300000, guid: b0de2b17965a5e01bd07f410e137082f, type: 3}
+      - {fileID: 21300000, guid: 11633b2710dd5c70bd41fcef6a62b077, type: 3}
+      - {fileID: 21300000, guid: 176b4207515d58c0b5c97cc80552cd97, type: 3}
+      - {fileID: 21300000, guid: ecfeca6622a451a094ad9212d97117d3, type: 3}
+      - {fileID: 21300000, guid: cc363dd1f7f95d169a3e9705df9a0a06, type: 3}
+      - {fileID: 21300000, guid: 7b6492af5a56524688ef671e16b4a316, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: 720760839a2a56c68feb75d7ca32dba5, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: 22fc1a5c43ed558aa17504f4f4e646af, type: 3}
+  - idle:
+      parts:
+      - {fileID: 21300000, guid: 9f80344b4ddd5efa99cbcba830f44a03, type: 3}
+      - {fileID: 21300000, guid: 6594d8625f20502a8644f961620227da, type: 3}
+      - {fileID: 21300000, guid: f29d36fb42355ea39d5e2e175ad878e7, type: 3}
+      - {fileID: 21300000, guid: 505142cdca2754abaa7a4960d95a9bfa, type: 3}
+      - {fileID: 21300000, guid: a682e15d14d25faf9260bd302802ead5, type: 3}
+      - {fileID: 21300000, guid: c15e16d7d0d35092ae0d33053b7d2e13, type: 3}
+      - {fileID: 21300000, guid: 7471236232555eedb5c44cfa984a7058, type: 3}
+      - {fileID: 21300000, guid: 85021868f93d53e2afb0fb870766437a, type: 3}
+      - {fileID: 21300000, guid: ef07aadb0eae58478d584a72a59faedf, type: 3}
+      - {fileID: 21300000, guid: ddca2349718a5f35b6ab5c6b22074ab3, type: 3}
+      - {fileID: 21300000, guid: a4f8dd71faa15e80b4a848fade91a463, type: 3}
+      bodyMask: {fileID: 2800000, guid: 063e4bab010457529861c85990396ed4, type: 3}
+      skinMask: {fileID: 2800000, guid: 16954131c7bd5e96b0ce39b2380e82a9, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: 8faef3fea81f5605b4164723b094c966, type: 3}
+      - {fileID: 21300000, guid: 378294b6b106594790814eba73eeb4aa, type: 3}
+      - {fileID: 21300000, guid: 0a75d2b7beda5c5f94c80d31fbd2e1b1, type: 3}
+      - {fileID: 21300000, guid: d77d071874ee5cc69276bd59e05a3235, type: 3}
+      - {fileID: 21300000, guid: 047906f40ebb5f44b9c316057170b4b5, type: 3}
+      - {fileID: 21300000, guid: 354f14388d855c138411a61d29794d37, type: 3}
+      - {fileID: 21300000, guid: 41ec6f99e56c55fab61fb33d2bee55d7, type: 3}
+      - {fileID: 21300000, guid: e361a6d06d515da695621d529ba4c581, type: 3}
+      - {fileID: 21300000, guid: 730104f1180d5218b926615a8b7f0824, type: 3}
+      - {fileID: 21300000, guid: ab48bb8032845ea09426fa428e94fe88, type: 3}
+      - {fileID: 21300000, guid: 0dea73cf047358cb8607814fb0132d04, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: 7cab2ed67c82593689dbf7c07967a15d, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: ea319d6733a75e8298583391fad36f7f, type: 3}
+    walk:
+    - parts:
+      - {fileID: 21300000, guid: 1eab39a4457e5c7e90fa237e30c7c110, type: 3}
+      - {fileID: 21300000, guid: 4c1ca7dd19545244bd26b4158c730cf1, type: 3}
+      - {fileID: 21300000, guid: 6dec74f675a95c6483d2c95e5fa30664, type: 3}
+      - {fileID: 21300000, guid: 441593c4954c5da9b2f32d9462cace24, type: 3}
+      - {fileID: 21300000, guid: 86477d5cb2d052c9b8c3cd0bf919d781, type: 3}
+      - {fileID: 21300000, guid: fb95e7dad1585f87b59985792d1fe496, type: 3}
+      - {fileID: 21300000, guid: 3e52dabccacb58c286715bdf04709fd1, type: 3}
+      - {fileID: 21300000, guid: 1b1967b8bf2255f4b30e5879fc2c93af, type: 3}
+      - {fileID: 21300000, guid: 6de3e53adb475957a6d3c4dfe550a235, type: 3}
+      - {fileID: 21300000, guid: 2e41d895cac356ea8ad83245f74265f2, type: 3}
+      - {fileID: 21300000, guid: d360304f32945b02b8e27dcd36a091f5, type: 3}
+      bodyMask: {fileID: 2800000, guid: 2447d951a42e5c81a14ce9268f4fa53c, type: 3}
+      skinMask: {fileID: 2800000, guid: df48e7ab76dc5501935242e063d991ec, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: 4808ce7a29715c9998f6d5c5a789199f, type: 3}
+      - {fileID: 21300000, guid: 63e6b313ff865a7395974deca5df0bb1, type: 3}
+      - {fileID: 21300000, guid: 3937ab8239535914ba2756ee1cce0d06, type: 3}
+      - {fileID: 21300000, guid: 9c6be407aa80566a96ab15bdf11ec094, type: 3}
+      - {fileID: 21300000, guid: b0fe1fc28917551189cfe54ec3fcbca2, type: 3}
+      - {fileID: 21300000, guid: 54cc594eb3255d51b07b7f095b261a47, type: 3}
+      - {fileID: 21300000, guid: 62fc01887d7a5d49b2af8ab54b75dbb2, type: 3}
+      - {fileID: 21300000, guid: f714c48335ef50079e7c98a74261d709, type: 3}
+      - {fileID: 21300000, guid: 6a883718316f587685ee1a0b381f646c, type: 3}
+      - {fileID: 21300000, guid: ae318eb183575a04a4fd2be2418b99bc, type: 3}
+      - {fileID: 21300000, guid: 4600c198e76d5bcdb4fc125c89b80566, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: d77f7fed4d93537a8aa12cdfdb751679, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: 7ac2ca17108d56abaf50b63419fced09, type: 3}
+    - parts:
+      - {fileID: 21300000, guid: f4a3ce5fad535248aabb995cb0facf20, type: 3}
+      - {fileID: 21300000, guid: a413748458025b378341da83ffcfd45e, type: 3}
+      - {fileID: 21300000, guid: 02ed46bad6da540b81aa19145341e8c7, type: 3}
+      - {fileID: 21300000, guid: 02a500121b0e58d0b4f1e6b0e29123ee, type: 3}
+      - {fileID: 21300000, guid: b79b7acc000d5df7a9f4991d393e8cab, type: 3}
+      - {fileID: 21300000, guid: 5236b04ede6458b38c98f0878e4a3465, type: 3}
+      - {fileID: 21300000, guid: 2186e4c11b8953cfb2f2dda8fab3cbe0, type: 3}
+      - {fileID: 21300000, guid: bae314f870b05e5388a1cf1b122ce9b1, type: 3}
+      - {fileID: 21300000, guid: 0a9a1fa61b555070b54e1d2761eafc9d, type: 3}
+      - {fileID: 21300000, guid: 9fe7a75220cc51cdafab8aca3cd007a9, type: 3}
+      - {fileID: 21300000, guid: 2e9523970aa55e189d84da75118ff477, type: 3}
+      bodyMask: {fileID: 2800000, guid: 70ee1b0cae7e5e2ab7f7b14291be2135, type: 3}
+      skinMask: {fileID: 2800000, guid: c61db130e04d5363aba05aae32257c98, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: e01b7085f7a6595294056db6e13adb7a, type: 3}
+      - {fileID: 21300000, guid: 8dab306582b758caa40e3b87bc281c82, type: 3}
+      - {fileID: 21300000, guid: 45cba19cbc685059a7aca6f5c3062e29, type: 3}
+      - {fileID: 21300000, guid: a7efc99d42d35f9caf789e83f419c0d1, type: 3}
+      - {fileID: 21300000, guid: 1b0dc0d69624593ca0206cf0f7ff28e3, type: 3}
+      - {fileID: 21300000, guid: fa26464a5fd65aed85da6f34a702d85c, type: 3}
+      - {fileID: 21300000, guid: 068e4578ea15541caa8be96b56ea57b5, type: 3}
+      - {fileID: 21300000, guid: acf6efe76fc358a786cc73acc7ba9750, type: 3}
+      - {fileID: 21300000, guid: fb34f6403bb1534ab0ca0fb2d20a1ee8, type: 3}
+      - {fileID: 21300000, guid: 851949c950c658b18f7d725f4946f49b, type: 3}
+      - {fileID: 21300000, guid: 00aee70e63c55855b86d0a44edf6da42, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: 2c0319b60bb45f6c967a399f529e25a9, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: 10e12a800a675c28bb20a7d87ffcf15a, type: 3}
+    - parts:
+      - {fileID: 21300000, guid: 47fead2538f0534f8a3370bc167f212e, type: 3}
+      - {fileID: 21300000, guid: 9b2ffadd7cda5d3a805f82e91326498b, type: 3}
+      - {fileID: 21300000, guid: d4fd1ebd78cd5461bd16c70d593113a5, type: 3}
+      - {fileID: 21300000, guid: 8f26ccf45d2e5a568b03445ccec751b2, type: 3}
+      - {fileID: 21300000, guid: 4c06bdd417c55dc5b9a5eecd6cde3340, type: 3}
+      - {fileID: 21300000, guid: 8b16f03e48905a6f85518c10d78eaf94, type: 3}
+      - {fileID: 21300000, guid: 87931cd643425d949a37a7853ed2fea7, type: 3}
+      - {fileID: 21300000, guid: c40d32f1e8315e1e9bf3df33e82cd594, type: 3}
+      - {fileID: 21300000, guid: 4fa4bc009704565c8ff4d6dbd3d642e9, type: 3}
+      - {fileID: 21300000, guid: 32c01f406f0254acbe5709c85a147a25, type: 3}
+      - {fileID: 21300000, guid: 9422795343ff566cb33afb67325f54e5, type: 3}
+      bodyMask: {fileID: 2800000, guid: 56f01ac572935380b6682dcc6f4a4d99, type: 3}
+      skinMask: {fileID: 2800000, guid: ecf14a9de76d598cb7c572d7bd12033d, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: e93f3bf3937e5238840f4f937aefdcdf, type: 3}
+      - {fileID: 21300000, guid: 0d3b30cb0d9b5e0e9a4e0f20e2bfea5c, type: 3}
+      - {fileID: 21300000, guid: 548992ce5ed55aabbfc3c9b400c4250f, type: 3}
+      - {fileID: 21300000, guid: f8e9da7f06fd5bc3a7a0fbedc6f8838e, type: 3}
+      - {fileID: 21300000, guid: 1ee56f825f625470a07f5fc908f6a16d, type: 3}
+      - {fileID: 21300000, guid: 253b4e2e0cb552f6a4471d5bf14ac5f0, type: 3}
+      - {fileID: 21300000, guid: b5ecda7a3e64527ab9ca31aca1a40d22, type: 3}
+      - {fileID: 21300000, guid: 71714de065fe5d2288ef5c18e6ae0c7e, type: 3}
+      - {fileID: 21300000, guid: 63440a1d034e53d4a734df90e7a33f40, type: 3}
+      - {fileID: 21300000, guid: fdb6a827a2805568a3aa208a9c94f312, type: 3}
+      - {fileID: 21300000, guid: 8be43a70201c50fe92b10ca547fbe884, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: 887f991beb635672af4935b275f626bc, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: ddd997b7331a57ef80ee4c0e54bb8add, type: 3}
+    - parts:
+      - {fileID: 21300000, guid: 482816ca05d5529a8631b6ef44b6d2ac, type: 3}
+      - {fileID: 21300000, guid: e8f31d0555e55cb88ebfaf6a16dc847d, type: 3}
+      - {fileID: 21300000, guid: 3a1913f91b145285872c602b94d3b1fb, type: 3}
+      - {fileID: 21300000, guid: 072cabade66c5a3b8cc558f8f6c8bd8a, type: 3}
+      - {fileID: 21300000, guid: ba7a69ea80865b17b5d820c63e5cbd5a, type: 3}
+      - {fileID: 21300000, guid: 645f3b10262a5ab2a183f282cc5a2320, type: 3}
+      - {fileID: 21300000, guid: ac2fa6509e2350ffaf85662671c056fb, type: 3}
+      - {fileID: 21300000, guid: 7d8905c2fef65671b5e85b76b42f0ced, type: 3}
+      - {fileID: 21300000, guid: f4584eb2f1215b28b6b2025d9631981b, type: 3}
+      - {fileID: 21300000, guid: 24b3e83097995eba9d9ff1082d17eeee, type: 3}
+      - {fileID: 21300000, guid: 457c08f4e77e5825b30701b2ddf1649e, type: 3}
+      bodyMask: {fileID: 2800000, guid: 1b5f3281acf85846b92f9d65b16c2402, type: 3}
+      skinMask: {fileID: 2800000, guid: aba7add627b452888e8c19b5b3c20fad, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: d433697f9c915fcab8b6c458df64bcee, type: 3}
+      - {fileID: 21300000, guid: 8acf01387a2c531ba710fd8e6e3034fd, type: 3}
+      - {fileID: 21300000, guid: 47b9e83e502652c49a60eaf4fae52687, type: 3}
+      - {fileID: 21300000, guid: 2e018dadd4eb572ca68983853348106c, type: 3}
+      - {fileID: 21300000, guid: bef11b41047a5f929259129e4350dea5, type: 3}
+      - {fileID: 21300000, guid: 8f27bb8d76385c998459281f24441a01, type: 3}
+      - {fileID: 21300000, guid: 02e96f9464905cab9812af293039620b, type: 3}
+      - {fileID: 21300000, guid: 6c4866a61356586db840a18c1afdaf38, type: 3}
+      - {fileID: 21300000, guid: ebecdf4cdd70522c8402807fb13d3d86, type: 3}
+      - {fileID: 21300000, guid: f4c3d12c47a9523db36b29e851f3cc81, type: 3}
+      - {fileID: 21300000, guid: c797b9f9fc225eb5ac6f55b9384b49b7, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: a79e1257cdd8583a82855c3c599cdae2, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: 0d340a4b5eed5728808ce264bc513443, type: 3}
+    - parts:
+      - {fileID: 21300000, guid: 368cffce49bc594a9fbb964b4d28dcd1, type: 3}
+      - {fileID: 21300000, guid: a0d210c1284152a992c6e1a1c2f473cb, type: 3}
+      - {fileID: 21300000, guid: f5bddc4d99fb59b1bf82e21cb17e1f91, type: 3}
+      - {fileID: 21300000, guid: 9b120ffda983546dac1fdfdeba5a9fd1, type: 3}
+      - {fileID: 21300000, guid: b7016f57f40255ec9d65bdbfc2da1954, type: 3}
+      - {fileID: 21300000, guid: 79612e6847535feabfb5e15ea847138d, type: 3}
+      - {fileID: 21300000, guid: 72313649668559b8bf9c4bf48defcf5b, type: 3}
+      - {fileID: 21300000, guid: e99c7479ea9f5adf9d79079d60800d6c, type: 3}
+      - {fileID: 21300000, guid: d96ab8ea219151648f427fea55dbf086, type: 3}
+      - {fileID: 21300000, guid: fe9f032500dd51c2bdd35f2f516d6614, type: 3}
+      - {fileID: 21300000, guid: 6d2e1df5460e515680717839c518222a, type: 3}
+      bodyMask: {fileID: 2800000, guid: d170e067240257bf9353ae0899c39d2d, type: 3}
+      skinMask: {fileID: 2800000, guid: e35908a3f03d51d8bc8fad2747ad82a2, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: 9fd008a2db2b5a03aeca7dc763763277, type: 3}
+      - {fileID: 21300000, guid: 4bab9e471d2657f98c5423918b7d5a20, type: 3}
+      - {fileID: 21300000, guid: d53a6228c0575081a9e1bb6ce290f1dc, type: 3}
+      - {fileID: 21300000, guid: 1b564567bd2356cc9da0193eded39c9d, type: 3}
+      - {fileID: 21300000, guid: 90027ef8d9b454898e573dc3e0ebd684, type: 3}
+      - {fileID: 21300000, guid: b55da925dca25978abba3fc746f65c65, type: 3}
+      - {fileID: 21300000, guid: 27063072f69151c884f8a615bd5df3e5, type: 3}
+      - {fileID: 21300000, guid: e6d01a858da95b2784f608ffb099d983, type: 3}
+      - {fileID: 21300000, guid: be69aa5d09be50db92692d5870ca8f3a, type: 3}
+      - {fileID: 21300000, guid: 5052eaee25fe56aea4f925199da03b78, type: 3}
+      - {fileID: 21300000, guid: d13451ed22d65961b3220309a32cdb37, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: 6078b056d0f25f80a183ce08254c40b2, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: ef65942cbc96592d9da56b3f83799ca7, type: 3}
+    - parts:
+      - {fileID: 21300000, guid: e2c55a715a045d778aa9819e6d55da6d, type: 3}
+      - {fileID: 21300000, guid: 8caf0f61aceb5ddfabdec91649d10212, type: 3}
+      - {fileID: 21300000, guid: 73b1d90bc72451c88ae7f6cfe90c772a, type: 3}
+      - {fileID: 21300000, guid: 61f82943a63a5705b5046541f9527d66, type: 3}
+      - {fileID: 21300000, guid: 8bb7091344af50d5ae101d7d700c577e, type: 3}
+      - {fileID: 21300000, guid: 4b37c94685c751dc8027fd8094805ab9, type: 3}
+      - {fileID: 21300000, guid: 83ffbbc702a65fba907ed604a4a2c732, type: 3}
+      - {fileID: 21300000, guid: b2c83eb384d0542d818fb8c89ab37405, type: 3}
+      - {fileID: 21300000, guid: 2fd955cfd42c5b5d8bcceb553fe13ab5, type: 3}
+      - {fileID: 21300000, guid: 74bf38a204c053c0a0680c3911ad901b, type: 3}
+      - {fileID: 21300000, guid: a5c17c2c70c65fe2b9ec88c5269524cd, type: 3}
+      bodyMask: {fileID: 2800000, guid: 50326558b9335700a17e1acea7ae4f67, type: 3}
+      skinMask: {fileID: 2800000, guid: 4dae1271e16f5884a712520104dc9548, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: c32d1259a3c35ece84279255608b7454, type: 3}
+      - {fileID: 21300000, guid: ee12a9f3294854ee9e089707f82b8bca, type: 3}
+      - {fileID: 21300000, guid: 53bf4f8833ab5950b681cc4b61041ae1, type: 3}
+      - {fileID: 21300000, guid: 8f81de52e1715ae4bcb9f0823843dedc, type: 3}
+      - {fileID: 21300000, guid: 8ced950c22f05ed9a9ac89c613be7753, type: 3}
+      - {fileID: 21300000, guid: 7f11eb4ec2ab5f928438b53be0fdf613, type: 3}
+      - {fileID: 21300000, guid: 708f9069a8ef508ea3d1ab2044b80b57, type: 3}
+      - {fileID: 21300000, guid: 54a9871867615472bfe89b9c774cbc34, type: 3}
+      - {fileID: 21300000, guid: 192d8fdf530e56bbbcadec3ee69ae960, type: 3}
+      - {fileID: 21300000, guid: bfb8947a269356e9a435efb8a79d8f04, type: 3}
+      - {fileID: 21300000, guid: ca22682af8f354f284968cfd6830f3d6, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: d83acce91fba575aa078c064c62d4875, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: 5d3879016031586887d40433d7d7af37, type: 3}
+    - parts:
+      - {fileID: 21300000, guid: ccf00a22de01552fa2eead1034353787, type: 3}
+      - {fileID: 21300000, guid: fa552bb417b05de89e81c120cc2b9073, type: 3}
+      - {fileID: 21300000, guid: 93be6964c8e95464b2e41447c3028acd, type: 3}
+      - {fileID: 21300000, guid: ec266dec78d45f579de1855b0cf1947b, type: 3}
+      - {fileID: 21300000, guid: 61446f6f13a05ff3a9f001d16a544529, type: 3}
+      - {fileID: 21300000, guid: 24a5edc4c3e652deb2fc2d79ad93b122, type: 3}
+      - {fileID: 21300000, guid: c24e6eac452f58948711ae72b4ea1d21, type: 3}
+      - {fileID: 21300000, guid: 8627b9b014b4516fa839a1ed9419985c, type: 3}
+      - {fileID: 21300000, guid: 1353d71b19395f7fae44890d50367321, type: 3}
+      - {fileID: 21300000, guid: c2edc5a1c6e2557982f4ab365f28cf11, type: 3}
+      - {fileID: 21300000, guid: fa7336332f2c55018ae56ca36986222d, type: 3}
+      bodyMask: {fileID: 2800000, guid: df4d229554e159628bfe2672b9727870, type: 3}
+      skinMask: {fileID: 2800000, guid: 4115021af294520a8819d9a6e4f6d331, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: 3880522bbe1257c8b33631525950a813, type: 3}
+      - {fileID: 21300000, guid: 0b47bd501fe15e66b18cf05a4d606922, type: 3}
+      - {fileID: 21300000, guid: f66e0c2861015d7e90dde3fe99f8a0db, type: 3}
+      - {fileID: 21300000, guid: 03b722ad7932549db04d088cda8c9e7b, type: 3}
+      - {fileID: 21300000, guid: ba3362e539445b6691c87a5d944d1d7c, type: 3}
+      - {fileID: 21300000, guid: 500b2c7a232553789917e8bfa24931b6, type: 3}
+      - {fileID: 21300000, guid: e8d45cd742d85111abdf3a40c85ed4e6, type: 3}
+      - {fileID: 21300000, guid: 3db8e5f33560529a9b82be74902c8f4b, type: 3}
+      - {fileID: 21300000, guid: 7245dab981c6597fab8d1ad7d3e360c3, type: 3}
+      - {fileID: 21300000, guid: d9680bb93c105ec8ac19370e0d5c3610, type: 3}
+      - {fileID: 21300000, guid: be2208c2b70755028db8669ede15a05c, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: 22482842780a58f89d714718a64bec24, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: 02cefb66544c50e59e556ffbdbe5b181, type: 3}
+    - parts:
+      - {fileID: 21300000, guid: a5a6b8426ca453c89bf7a419f01228dc, type: 3}
+      - {fileID: 21300000, guid: 4eca6791ebb551e588218e6675a6b344, type: 3}
+      - {fileID: 21300000, guid: 37e0428647ca5d87839c38339df8fdcc, type: 3}
+      - {fileID: 21300000, guid: 5ac6fb2cc84354d5aedb6c6c06d3ac64, type: 3}
+      - {fileID: 21300000, guid: a118e98d328653d798b32acb9a81a888, type: 3}
+      - {fileID: 21300000, guid: cb71d70f6ea554d0ac9207448c666b7d, type: 3}
+      - {fileID: 21300000, guid: e4eef8e603115e5f9816f27cac52977d, type: 3}
+      - {fileID: 21300000, guid: 991981e935655b7e9fd72548b32fd8c7, type: 3}
+      - {fileID: 21300000, guid: 0a7930cd073857b0b60a5cabb81af3b7, type: 3}
+      - {fileID: 21300000, guid: c239b118205a5feb9d7f30773ba4f335, type: 3}
+      - {fileID: 21300000, guid: 17eff6c0b7e355949fdb9c292e98dab2, type: 3}
+      bodyMask: {fileID: 2800000, guid: c53a54ad5e345c88999e69ce6896af93, type: 3}
+      skinMask: {fileID: 2800000, guid: 4f5179505b7457afa1645d5a36cf1786, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: 212de4597dc25fc1a6c6d7a8939c118c, type: 3}
+      - {fileID: 21300000, guid: ec9e08c0ef5e54078c7bad7e9c447163, type: 3}
+      - {fileID: 21300000, guid: b8bd1b7f6b3a5ef2bf7afc694b01b324, type: 3}
+      - {fileID: 21300000, guid: b44d97ca8c0154a69a0ab8e3b7863364, type: 3}
+      - {fileID: 21300000, guid: 8cd6abdac0715600955e80ff812f2bf0, type: 3}
+      - {fileID: 21300000, guid: 6f7899bbf0e1554097ee591e58807dc2, type: 3}
+      - {fileID: 21300000, guid: a098c814f5205a8c8278e0707a4d1cfb, type: 3}
+      - {fileID: 21300000, guid: f9768e02e36e5effa977e5323785baae, type: 3}
+      - {fileID: 21300000, guid: 8aedec89524757e298ebab45e3072f9d, type: 3}
+      - {fileID: 21300000, guid: 90171b5f60805eb78be4904565632749, type: 3}
+      - {fileID: 21300000, guid: cbbb8bc2023e5a059b6e113e944f8abd, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: b49c76933f2358c1921db7fa827d4282, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: 3734fe30414a5179bf21a35913cf3d01, type: 3}
+  - idle:
+      parts:
+      - {fileID: 21300000, guid: 8c44dffd5de9527fbfa7076b9d0181f0, type: 3}
+      - {fileID: 21300000, guid: 1e23579e0081565bab3cb1e75caf3bdb, type: 3}
+      - {fileID: 21300000, guid: de92fd796c7a58e4a82f7f66e20cbe0d, type: 3}
+      - {fileID: 21300000, guid: 153710f238a05fb8a45bc822534102a7, type: 3}
+      - {fileID: 21300000, guid: 3039a12375fb56e1b81a4d530d51dc65, type: 3}
+      - {fileID: 21300000, guid: 404432c6e28c5ce3bd99f353e31b6920, type: 3}
+      - {fileID: 21300000, guid: c6ad8e72c78556569d683dfa04b481da, type: 3}
+      - {fileID: 21300000, guid: fd2b680a2d4d5f1e9fd59c259db1915f, type: 3}
+      - {fileID: 21300000, guid: 96116391524a51948d1e42bba2fb6826, type: 3}
+      - {fileID: 21300000, guid: e5cd579586cd5ce69cc1ac2357acb4d9, type: 3}
+      - {fileID: 21300000, guid: 8b6d42e0a8415c1fbbe7fd8baabc4797, type: 3}
+      bodyMask: {fileID: 2800000, guid: f5259dfb50b851d79e6cbe8fe1471916, type: 3}
+      skinMask: {fileID: 2800000, guid: dd54907a62b151cfbbaa7b14843a218e, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: 4fd603199fc05da3ba0f9566dc26aafb, type: 3}
+      - {fileID: 21300000, guid: a30b7e7054d35115be88ac1d4b42ec32, type: 3}
+      - {fileID: 21300000, guid: 0d4472a261845d29a794d3647c238454, type: 3}
+      - {fileID: 21300000, guid: 6159a8266bd05ece9d45e0486cfdc1b8, type: 3}
+      - {fileID: 21300000, guid: 96262b55331d511086db713721547918, type: 3}
+      - {fileID: 21300000, guid: 6bfb8365690953339f87c390e427f0b8, type: 3}
+      - {fileID: 21300000, guid: cacb4381b3005153b0c15588be30c518, type: 3}
+      - {fileID: 21300000, guid: 8ff7cca7a9ae55c18c587a6bb93581ca, type: 3}
+      - {fileID: 21300000, guid: 27d1828a61205d66890e0d1f1cb1c285, type: 3}
+      - {fileID: 21300000, guid: 956028af6eb954f5b03594862d897f53, type: 3}
+      - {fileID: 21300000, guid: e41d225408df5105b65ddbd3d059be7b, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: 747a9b3a9ba055e488fc2df58a02fae7, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: ccfd77a9e4e0530492bff216254845a9, type: 3}
+    walk:
+    - parts:
+      - {fileID: 21300000, guid: 3f73bbb147d35970a2b8db507b870f77, type: 3}
+      - {fileID: 21300000, guid: 00326e2c2f405c2e882145bdad37b1f3, type: 3}
+      - {fileID: 21300000, guid: e2aa1c8c92485693b59ff3473eef530b, type: 3}
+      - {fileID: 21300000, guid: 09794d12cc76553dbab4f9bf0fc74525, type: 3}
+      - {fileID: 21300000, guid: 55c46109093255c5bef85bc4f6d3b3da, type: 3}
+      - {fileID: 21300000, guid: 308769fef59657a8b4056d7bc498e8d7, type: 3}
+      - {fileID: 21300000, guid: 49d7cf9421f258ae9415a30ff9840bce, type: 3}
+      - {fileID: 21300000, guid: 89b2778540da5c149c1b73b11f1c128f, type: 3}
+      - {fileID: 21300000, guid: 52a9286f71195d489308b74cdc018ca9, type: 3}
+      - {fileID: 21300000, guid: ef0fe76e3ad050be9fcb8a5952b2a175, type: 3}
+      - {fileID: 21300000, guid: d6615c07176359aa8901d79b02260f29, type: 3}
+      bodyMask: {fileID: 2800000, guid: e2a6fc0767015761a20a788262930834, type: 3}
+      skinMask: {fileID: 2800000, guid: aada177338855c0c81042a2ac38cd528, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: a5f17901241b5263b07306e1663f1d9a, type: 3}
+      - {fileID: 21300000, guid: bf37501d58085bfbb4a3386b5a1c64bd, type: 3}
+      - {fileID: 21300000, guid: f57ca9f356555806b960ee918e792364, type: 3}
+      - {fileID: 21300000, guid: e36728911cf65d76bb88c1a8e70c0f1c, type: 3}
+      - {fileID: 21300000, guid: be2c0b5febcc5120a1e63043f39fa6d3, type: 3}
+      - {fileID: 21300000, guid: 6ad4f16c19045dd992fd70c2e151c2d6, type: 3}
+      - {fileID: 21300000, guid: f6a3366b72aa5d87b77a76f49e1ceb47, type: 3}
+      - {fileID: 21300000, guid: e1314b965a955587a3d1b8b60ce5ec73, type: 3}
+      - {fileID: 21300000, guid: bf71514ee4d25efabe04e865b69bb846, type: 3}
+      - {fileID: 21300000, guid: 23b9387fa74b5b7f9353c0a6e8b036cd, type: 3}
+      - {fileID: 21300000, guid: a0760ce1ecaa5e24826d721977f6cf01, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: 469d8ff5820358fd8a1d682b397cc25c, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: 6530c6b73e815b378985c088e6260ccc, type: 3}
+    - parts:
+      - {fileID: 21300000, guid: 42fdfbf7170156e1b09bf967083f778e, type: 3}
+      - {fileID: 21300000, guid: e90b9c1a759a58d7acdeba93de51730d, type: 3}
+      - {fileID: 21300000, guid: fcda35f60ca8583ca7401dc7d8e5476a, type: 3}
+      - {fileID: 21300000, guid: a6a1a172f1a45eb6861081ee51510025, type: 3}
+      - {fileID: 21300000, guid: 8fb958daea95593da9dbf404c53bc439, type: 3}
+      - {fileID: 21300000, guid: 048f6dda2f7051cfbd2d92653bf15dae, type: 3}
+      - {fileID: 21300000, guid: 23c2e030b8495e37b2dde6f63888728c, type: 3}
+      - {fileID: 21300000, guid: 8ec37c6859545975a821d687385297d2, type: 3}
+      - {fileID: 21300000, guid: b9f8dcb7bacc574f8cfe71a90eae1cb8, type: 3}
+      - {fileID: 21300000, guid: 49701500437453f1ab91b243dde63cd1, type: 3}
+      - {fileID: 21300000, guid: 05393ab72cc35e5094a95d7495b39a8c, type: 3}
+      bodyMask: {fileID: 2800000, guid: e0156f97f8df5794aef4a2e7a854d2f4, type: 3}
+      skinMask: {fileID: 2800000, guid: d831bfcc6cdc5ba8995412423e2e8279, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: 04fbe5e23a925403894c792cdd0fefbf, type: 3}
+      - {fileID: 21300000, guid: 63fafc12c4a3560eb1d70e3fa8fd6aa6, type: 3}
+      - {fileID: 21300000, guid: dadd586163c859dbb9ed107da6daae84, type: 3}
+      - {fileID: 21300000, guid: a86cd025b86f5983a5d1a0c359f0af13, type: 3}
+      - {fileID: 21300000, guid: b3b6a44673a1520aa73915b5a97d0ec9, type: 3}
+      - {fileID: 21300000, guid: f280ecad894b58639091f5ea4011d129, type: 3}
+      - {fileID: 21300000, guid: 9ccf25681b51571cbc040dee23d36839, type: 3}
+      - {fileID: 21300000, guid: a3bb863838165afc8b59ac75c356c8c9, type: 3}
+      - {fileID: 21300000, guid: 6a9fd7bf1d8f59ffbf10d7c7ba315cb5, type: 3}
+      - {fileID: 21300000, guid: 9b3051c247ba531495e8954bc52eae57, type: 3}
+      - {fileID: 21300000, guid: adfb57a3046652b2a16898a0c0d1b6d5, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: 0230c436db0a500c96020e31cf3ab1cd, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: ab165f8f5e4e503bb55ecc096174d24c, type: 3}
+    - parts:
+      - {fileID: 21300000, guid: dae408ac281c5d0bb8684c784fdbc5dc, type: 3}
+      - {fileID: 21300000, guid: 68c75a88f010526cbde33f64544cf8f3, type: 3}
+      - {fileID: 21300000, guid: 376a06bdd3845c3399802fa44250bc43, type: 3}
+      - {fileID: 21300000, guid: 30c30a0fb6e7545e93001d2859e2182c, type: 3}
+      - {fileID: 21300000, guid: 342bc0bd4ae756db9d4fd7648f8fffea, type: 3}
+      - {fileID: 21300000, guid: 9ca0794d0dbe5f1f9618b5036ac53d54, type: 3}
+      - {fileID: 21300000, guid: 8e7c589c6f42511aa0fd76bb1268e5d5, type: 3}
+      - {fileID: 21300000, guid: fdb17f1ffffd5f22a4a7357bbb06e196, type: 3}
+      - {fileID: 21300000, guid: 6540392ce682519495b13bfe3b7300e3, type: 3}
+      - {fileID: 21300000, guid: 6b5bd4066eac586ebb5c931e5a2dfb6a, type: 3}
+      - {fileID: 21300000, guid: 349d669cf39c5ac48a806e9ea2302bb2, type: 3}
+      bodyMask: {fileID: 2800000, guid: b61b36f630af59d092a2d33f7557a9b7, type: 3}
+      skinMask: {fileID: 2800000, guid: cddd84813223567eb8f2bb5c23d1a9c1, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: 747d86e416e15b5381e450b6f69c83fc, type: 3}
+      - {fileID: 21300000, guid: 6bc738c66c185ecf9bcb253ed38561da, type: 3}
+      - {fileID: 21300000, guid: 6b0d9448e6f05d5cb8c1eec6ac137880, type: 3}
+      - {fileID: 21300000, guid: 212d0562c2295f78806bf6021c0dfddd, type: 3}
+      - {fileID: 21300000, guid: ab35c3f2a2b456ffa040c1e8ddc0db1e, type: 3}
+      - {fileID: 21300000, guid: 9289a0353d065e8b801b5cee7eb27d96, type: 3}
+      - {fileID: 21300000, guid: e0c24dfe6f7a53d8aae1f8f880a15f2c, type: 3}
+      - {fileID: 21300000, guid: 879f119e801e5945a90fc3fa1304e94b, type: 3}
+      - {fileID: 21300000, guid: 935717a2e42d5710a17322faee17fed7, type: 3}
+      - {fileID: 21300000, guid: 9fd6fe4949f552dfbecd6b55cb71991b, type: 3}
+      - {fileID: 21300000, guid: 02eb26cee48a5e84948f8f8f62f9462e, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: 520fcef74e025ce683c4b4ca990ffc8a, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: e3747bd7d8dc556981f8d6004c97add0, type: 3}
+    - parts:
+      - {fileID: 21300000, guid: ce3a1c1e88c3566593d91efcd0558174, type: 3}
+      - {fileID: 21300000, guid: 9d6d956422a953288680e859196e170f, type: 3}
+      - {fileID: 21300000, guid: 3eae0400733c5e54a768d950d209f7cb, type: 3}
+      - {fileID: 21300000, guid: 1e63347c8f9f52538f424771979908d7, type: 3}
+      - {fileID: 21300000, guid: 76a38de69901587bad2c8ca211afd559, type: 3}
+      - {fileID: 21300000, guid: cb4c6d1f3dd15641976591bdf9f5817a, type: 3}
+      - {fileID: 21300000, guid: 9a5aacf9d7155226bf1cd9ddd7a66326, type: 3}
+      - {fileID: 21300000, guid: 355d6a86811f5a70a47154651a64fd46, type: 3}
+      - {fileID: 21300000, guid: fa68573d1d845f6d98e60ef94db8479e, type: 3}
+      - {fileID: 21300000, guid: 17d26dd3e7fb5691b15c85a1c85e064e, type: 3}
+      - {fileID: 21300000, guid: efeb0c8474605531896ec536ba4b0ae3, type: 3}
+      bodyMask: {fileID: 2800000, guid: caa01d378772548c8e6fbf10ddb5b91f, type: 3}
+      skinMask: {fileID: 2800000, guid: af79050dd8b650e0ace3ab2c007e26e0, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: 8117447d4efd5d40a2e7baf26256b852, type: 3}
+      - {fileID: 21300000, guid: a0fc144f1a7a502c92f8ab1575226f80, type: 3}
+      - {fileID: 21300000, guid: ad9cea67a7e05c61850c252701ada80c, type: 3}
+      - {fileID: 21300000, guid: 12ba3cb2169e5f47a51d68e30d699803, type: 3}
+      - {fileID: 21300000, guid: 699a7f7f30f7563598ccd5c43cc713d1, type: 3}
+      - {fileID: 21300000, guid: 3eec3927e0325829bbb30539752b62d6, type: 3}
+      - {fileID: 21300000, guid: 4f96baa772e35cd9ade6eb6fb9ed2156, type: 3}
+      - {fileID: 21300000, guid: 69568b209b1d541989f846113e5759e3, type: 3}
+      - {fileID: 21300000, guid: a09669da05845fcbae0eac3512832ad5, type: 3}
+      - {fileID: 21300000, guid: 42ed504f91845ec686f944f3659d6418, type: 3}
+      - {fileID: 21300000, guid: 1cfc275b5473588385212750f5f46241, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: 49253fae86d353e99b6231f28c66aa05, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: 94ab99489c55578a9953980195d87932, type: 3}
+    - parts:
+      - {fileID: 21300000, guid: c673e1fa0d345e919667ec49e1d67249, type: 3}
+      - {fileID: 21300000, guid: 2321072bc44753a59c78677e7f1170c6, type: 3}
+      - {fileID: 21300000, guid: 14ba50cfba0b54b2bd06ac571756c6c3, type: 3}
+      - {fileID: 21300000, guid: 4b89ad20ed9f560cb21ad0c2b061969a, type: 3}
+      - {fileID: 21300000, guid: 60b5c405e8475bb9b93735dbe5b77763, type: 3}
+      - {fileID: 21300000, guid: 3c15cfa58d6052b880d10029fd113f0c, type: 3}
+      - {fileID: 21300000, guid: 76e9c2dd3f2450288677b4b3227a0b69, type: 3}
+      - {fileID: 21300000, guid: 6a9c0b580bed5b1089aa969c436f6aa3, type: 3}
+      - {fileID: 21300000, guid: 82c201b0d32c5c2499ec9b814313e172, type: 3}
+      - {fileID: 21300000, guid: 9b214d642a045029a449cd8d4acd71fd, type: 3}
+      - {fileID: 21300000, guid: aff37ab365ad581aa0bfaa8b9e6a3e67, type: 3}
+      bodyMask: {fileID: 2800000, guid: 379b719e287b5f83ad6f7295c8aa448a, type: 3}
+      skinMask: {fileID: 2800000, guid: ae83aab4713e5de689a9b5fea822521b, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: 2f7735941b0c5f06bd8b0fc755a8e2f6, type: 3}
+      - {fileID: 21300000, guid: b8f97e0bd3ad559586e047e84de40537, type: 3}
+      - {fileID: 21300000, guid: b145db82b69655f683b29be3aa4e3c09, type: 3}
+      - {fileID: 21300000, guid: ba79b50e86d65d39b166b0a195aa532e, type: 3}
+      - {fileID: 21300000, guid: cf487cddfc6358e4b2dfebd88d657250, type: 3}
+      - {fileID: 21300000, guid: 35a62b53693a56cf8d1c809a1adebabc, type: 3}
+      - {fileID: 21300000, guid: e25d19b84fc35a4fb5364e245b209c13, type: 3}
+      - {fileID: 21300000, guid: 42045de837445d168df883b867cf95ad, type: 3}
+      - {fileID: 21300000, guid: ea035a0f8ab050fb91893ab9fa6880fb, type: 3}
+      - {fileID: 21300000, guid: 67271267d1dc5094b7d32cb2ea0a8945, type: 3}
+      - {fileID: 21300000, guid: 81df2af36cf959d5ba1d58ba96986bc4, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: d73b0d3345285904a15e844876f8eb99, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: ddf3d042044c5358a09d873e3206b78a, type: 3}
+    - parts:
+      - {fileID: 21300000, guid: ea54554ae8f6560f86f34941ce128029, type: 3}
+      - {fileID: 21300000, guid: 23ab83c8f0375822aa02d1a3a0004592, type: 3}
+      - {fileID: 21300000, guid: b38c41a401815d388874268b3a585191, type: 3}
+      - {fileID: 21300000, guid: 530f46f83d38524f9748b14a5c9bfb3e, type: 3}
+      - {fileID: 21300000, guid: 61fdae71c69356808059406c6bb7fe74, type: 3}
+      - {fileID: 21300000, guid: 324d57b4cddb55938208e0c5bf2ccf00, type: 3}
+      - {fileID: 21300000, guid: 6a51121dc233566a944a1a8cbde55005, type: 3}
+      - {fileID: 21300000, guid: 0d4cd3d9fc10513e9c021663003144fa, type: 3}
+      - {fileID: 21300000, guid: de20c6ea847350818201f40428956a4f, type: 3}
+      - {fileID: 21300000, guid: 3c4674a8ab11524f8f700798236435ed, type: 3}
+      - {fileID: 21300000, guid: 1e55964af9135821a6de6c67ed3ffaf6, type: 3}
+      bodyMask: {fileID: 2800000, guid: 8b7fe1c748fd5ae989dc37d971fddf88, type: 3}
+      skinMask: {fileID: 2800000, guid: d7ccb4b6e8e35bd482f56fb6616e4693, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: 36c4c98bff5a5e6d8e2d6b0c56475d34, type: 3}
+      - {fileID: 21300000, guid: 1ee229c7daad564a96c11de5646af33a, type: 3}
+      - {fileID: 21300000, guid: b2786dc9016451ecafe97072f9ff0336, type: 3}
+      - {fileID: 21300000, guid: e9c8e306fc6157b7ad5fa97ee853ddb9, type: 3}
+      - {fileID: 21300000, guid: 5245ce948bcf58609f5a811ef1455347, type: 3}
+      - {fileID: 21300000, guid: 172a9e9b935454989c328bd8873f47ed, type: 3}
+      - {fileID: 21300000, guid: af0166d9fcb4522398f340b24f629e58, type: 3}
+      - {fileID: 21300000, guid: b28df0a4fca351c39ffcc6aef5bd2391, type: 3}
+      - {fileID: 21300000, guid: b10a09e1f05d5405ac8fb0ed3591e761, type: 3}
+      - {fileID: 21300000, guid: 42f2d80743805fe1b529d5ee543b8c32, type: 3}
+      - {fileID: 21300000, guid: 6c47393b81f75364877fb0a4e0a7d335, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: 387996e55a275b488c49f98e3e509c54, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: abd980918a9b562692055af1b844947e, type: 3}
+    - parts:
+      - {fileID: 21300000, guid: ef2f2a779be15f5587f90e8eb5467a5a, type: 3}
+      - {fileID: 21300000, guid: c050ed4febb0533896fb95ad2406d1b0, type: 3}
+      - {fileID: 21300000, guid: 5270b7167dca5819a7226e9172b5c67a, type: 3}
+      - {fileID: 21300000, guid: 9a1a1c049e04553eb5bfed353820c3d0, type: 3}
+      - {fileID: 21300000, guid: 95f4748139d15921810c6090c6a66f97, type: 3}
+      - {fileID: 21300000, guid: b79e0717da6d5643b54d1b08bba69c3b, type: 3}
+      - {fileID: 21300000, guid: ef5396802ec75c5085a51647e99c7139, type: 3}
+      - {fileID: 21300000, guid: 991ac51cda8b54c0961f7ac17c2ebe12, type: 3}
+      - {fileID: 21300000, guid: f4cb5e0274bd5eeaae4f4105f74aea8c, type: 3}
+      - {fileID: 21300000, guid: 33d9cae302165ec795ce92dd4cb20700, type: 3}
+      - {fileID: 21300000, guid: cf0345343b2050f887140a73ad9546dc, type: 3}
+      bodyMask: {fileID: 2800000, guid: 5c8cfa9c5dcf55dfac945bc18cf31438, type: 3}
+      skinMask: {fileID: 2800000, guid: 051555704c3b5f1b93e10424fe1d0ad1, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: 1ddcdbfe2fe05ab38744f51ceefab74e, type: 3}
+      - {fileID: 21300000, guid: 5a046c9c248c58b6b55ed05de1018b44, type: 3}
+      - {fileID: 21300000, guid: 400ceef0de5f57419679836c7d9d85f4, type: 3}
+      - {fileID: 21300000, guid: 215618185037549481f6b034aebeaf2d, type: 3}
+      - {fileID: 21300000, guid: b62fe31e97ba5eb291352469711495ca, type: 3}
+      - {fileID: 21300000, guid: cb5076f10e6452c9a9effa6778002f69, type: 3}
+      - {fileID: 21300000, guid: 9a807aed5a2b55d18041758d59721e07, type: 3}
+      - {fileID: 21300000, guid: fed08e9800625399982341f7af60b599, type: 3}
+      - {fileID: 21300000, guid: 5e33f5dbe64a51adaf779d103a5fd3bd, type: 3}
+      - {fileID: 21300000, guid: cd41f0891a4756fa92c8dabb60a174eb, type: 3}
+      - {fileID: 21300000, guid: b245c7353a875902b8e7426a60a4d5c9, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: 0005b4248cd35c6da06aa30de9edae41, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: ab28674bec8a5c0ab47f5260f8676b08, type: 3}
+    - parts:
+      - {fileID: 21300000, guid: 02e63bab800d509c9d0d4ed6839f5d98, type: 3}
+      - {fileID: 21300000, guid: f1e85179cedc5d99abb25f6c7990caa4, type: 3}
+      - {fileID: 21300000, guid: e03b9e88793a5c5eb5b5f866b072a551, type: 3}
+      - {fileID: 21300000, guid: 3a0a5965f91357e0a390499c4fb5d985, type: 3}
+      - {fileID: 21300000, guid: f435ea80daf557dca6aae70d8c5147a7, type: 3}
+      - {fileID: 21300000, guid: 22c66f914be25b6196b91772ec4be39a, type: 3}
+      - {fileID: 21300000, guid: c4bf8069c9b954778a2d26514047b0ff, type: 3}
+      - {fileID: 21300000, guid: 221eb0b47f5b5ea3807428189f707291, type: 3}
+      - {fileID: 21300000, guid: 68cb45ffac8a5cfab8bd7faa94dc821d, type: 3}
+      - {fileID: 21300000, guid: b3f75c939fd35b30b0361116133e2d8f, type: 3}
+      - {fileID: 21300000, guid: f8953e25404d519587705f74ff7c790d, type: 3}
+      bodyMask: {fileID: 2800000, guid: c6721cd2d6365aaeb661889f212da600, type: 3}
+      skinMask: {fileID: 2800000, guid: de33d1c6bdcd5e5f8b61a681f5c1a147, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: 8ed0b52ac3db5b34a49149a528831546, type: 3}
+      - {fileID: 21300000, guid: 03f3e453931152a4b77204f63a5d5659, type: 3}
+      - {fileID: 21300000, guid: fa58694af68a5d2cbe74c769875427cd, type: 3}
+      - {fileID: 21300000, guid: add41b3c520c5b5ab0898a754608a73f, type: 3}
+      - {fileID: 21300000, guid: 9bf6303d736d5e8da68bfaf78b5f9eea, type: 3}
+      - {fileID: 21300000, guid: 3b1ac7b6d0765fa09e9b65ca505933ca, type: 3}
+      - {fileID: 21300000, guid: fb594cc02e65575b988c1cfeea17dbd5, type: 3}
+      - {fileID: 21300000, guid: 15d3067fe8a7591b889b9ffa23caafe0, type: 3}
+      - {fileID: 21300000, guid: 8b85ae22c93f5c25acb0cd7d5508ac40, type: 3}
+      - {fileID: 21300000, guid: f53a723106dd5a5385b37adb611034bc, type: 3}
+      - {fileID: 21300000, guid: 5b5d66287f2653d69ddd95d88f4467f3, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: e7644ebda8535b00ade8caf6c72bbad1, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: 4dae2f2da3cd5f748b02290292f553e9, type: 3}
+  - idle:
+      parts:
+      - {fileID: 21300000, guid: 1d8809a4dc425702b114d740585f3866, type: 3}
+      - {fileID: 21300000, guid: cc1fe5f66803541e89977dfcceaedbe8, type: 3}
+      - {fileID: 21300000, guid: 9d03e2e3746653a9b86f4f64cf6c59eb, type: 3}
+      - {fileID: 21300000, guid: a4a0c9d3e54b5a5196caf6d626d93964, type: 3}
+      - {fileID: 21300000, guid: d6967cb896305563a2ead238fd483907, type: 3}
+      - {fileID: 21300000, guid: 78527509e182596c8b4f335f5cdbdfaa, type: 3}
+      - {fileID: 21300000, guid: 83cc1d50f9aa54b0a8e04657dbd10805, type: 3}
+      - {fileID: 21300000, guid: 4351afdba48353a4a5159be99edf816f, type: 3}
+      - {fileID: 21300000, guid: 8bb78935b7b45a5f929f1b0016fae3cf, type: 3}
+      - {fileID: 21300000, guid: 24cd4e8cebc6578b8f499a8d43e1b91d, type: 3}
+      - {fileID: 21300000, guid: 6989d1d16d1457c187580b53a9b2d75d, type: 3}
+      bodyMask: {fileID: 2800000, guid: 30c4f068f1185ef9abc8a4edc6762912, type: 3}
+      skinMask: {fileID: 2800000, guid: ca4c66a5096a55f88b4b7cec0614bc90, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: 93bb7f934a7350bcbac6cce5ed8d84aa, type: 3}
+      - {fileID: 21300000, guid: dbfd030de68b5b39a9db3f5f90f19e77, type: 3}
+      - {fileID: 21300000, guid: ea0b6ba145e151798aeafc75bc2caf35, type: 3}
+      - {fileID: 21300000, guid: 20461753176955e1b43e381e3d02a4dd, type: 3}
+      - {fileID: 21300000, guid: 76f48785cf905f5db751baf416588a2b, type: 3}
+      - {fileID: 21300000, guid: 78a8ebcc76035cd5afde9f2229494c3e, type: 3}
+      - {fileID: 21300000, guid: 67818a972fa658fcb7d9eb3e3459356f, type: 3}
+      - {fileID: 21300000, guid: b01b55714b1c5be1b8bd02ba5f3ad2e8, type: 3}
+      - {fileID: 21300000, guid: e63832a66ca850a8acf49824cb541880, type: 3}
+      - {fileID: 21300000, guid: 4336fbf8d35156859d879038a397e64c, type: 3}
+      - {fileID: 21300000, guid: 101fa476f3c95fefa42e4b58e819cc4c, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: 9ecb2b906ea85f10bcdc7e7a6e9379a7, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: 280a1a5553005deaab5c57e7c4a339df, type: 3}
+    walk:
+    - parts:
+      - {fileID: 21300000, guid: eb8e52e7b6245c6ba0b389aa91de25bc, type: 3}
+      - {fileID: 21300000, guid: 691688a128a05a658aae29afb052f870, type: 3}
+      - {fileID: 21300000, guid: f19880d0a0a2597480a27ed54775d403, type: 3}
+      - {fileID: 21300000, guid: 1b3e9347d3d95bdab0d8d2674ed6b9c4, type: 3}
+      - {fileID: 21300000, guid: 8fe8eb4bea145471b0141792288e020e, type: 3}
+      - {fileID: 21300000, guid: 464fe6286b355a6d86dc854207246683, type: 3}
+      - {fileID: 21300000, guid: 073c3174959e54ff9ea70ad77922fd8d, type: 3}
+      - {fileID: 21300000, guid: 8465a5f4e22652118075ce143cf52166, type: 3}
+      - {fileID: 21300000, guid: a74d4d0fc3145daea43fd2baf7723739, type: 3}
+      - {fileID: 21300000, guid: bf52b45118f25c128b96c9ede546a267, type: 3}
+      - {fileID: 21300000, guid: c74dfa75988e503d9c8f8dfa9106a2d8, type: 3}
+      bodyMask: {fileID: 2800000, guid: 0536fbfbb8db5c0baff774bf07f2261e, type: 3}
+      skinMask: {fileID: 2800000, guid: f2320a95f0a45040ba235266f445afbf, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: d4739da7ebad516984de39a598d849d0, type: 3}
+      - {fileID: 21300000, guid: 656a80efc7e05ff886d18b2b35a83b50, type: 3}
+      - {fileID: 21300000, guid: 0b6ab7ce4cc8510482c72e14fb5efc5d, type: 3}
+      - {fileID: 21300000, guid: 148cef6bcb2152af806df8ab420f8ab8, type: 3}
+      - {fileID: 21300000, guid: 92c895c5438754b0821f7d129c178704, type: 3}
+      - {fileID: 21300000, guid: 45af7155ad765f2c9d6c64c88d81ac00, type: 3}
+      - {fileID: 21300000, guid: 1dd72adba42358fb8b1c9cd687f90c7e, type: 3}
+      - {fileID: 21300000, guid: beadedc5e23259b78d50b299b844906f, type: 3}
+      - {fileID: 21300000, guid: 1594b9e0abe95b60804e81e233d0a050, type: 3}
+      - {fileID: 21300000, guid: b8248a99293f5cf2b00dee2c17ca764d, type: 3}
+      - {fileID: 21300000, guid: 7d22e0dede3d5ef2be933b2d640db171, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: 9f3cfe5a98c05919815cb1f1a98c9db8, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: cf0f2d71181a593cae50c6a0dfb8e09e, type: 3}
+    - parts:
+      - {fileID: 21300000, guid: bc3f868e24ff5bee96e205015034c15d, type: 3}
+      - {fileID: 21300000, guid: daeae7cc668e59c7960398e891a3a45d, type: 3}
+      - {fileID: 21300000, guid: 89f4c994aaa555fc88467bc6ccf07014, type: 3}
+      - {fileID: 21300000, guid: 92be96feb6ca5eaeb7126d5079cbc8f5, type: 3}
+      - {fileID: 21300000, guid: befcdf7aaaac5f0b87607a534f4c404a, type: 3}
+      - {fileID: 21300000, guid: 0120533cd1e85d18a7b1677bf3672da5, type: 3}
+      - {fileID: 21300000, guid: 7873639e836952cfa2567481b5740bb2, type: 3}
+      - {fileID: 21300000, guid: 91b6bf22a53f53a3a6a34b798065789e, type: 3}
+      - {fileID: 21300000, guid: 610cba3f779c502faaa98c2f037f120c, type: 3}
+      - {fileID: 21300000, guid: 4ebcc83913eb5e8987406464080a993d, type: 3}
+      - {fileID: 21300000, guid: 633769cbec46563cb274e8c0ad84ee67, type: 3}
+      bodyMask: {fileID: 2800000, guid: fde64d3af7d757d2bcb8f7365ed42524, type: 3}
+      skinMask: {fileID: 2800000, guid: 98b78331bd035c06bae00c362daf2efc, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: 2e875c200fbc50488adb13822eef4c2f, type: 3}
+      - {fileID: 21300000, guid: 9dc47fbfb9965fe49fb3f6e189209db1, type: 3}
+      - {fileID: 21300000, guid: f3c1185639065caca3824c7888edaf3f, type: 3}
+      - {fileID: 21300000, guid: 0e5882ad9f5250b0959c8646a09fdc44, type: 3}
+      - {fileID: 21300000, guid: 5e8f034cc22b5335ae2271ba4440eeca, type: 3}
+      - {fileID: 21300000, guid: 40c4e317ff89539eada71411e562bf0c, type: 3}
+      - {fileID: 21300000, guid: 58fd1b5fe20b59e9b412c2e524d6726a, type: 3}
+      - {fileID: 21300000, guid: c33881d29d555f36a5b9729334eaf476, type: 3}
+      - {fileID: 21300000, guid: 40f84681d4435ac09cc4ba40baea581a, type: 3}
+      - {fileID: 21300000, guid: 17682e13f1005c8ca42d530b8f596215, type: 3}
+      - {fileID: 21300000, guid: ac310300b40f5780a80b8b43ac6ebcdc, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: 03bee71a9eaa59358c388f647fa8b1be, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: 11c62ff07efe570ca69fdaeb0ff98495, type: 3}
+    - parts:
+      - {fileID: 21300000, guid: 805b8118004c5206b0e617a7c7a8a7f2, type: 3}
+      - {fileID: 21300000, guid: 93485d915d985f35b44df1ec07caba98, type: 3}
+      - {fileID: 21300000, guid: 1ef9c4c175105036b8d3ff393a6b3b92, type: 3}
+      - {fileID: 21300000, guid: 3253ba76a1ad50e38b1b1915cd321c32, type: 3}
+      - {fileID: 21300000, guid: 6be57bb992a1552f8f3c4fe52cf1fab2, type: 3}
+      - {fileID: 21300000, guid: 2d947fd1c7f4508d82a35081bb834bad, type: 3}
+      - {fileID: 21300000, guid: f7261cd8c95f599792edc757a2fe4763, type: 3}
+      - {fileID: 21300000, guid: efc4c9216ad85441b2506060cc1c10db, type: 3}
+      - {fileID: 21300000, guid: 0d5154e717135df4a0f428441d84ffd1, type: 3}
+      - {fileID: 21300000, guid: 4b978ad8d50358ca83e98fba02dd2a3f, type: 3}
+      - {fileID: 21300000, guid: f4f6fee07e8255d6a58d49d959ce7a78, type: 3}
+      bodyMask: {fileID: 2800000, guid: 519893fcbfc15580b25c7fdb1ac4a872, type: 3}
+      skinMask: {fileID: 2800000, guid: 630544c1f9da510e9f40ffb2c2a9a5eb, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: 27db824f929e5c29b25b4904adb584a0, type: 3}
+      - {fileID: 21300000, guid: 2d4e02408e2051d0ad380b0864de1aa8, type: 3}
+      - {fileID: 21300000, guid: 7dc7b1a5cc465a71b95f41c6615bebbe, type: 3}
+      - {fileID: 21300000, guid: 1897559dab295008b8cfad9a968ede14, type: 3}
+      - {fileID: 21300000, guid: 1487892407695d1ea3a1679a3b789a31, type: 3}
+      - {fileID: 21300000, guid: 1c8ba7885e265e4fa6370a65fed6ad8c, type: 3}
+      - {fileID: 21300000, guid: b3c3d9fb28265327a91cab1f453c1330, type: 3}
+      - {fileID: 21300000, guid: b390ae78d2345e70b88e6f178826518d, type: 3}
+      - {fileID: 21300000, guid: 3cf453bb29d15a7fab58d2bb22bff3fe, type: 3}
+      - {fileID: 21300000, guid: 52f467265e2650738a31314edb386992, type: 3}
+      - {fileID: 21300000, guid: 7383d3c6b3095b1ea14b37aa254ddc3f, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: 4f05680656c65eef863275c75b0748cb, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: 8c5886cd22f352c1b44e1c7291d53f68, type: 3}
+    - parts:
+      - {fileID: 21300000, guid: ae35e24577b65a1495cb62886be47e3b, type: 3}
+      - {fileID: 21300000, guid: e7a5add786bd535eab3591f4a95a2f31, type: 3}
+      - {fileID: 21300000, guid: ab40758b0bce56aeae7997e7074cbdd4, type: 3}
+      - {fileID: 21300000, guid: f59a2be35ede532b9adc575babe5ea1e, type: 3}
+      - {fileID: 21300000, guid: c699f61d871c509b8d1b7b8f6b012620, type: 3}
+      - {fileID: 21300000, guid: f0479ecac42f5df6b7f73cbbf91a8a56, type: 3}
+      - {fileID: 21300000, guid: b19e25f3faa85b7a84e8e7b42b610dbd, type: 3}
+      - {fileID: 21300000, guid: 47559e35c6fa569e86cf8c653467652a, type: 3}
+      - {fileID: 21300000, guid: f8ee4d18440855b8b6d347d49397a405, type: 3}
+      - {fileID: 21300000, guid: a52f5de0feb35411927c9de506054d9e, type: 3}
+      - {fileID: 21300000, guid: d1eb24ee0b8c52be881ab2a823a895ce, type: 3}
+      bodyMask: {fileID: 2800000, guid: e9938ccff69a56dea5b95b6298beb600, type: 3}
+      skinMask: {fileID: 2800000, guid: 34f252210cbf5164b90ca12dd68714ed, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: 8a797ef306b0509b9343e512376d0249, type: 3}
+      - {fileID: 21300000, guid: 878f81325fc650d9ad5509171a7e3218, type: 3}
+      - {fileID: 21300000, guid: ba28f1828a515feeade427da77c3f549, type: 3}
+      - {fileID: 21300000, guid: 1ce453813f925fc781e068ad717f32d2, type: 3}
+      - {fileID: 21300000, guid: f5c509730b7f5d68adf54ef05f24a13e, type: 3}
+      - {fileID: 21300000, guid: 1bd333b7c3355fca8d5f2bc20eaff6e7, type: 3}
+      - {fileID: 21300000, guid: dc4a08f330955831b3da86e0c88cdfeb, type: 3}
+      - {fileID: 21300000, guid: 0214e645a0ca578db70595387278cfde, type: 3}
+      - {fileID: 21300000, guid: 4b091e2d7ce95be487fb9dd0fb36d493, type: 3}
+      - {fileID: 21300000, guid: 94c469a0edfe5e07b3269d7c2b17ef6c, type: 3}
+      - {fileID: 21300000, guid: b8bec36ec6f6522b93e71f708167f714, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: 0263a9d46398523abb7582cbfc1c97de, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: 61d2f26c80725640b2bf95d7776185f2, type: 3}
+    - parts:
+      - {fileID: 21300000, guid: d9ed185353805488aebf645e33646f24, type: 3}
+      - {fileID: 21300000, guid: 3fadef11ba1f5439a7f7fec6135fc308, type: 3}
+      - {fileID: 21300000, guid: 0a8b2dd0d246525ea25b2a7f5d65a2be, type: 3}
+      - {fileID: 21300000, guid: c758fa0bfc495202a6612f26516a518c, type: 3}
+      - {fileID: 21300000, guid: eb4bc6ec5b6957089e5832f6ce78b861, type: 3}
+      - {fileID: 21300000, guid: feb32217740e588180e48cca319057f9, type: 3}
+      - {fileID: 21300000, guid: 565c287154c7589182469a67b817bf75, type: 3}
+      - {fileID: 21300000, guid: 88842d18655e5b8981e054a7d09e8aef, type: 3}
+      - {fileID: 21300000, guid: abdebf00014f5436b4d139b1952740c1, type: 3}
+      - {fileID: 21300000, guid: 1fd6e52de7fd564daf1cd41c6ea0398e, type: 3}
+      - {fileID: 21300000, guid: a9bdea6b5f0558a8874c567007f4ad76, type: 3}
+      bodyMask: {fileID: 2800000, guid: ea4a7c1a40a55c29a250a0fe0327cd11, type: 3}
+      skinMask: {fileID: 2800000, guid: ee3a5a2f1fd05d568ab8318e52e22446, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: 3220713e99315ff2a72d67060c8328f5, type: 3}
+      - {fileID: 21300000, guid: 0929ca9c4a6c5cec9a9c56cc1325ca6d, type: 3}
+      - {fileID: 21300000, guid: 275567da77ed55f5a770e4269d20a989, type: 3}
+      - {fileID: 21300000, guid: 3cb03074b56859a292cc17821c3d3a16, type: 3}
+      - {fileID: 21300000, guid: 2fde4db6659654b3acfa5bae0e3625d0, type: 3}
+      - {fileID: 21300000, guid: 32cce58f0ee152a0a9474300e4da7730, type: 3}
+      - {fileID: 21300000, guid: aafeb2a5079b5762a0a33ede782b11d1, type: 3}
+      - {fileID: 21300000, guid: 74652acebf9a5fa6a11dd61503f34c34, type: 3}
+      - {fileID: 21300000, guid: e4e2ed900e9b54cb961fb0bef3832b42, type: 3}
+      - {fileID: 21300000, guid: 8d487d0e9e6f56bcb271d755c85ce146, type: 3}
+      - {fileID: 21300000, guid: 0b1b655d46d9516fa52617aa99d7e227, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: 907cd6b37a20518cb438b92b78eeece4, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: 5d24ad87509c5d5f8bb085c27a0c222a, type: 3}
+    - parts:
+      - {fileID: 21300000, guid: d71db0734e2c5643aa7cff345ffa8f02, type: 3}
+      - {fileID: 21300000, guid: 93d9f4b6e36d5ea8b0a622ad8a812e28, type: 3}
+      - {fileID: 21300000, guid: 1e1a133b5f3e5d3db7f2bc9d92b1d9e3, type: 3}
+      - {fileID: 21300000, guid: 2de9b0e9733150909c39d0ae352d4a08, type: 3}
+      - {fileID: 21300000, guid: 5e49b088f22e5081abeb06701595413a, type: 3}
+      - {fileID: 21300000, guid: 10f19019a8b1522e9660d65056285222, type: 3}
+      - {fileID: 21300000, guid: d4e71d87acc45d77a206c87e5ecef55d, type: 3}
+      - {fileID: 21300000, guid: 7a5c4ce700d454efa6d385adb59c2cc2, type: 3}
+      - {fileID: 21300000, guid: e66f835a02b156bcbc1dea46b3c4f228, type: 3}
+      - {fileID: 21300000, guid: b5e3f6e0a73c5b42ad7170a7a42f163a, type: 3}
+      - {fileID: 21300000, guid: 76023fad5b8a54bdb35f3fa503b4c5ae, type: 3}
+      bodyMask: {fileID: 2800000, guid: 8b6c2269a7ce5704adc0de29d5f5bea2, type: 3}
+      skinMask: {fileID: 2800000, guid: e6787d6df9775955a978a794fb5370e1, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: b12b1297684e5bef87e1bb870f50f95e, type: 3}
+      - {fileID: 21300000, guid: 66d082da424f570cbaacf36a25dc052d, type: 3}
+      - {fileID: 21300000, guid: 6cba53ff65a85b499b5803957f921540, type: 3}
+      - {fileID: 21300000, guid: e6e0b890ec7c52f49117eaa523a7d931, type: 3}
+      - {fileID: 21300000, guid: fbf1dc958bca5803841e1e62341769b0, type: 3}
+      - {fileID: 21300000, guid: 567111d34c8c5e149d44f396d7b23f5f, type: 3}
+      - {fileID: 21300000, guid: f253393bb49058919d006a4eb116742f, type: 3}
+      - {fileID: 21300000, guid: 0273c7a1f0f95b0eb489f1f807af322c, type: 3}
+      - {fileID: 21300000, guid: 6c2c26b5bd8959babd3e0694aa8d1fbc, type: 3}
+      - {fileID: 21300000, guid: 5d28c5874dab57258201a46f31303924, type: 3}
+      - {fileID: 21300000, guid: 73aea634b9ce584286ea17b82267c56d, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: 5e831df6aefb5181bfa2b8a7f24fe709, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: 486ffa3c6bcc5c2886df24e5b8820c17, type: 3}
+    - parts:
+      - {fileID: 21300000, guid: b6f44ab4b80e5af4b150242ad2242373, type: 3}
+      - {fileID: 21300000, guid: 48fd1b3258605afca1578c022586f88c, type: 3}
+      - {fileID: 21300000, guid: 34aa95fe180855baa46bc30d76b54d02, type: 3}
+      - {fileID: 21300000, guid: 31131d23a08f50ff9e16099f12b22cbb, type: 3}
+      - {fileID: 21300000, guid: 2a51de902c1552ae91257997c258903a, type: 3}
+      - {fileID: 21300000, guid: 4bc0370b944a5814a6871961eff4288e, type: 3}
+      - {fileID: 21300000, guid: b6e8908233fc520ca5258da42affa42f, type: 3}
+      - {fileID: 21300000, guid: b4e0890e527054029e1a8c4c6ff5815f, type: 3}
+      - {fileID: 21300000, guid: d4cde8a3588f557b9fe6a2433bd53cd0, type: 3}
+      - {fileID: 21300000, guid: a37c70ba011554ae9c26001e7756f83c, type: 3}
+      - {fileID: 21300000, guid: dd51b20449145c1694a92299c80c2ea1, type: 3}
+      bodyMask: {fileID: 2800000, guid: d07cf19c87165b20a7991769ee4039d5, type: 3}
+      skinMask: {fileID: 2800000, guid: 62aae2c6b8505b78803614219023f7db, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: 90ed90d5231052d58e6ab5e0fb18d7c8, type: 3}
+      - {fileID: 21300000, guid: b9c1bf3e16165b89bfd501a77eed19b4, type: 3}
+      - {fileID: 21300000, guid: 68caa4add5e15a2eae742c03e881bad7, type: 3}
+      - {fileID: 21300000, guid: 1ce06b7169005181a6300d6027fea99f, type: 3}
+      - {fileID: 21300000, guid: 050a835b18595939837c5c6d84b9a030, type: 3}
+      - {fileID: 21300000, guid: 5c0661de4fe15d47941adea88002f8f1, type: 3}
+      - {fileID: 21300000, guid: 35c762832deb5496b907d2594967cc89, type: 3}
+      - {fileID: 21300000, guid: 39468ecb8ba75bf58e7aa0763561e72f, type: 3}
+      - {fileID: 21300000, guid: 7814b1e5a56151b68f510a655c7170a3, type: 3}
+      - {fileID: 21300000, guid: 93a2bdc9d5a05c91a0d65d61a25c7477, type: 3}
+      - {fileID: 21300000, guid: 1e0315b1a8445c6db9e81ffb98396112, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: 845717b8c94b567fa3d53c5d94bdc362, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: 4e4c35911bdf583ab24c41fa357b99a0, type: 3}
+    - parts:
+      - {fileID: 21300000, guid: 5a9834699dfe5b8792fe8c77e7dd434a, type: 3}
+      - {fileID: 21300000, guid: 58b45e1510a85fdb9c4c7c305bdbe8e2, type: 3}
+      - {fileID: 21300000, guid: 15cd226f744f5f1897a84398da185c6c, type: 3}
+      - {fileID: 21300000, guid: 556c6330ba0d58869804332098a0233e, type: 3}
+      - {fileID: 21300000, guid: ffc3544e0275579aada312bed0365ed3, type: 3}
+      - {fileID: 21300000, guid: 1762f168f06859648f422213aea4248d, type: 3}
+      - {fileID: 21300000, guid: a68ba6510f335b818af367a4b601cfd2, type: 3}
+      - {fileID: 21300000, guid: 6f31656f2315538c84970e9f8a2cf8ef, type: 3}
+      - {fileID: 21300000, guid: f30059b6a0835d2883b4991dbc39a76c, type: 3}
+      - {fileID: 21300000, guid: 5c7c308525d158a593d78692e5b10999, type: 3}
+      - {fileID: 21300000, guid: 9bb3c2e9c15d5b20ad9f98b4f7c4cf76, type: 3}
+      bodyMask: {fileID: 2800000, guid: 885b87f349b05b84a8b8a178610be9cd, type: 3}
+      skinMask: {fileID: 2800000, guid: 1c94a131f4f353dd966a8a9998791e09, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: 7d2f0f520dcc5be09ea7c766b68e1e06, type: 3}
+      - {fileID: 21300000, guid: 9d72c2d9a61b5392b10821352626f2b7, type: 3}
+      - {fileID: 21300000, guid: 4077017f2a9f54e8bc08379920b0814f, type: 3}
+      - {fileID: 21300000, guid: 02e1a9ced6ef5ffb90a605889cfc8f0d, type: 3}
+      - {fileID: 21300000, guid: 47c31e455c645f53920964f0dc6f40bf, type: 3}
+      - {fileID: 21300000, guid: e8094079d7e855d6b424eeed7f5595ee, type: 3}
+      - {fileID: 21300000, guid: 9d0c01e754e95fcdbefef2d6ab6fb241, type: 3}
+      - {fileID: 21300000, guid: 5c4f90c37a165f03a49fc50fdf2c42c8, type: 3}
+      - {fileID: 21300000, guid: 0dd5ce200fb0548095991a200b57df5d, type: 3}
+      - {fileID: 21300000, guid: 62b9043db7e45204b8e8d8c254ae47e9, type: 3}
+      - {fileID: 21300000, guid: e530cb7e0bf751879714a8f2324cc0c4, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: f86ccb5d8c015fd88ebd02a960cb1f11, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: e61af13640ff576f8fdafc0855324b4e, type: 3}
+  - idle:
+      parts:
+      - {fileID: 21300000, guid: abccb4f0ee6a5a5eba467895f7fdd6b4, type: 3}
+      - {fileID: 21300000, guid: 7ffb02f901f556cda0fa55f7080dc35c, type: 3}
+      - {fileID: 21300000, guid: d3d99ff634ff5d02b247fc6a04bdd6f6, type: 3}
+      - {fileID: 21300000, guid: 59d4124597df58859194f3cd8827f9b1, type: 3}
+      - {fileID: 21300000, guid: c08d317b0d645292bac8cda793e42696, type: 3}
+      - {fileID: 21300000, guid: 6df2067865bd5c81a6c33b97965e6288, type: 3}
+      - {fileID: 21300000, guid: fc283200417d5b6898469b7223f692dc, type: 3}
+      - {fileID: 21300000, guid: 1b993decd3cc5829a0ce818a99c4740c, type: 3}
+      - {fileID: 21300000, guid: fc59c808765251d3a3b950bbc9af17c3, type: 3}
+      - {fileID: 21300000, guid: bb7fe78e9c4d5671b76965daa30ed138, type: 3}
+      - {fileID: 21300000, guid: 93a074abf66a590f87f22ce61a8b1b91, type: 3}
+      bodyMask: {fileID: 2800000, guid: 6e34ce5962e854c2a4eaccb68ea1fc70, type: 3}
+      skinMask: {fileID: 2800000, guid: d2651271e51e510fb54cb46ea252c02d, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: 33fa4da0022e5b54a6bb0e5549b71037, type: 3}
+      - {fileID: 21300000, guid: f5ada3970bdd584794813de968371c26, type: 3}
+      - {fileID: 21300000, guid: 90cc607d71525362884f41df3f4d629b, type: 3}
+      - {fileID: 21300000, guid: 96c163e9acc7500c842d5febcef88002, type: 3}
+      - {fileID: 21300000, guid: 044ca74e791652348dfd07d9b43588f4, type: 3}
+      - {fileID: 21300000, guid: a87b18e73de952f4bd79fac996a761d3, type: 3}
+      - {fileID: 21300000, guid: 259106c9d1d151a2bf270f4a980493cc, type: 3}
+      - {fileID: 21300000, guid: 2a08bb7766045754a486f7642a3bcc0a, type: 3}
+      - {fileID: 21300000, guid: 98ca87aa2ab65bf7bff26b8be63fc9df, type: 3}
+      - {fileID: 21300000, guid: 32a9d6b96c0150358933e42f071841de, type: 3}
+      - {fileID: 21300000, guid: 868fc78037b953a1b65979c45d041c2d, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: 4e498c431d6d587a885f50ac7d79915c, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: c65d2bfb3f7758058d3304dd0eeded7a, type: 3}
+    walk:
+    - parts:
+      - {fileID: 21300000, guid: 6f971964cb3751a4857799378b1b1250, type: 3}
+      - {fileID: 21300000, guid: 9a1b6babe98e52e69cd8a99a5ffcc081, type: 3}
+      - {fileID: 21300000, guid: c6639c39e25b5c948291155f9b9e341b, type: 3}
+      - {fileID: 21300000, guid: 7dcf8514b2f1569da6a7091aebcb2dd6, type: 3}
+      - {fileID: 21300000, guid: deb2e2e1354f566c86d20a989041d40a, type: 3}
+      - {fileID: 21300000, guid: c3f4999d296853019590ed1dfde26c10, type: 3}
+      - {fileID: 21300000, guid: 9eb9ef8724185fe791b4a438fb79be8d, type: 3}
+      - {fileID: 21300000, guid: 319a0c8136a55e57bf918db6b2432c70, type: 3}
+      - {fileID: 21300000, guid: 9da3b00844735939bb64991aaa611dde, type: 3}
+      - {fileID: 21300000, guid: 47c0eb0bcb70536b94620f3bfabbbc59, type: 3}
+      - {fileID: 21300000, guid: 3cab5172d6cb55949668666d2e786ac8, type: 3}
+      bodyMask: {fileID: 2800000, guid: 155808b326175172b8ce23969dde5464, type: 3}
+      skinMask: {fileID: 2800000, guid: 59cdd10d21f55615846265f9478f236a, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: 244d39c6b75f5574a7c2c25bebd92b22, type: 3}
+      - {fileID: 21300000, guid: 6b292c278a2056af8e03ab5bfdff619d, type: 3}
+      - {fileID: 21300000, guid: bf00bd0f163052f286e221376ad4dd5e, type: 3}
+      - {fileID: 21300000, guid: e891f320c89a5b2181fc006f218a8c56, type: 3}
+      - {fileID: 21300000, guid: eb91143bbea7571793671ed55880bc99, type: 3}
+      - {fileID: 21300000, guid: 8436ee6e026f5099ad3defd1fd117d27, type: 3}
+      - {fileID: 21300000, guid: 14bbc47e7b37568782da335400fa737a, type: 3}
+      - {fileID: 21300000, guid: c242c31c80d857449d05090b04410d1a, type: 3}
+      - {fileID: 21300000, guid: a739a7afc38d5ae4860e32c235a6e933, type: 3}
+      - {fileID: 21300000, guid: b5517ec85ab15884b161aa8ab817960f, type: 3}
+      - {fileID: 21300000, guid: 4190efe16122577386db1ce24c1ca1ad, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: 88d2a0be8a0c5f6ebffcc4ba515ea4c3, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: b5a433ec81af5f6aa142655cafa6c9d0, type: 3}
+    - parts:
+      - {fileID: 21300000, guid: a78cd0aea7c257249ae1ca018705865e, type: 3}
+      - {fileID: 21300000, guid: 120cb1927d0d56e5af1a193997d10ec2, type: 3}
+      - {fileID: 21300000, guid: 0b7c5155eebc5b409702589758006846, type: 3}
+      - {fileID: 21300000, guid: 464449c449f85ea69ff684d013074290, type: 3}
+      - {fileID: 21300000, guid: 965c028363a55636a6fef0e586b9960f, type: 3}
+      - {fileID: 21300000, guid: 7ba8e44dfabe586f8f03536a6e2fe91e, type: 3}
+      - {fileID: 21300000, guid: 3bffeafb3a3656fab7bd45a836f4f461, type: 3}
+      - {fileID: 21300000, guid: deadee9582b7593f83923c5b2f9f5ae1, type: 3}
+      - {fileID: 21300000, guid: 275ef68a9bb458768f2a4ec3a612f8df, type: 3}
+      - {fileID: 21300000, guid: 2f80ae94b3c15a2bb2a6362e875a2870, type: 3}
+      - {fileID: 21300000, guid: 0275af9404ae5f7fb70c0b34859dac50, type: 3}
+      bodyMask: {fileID: 2800000, guid: bf7a1ac14c4b5a3190cb78e7d903f939, type: 3}
+      skinMask: {fileID: 2800000, guid: 8db0e849df625437af6a04fdde03d57c, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: 3c2349a6b5df5899a6ee4a6d8d59bb2c, type: 3}
+      - {fileID: 21300000, guid: 3d20c19665a95202ac67e8892bdc488d, type: 3}
+      - {fileID: 21300000, guid: e552041defce564aa1394488c4380823, type: 3}
+      - {fileID: 21300000, guid: 3d602c8acc675deeb4ab529fa54f60ae, type: 3}
+      - {fileID: 21300000, guid: 0a2d7b0a95de5d128ed5751702a1fe13, type: 3}
+      - {fileID: 21300000, guid: b32189d5c3575f459ad75c31d33f3b88, type: 3}
+      - {fileID: 21300000, guid: cca9240df9e953fe9e3808c3adca6442, type: 3}
+      - {fileID: 21300000, guid: 3b8fa2e596ed562db92bf303c086ddd4, type: 3}
+      - {fileID: 21300000, guid: fb567dd8d8235e0691dd15cb691b5388, type: 3}
+      - {fileID: 21300000, guid: 11b47ed203195860b9e50006274d0dea, type: 3}
+      - {fileID: 21300000, guid: 216180ade8fa51ec808621663cb276bb, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: e9c8a49f24b3508fb526e661df45a387, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: d90e75ea71845fcea5cf967f0715ca73, type: 3}
+    - parts:
+      - {fileID: 21300000, guid: ef8b33faace5562c8eba63e9d89af6d3, type: 3}
+      - {fileID: 21300000, guid: 7c22efdcc8c75fde83438c68da5f5845, type: 3}
+      - {fileID: 21300000, guid: 4ff5da11e8185a8fb73a2e426b6e7b7e, type: 3}
+      - {fileID: 21300000, guid: b3b70627692d5068926088b31b23ac86, type: 3}
+      - {fileID: 21300000, guid: d4dd9ecdaace5420beaee19a8f9da267, type: 3}
+      - {fileID: 21300000, guid: 1d70a6fe2d5c5b4fb41f035401c02be9, type: 3}
+      - {fileID: 21300000, guid: 90c25c7aa045580495c5394110deb053, type: 3}
+      - {fileID: 21300000, guid: 8f6b392bfbeb5fa7ac5b7a4dbc6ae80a, type: 3}
+      - {fileID: 21300000, guid: 3b697ffcd89e5e678cbdefd0a2fdfae3, type: 3}
+      - {fileID: 21300000, guid: 933f3eb60a2350388ed70ea913a03553, type: 3}
+      - {fileID: 21300000, guid: 062417001c3b552bbbecb1a20e238c21, type: 3}
+      bodyMask: {fileID: 2800000, guid: 0e0b3bacd7f156c78100a0214770dfd3, type: 3}
+      skinMask: {fileID: 2800000, guid: 780347e5ca605ae4a6a0da572006471e, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: baf64e94f14f5f8395a16b7d815fa736, type: 3}
+      - {fileID: 21300000, guid: 8be6332416475d7ea9064515b9785aeb, type: 3}
+      - {fileID: 21300000, guid: ccfb5d91f320581d9ec093beae4aee1a, type: 3}
+      - {fileID: 21300000, guid: 8a2e963877a2540aa54630f802ac4a9b, type: 3}
+      - {fileID: 21300000, guid: 700d75afc5a25b3aa9a8d4b151594cb4, type: 3}
+      - {fileID: 21300000, guid: afc58186cde2588699d233e9ba22d91e, type: 3}
+      - {fileID: 21300000, guid: 6e0faf4a721853928cb993d775a930bf, type: 3}
+      - {fileID: 21300000, guid: 84a41c5e6ee1579a863631482bd2709d, type: 3}
+      - {fileID: 21300000, guid: f048a8367f5c5668a699b1cbecbf315a, type: 3}
+      - {fileID: 21300000, guid: d7a064f0c3575fa8ae9c675cece357c3, type: 3}
+      - {fileID: 21300000, guid: f00774b82ec95cb6ab21f182d7931707, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: 1d096de1c20e52ca9109b29eb4c1765e, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: f9391e2d852d58bf9d6d202f972d7f1c, type: 3}
+    - parts:
+      - {fileID: 21300000, guid: 43850a5880265273b6e1377a702456a2, type: 3}
+      - {fileID: 21300000, guid: 91d12d66551e545bb5ba2d6c78ccaa99, type: 3}
+      - {fileID: 21300000, guid: c9fe544aef6952c6b57e49137f6f7581, type: 3}
+      - {fileID: 21300000, guid: 886f0ac5e1ab5ea28929deb494b5db28, type: 3}
+      - {fileID: 21300000, guid: 58d67fd7e1705f76aef09a1d75773bb6, type: 3}
+      - {fileID: 21300000, guid: 4616814871c35a8485bd7abd54d728ea, type: 3}
+      - {fileID: 21300000, guid: a4dd05a8f1a553fe8d19c30257d782a4, type: 3}
+      - {fileID: 21300000, guid: 6800575d81485497a077b2ad38ddcbd2, type: 3}
+      - {fileID: 21300000, guid: 2e497f6674515bc79a8218405880c2ac, type: 3}
+      - {fileID: 21300000, guid: 31c1cf2e32cc509d874f01a2c60231b3, type: 3}
+      - {fileID: 21300000, guid: 461a42ea1b3c50408c2a9722f84e816b, type: 3}
+      bodyMask: {fileID: 2800000, guid: 5bef4e7f292159ebaef970def6fb8c8d, type: 3}
+      skinMask: {fileID: 2800000, guid: 243a80a34daa53d1868d0c644716c05c, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: 9eb3782218e75d499364100c29c7d32b, type: 3}
+      - {fileID: 21300000, guid: 3c2cdde6be045ebc9a3ee6e3e9184012, type: 3}
+      - {fileID: 21300000, guid: f72bf94bd0f15967afdfa528ada5c0ec, type: 3}
+      - {fileID: 21300000, guid: f3e4a227e0f55f188a20d164bbe2bb17, type: 3}
+      - {fileID: 21300000, guid: 2d6bd936e906589c860778dd2f1cd41c, type: 3}
+      - {fileID: 21300000, guid: ef9dce9bdd61512dad7cad1b7ff5c217, type: 3}
+      - {fileID: 21300000, guid: 780a0cac76415894a53a1219568058e1, type: 3}
+      - {fileID: 21300000, guid: 7f3ce6091e7d551b9f21ac9222d4451c, type: 3}
+      - {fileID: 21300000, guid: 84110e0fabbd52f196a1454391490c6f, type: 3}
+      - {fileID: 21300000, guid: fae9f296a9865d968b0d560df0987786, type: 3}
+      - {fileID: 21300000, guid: 6e4d0a322854558b887252b8c9343ca2, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: 7c128e6221d25decb5ed94a5bf576ba3, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: 309fb6fc6f745914ab8d27ccd11cc628, type: 3}
+    - parts:
+      - {fileID: 21300000, guid: c2989c8d129b568390ad480acb7aa4d9, type: 3}
+      - {fileID: 21300000, guid: 2b5eaf505c31594bb86ea5ccfb6aff1a, type: 3}
+      - {fileID: 21300000, guid: fa2eeb4400fb5d83998909cb362e73dd, type: 3}
+      - {fileID: 21300000, guid: ae8ef981b23057ec943c9c7522c5053c, type: 3}
+      - {fileID: 21300000, guid: 681169c0e39b5adc83284d3d5fdc5a2e, type: 3}
+      - {fileID: 21300000, guid: 05129875fb06510c9bceb3670de96c80, type: 3}
+      - {fileID: 21300000, guid: 47ff121df6f45f5db32960290f1c65b5, type: 3}
+      - {fileID: 21300000, guid: c9dbb9a8a05f53ee8bbb800fcbb70ac3, type: 3}
+      - {fileID: 21300000, guid: 64f320602dd256dc80a39b517d089727, type: 3}
+      - {fileID: 21300000, guid: bf318b298fe0525cba5a124ab99d8f99, type: 3}
+      - {fileID: 21300000, guid: 3be24797e7135d27a15a52105fdae7e5, type: 3}
+      bodyMask: {fileID: 2800000, guid: 990ec72c3c2c585a9f54423fb67e4542, type: 3}
+      skinMask: {fileID: 2800000, guid: af493969e5da552ab28ea1752c336b72, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: 05741af8e4f15eed8384e5784de94190, type: 3}
+      - {fileID: 21300000, guid: 22791da551675011bd80051eded5f84d, type: 3}
+      - {fileID: 21300000, guid: 557aa3b414b3509886cb2f9118f81125, type: 3}
+      - {fileID: 21300000, guid: f5d2692291d1586e9f36c36e73f33bbc, type: 3}
+      - {fileID: 21300000, guid: e7b7ef0e2f6e529480d1b962a984edfc, type: 3}
+      - {fileID: 21300000, guid: 8a131964d4a4515f8a90c07872fd13ff, type: 3}
+      - {fileID: 21300000, guid: 77dd45d9f6ce56a4800b953132612c55, type: 3}
+      - {fileID: 21300000, guid: 2434ae74575c5afc808eaa2fd51c22bf, type: 3}
+      - {fileID: 21300000, guid: 90c14218ad485ee3b2382c182d0f3a3f, type: 3}
+      - {fileID: 21300000, guid: f6d16ef6e8d55ee881f335fb7501f313, type: 3}
+      - {fileID: 21300000, guid: 7af69ff74a955b53a5be714889409687, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: 94f3adb3b6955c72ab088ef038f8c2b6, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: 5b84e18331f75b51a59f0276b2f694c9, type: 3}
+    - parts:
+      - {fileID: 21300000, guid: 16d22e8e910b5201a207153f22ad5e36, type: 3}
+      - {fileID: 21300000, guid: 3c692faecf8757f89463ec993c381743, type: 3}
+      - {fileID: 21300000, guid: f0cf8062856f5d39a1e7a66942f4e1f1, type: 3}
+      - {fileID: 21300000, guid: c5673e5d20f254cbbeb06cab3cd5059d, type: 3}
+      - {fileID: 21300000, guid: 4f56f6754e465dd2bd59a3ede6039f3b, type: 3}
+      - {fileID: 21300000, guid: 58017d0d54775d7a83c7a554eca02fb1, type: 3}
+      - {fileID: 21300000, guid: c09e609ef39a53d9aa8a171d74be8671, type: 3}
+      - {fileID: 21300000, guid: 593ef89ed3725c839748eb5439fc7cce, type: 3}
+      - {fileID: 21300000, guid: ed8a831a5dff522b8f7cc124799fe9f6, type: 3}
+      - {fileID: 21300000, guid: a5c813490c725e55a309004b198e283d, type: 3}
+      - {fileID: 21300000, guid: fe0f89a6aa595a0e887497c5ba61005e, type: 3}
+      bodyMask: {fileID: 2800000, guid: d30e3719db9a5fe2b320d66bf99d51b9, type: 3}
+      skinMask: {fileID: 2800000, guid: 1a62c0ef6a025357a8b7bb938ac13324, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: d2f1c3f9c0b05980a045419280cd3ef4, type: 3}
+      - {fileID: 21300000, guid: d3d8c0190be15abfabb312cae1ac71ae, type: 3}
+      - {fileID: 21300000, guid: 87419f973bbe540aa2dfb8a02b8f7065, type: 3}
+      - {fileID: 21300000, guid: 3d89c5546ced5088828b2d5cd15e3092, type: 3}
+      - {fileID: 21300000, guid: 19deb8204c2f52aab118e9f8b4dfae62, type: 3}
+      - {fileID: 21300000, guid: 93e7468300d15716ab4f21b5462a5467, type: 3}
+      - {fileID: 21300000, guid: 7df6d5be5fa15f80b94497459906cc46, type: 3}
+      - {fileID: 21300000, guid: 835a1250627c53ac914728ad69f3d555, type: 3}
+      - {fileID: 21300000, guid: 888c76ac41865c4a80362c5fd466e5fe, type: 3}
+      - {fileID: 21300000, guid: 533590f309fa5ff4850db3ca011cc451, type: 3}
+      - {fileID: 21300000, guid: b8a2c3fdd0205fecbed309eab977dfcd, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: 72bbc15eaec25d7c9ad4c7298e67c9d5, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: c80435385d175c9482f6b29c19c565a5, type: 3}
+    - parts:
+      - {fileID: 21300000, guid: e35e418458ac5739b2ff9753289e0545, type: 3}
+      - {fileID: 21300000, guid: 79670b294cb4572aa832299fcce4bd23, type: 3}
+      - {fileID: 21300000, guid: 9b67dc663965529eb145ac5481601498, type: 3}
+      - {fileID: 21300000, guid: 170482037b2b5facb6a2d62f4619724c, type: 3}
+      - {fileID: 21300000, guid: 6c6da3f86b025408b6346dd8887e45a5, type: 3}
+      - {fileID: 21300000, guid: bee68cf31816566ab807037e7838062f, type: 3}
+      - {fileID: 21300000, guid: aa525c766cf35830b75817aecf786d1f, type: 3}
+      - {fileID: 21300000, guid: 2f0e3e718e9255dc9aa5a7b52e732536, type: 3}
+      - {fileID: 21300000, guid: 72f083ae1c0351ecaa2f1c462937fd15, type: 3}
+      - {fileID: 21300000, guid: 0007f652034a5315add61fbb60222955, type: 3}
+      - {fileID: 21300000, guid: 5611ad1a032959aaba80430238003156, type: 3}
+      bodyMask: {fileID: 2800000, guid: 95ff8971df325d26867d79b6d6f842eb, type: 3}
+      skinMask: {fileID: 2800000, guid: d4271bb41eb55f8f868d287448785523, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: 58242cd691e1583b9cf8937c36b545ea, type: 3}
+      - {fileID: 21300000, guid: 9e025fd0c1ca5d56adf93cb569ff1f03, type: 3}
+      - {fileID: 21300000, guid: 65fbf39c4c2c5e9ea8c034625aecfd8e, type: 3}
+      - {fileID: 21300000, guid: fb3c6cdaa6c658ea87fd478e52f64eac, type: 3}
+      - {fileID: 21300000, guid: 58b679f197d0514e84d7c572e7883b9f, type: 3}
+      - {fileID: 21300000, guid: 5416c38fffc057e5bed7352dcdbe26be, type: 3}
+      - {fileID: 21300000, guid: eb5c977459c25b359cce009a3891d122, type: 3}
+      - {fileID: 21300000, guid: 2760617c737e5456b71a23bb31395db9, type: 3}
+      - {fileID: 21300000, guid: 55d711bac6a25cd3943ee8ba967e449a, type: 3}
+      - {fileID: 21300000, guid: 47f9acd00ec95d0295cc532d96e94d2c, type: 3}
+      - {fileID: 21300000, guid: dbeeba5e9e4b50469be392279c20e939, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: 056ede086351541b9fbe48268469bfe8, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: 6483e5d5d5ad56d095be8159800d513f, type: 3}
+    - parts:
+      - {fileID: 21300000, guid: d7fe5826cd3f5748a5a58721bd80d4d5, type: 3}
+      - {fileID: 21300000, guid: ecca2274bb5d56ae8b92db9cabbfbf3c, type: 3}
+      - {fileID: 21300000, guid: b5260f5225f75b71a4fa441acf97963b, type: 3}
+      - {fileID: 21300000, guid: f437e04197585ee0acd9269fcd92a8a7, type: 3}
+      - {fileID: 21300000, guid: eda3b7b393965ff2a9c0154f8da91ee3, type: 3}
+      - {fileID: 21300000, guid: a5250986e4eb5ca6b4283483b883ee29, type: 3}
+      - {fileID: 21300000, guid: f58e6203a52f55fc8c5c219bf655db87, type: 3}
+      - {fileID: 21300000, guid: ff519a944828533987615974a1b94fd1, type: 3}
+      - {fileID: 21300000, guid: 2d4c2145d6de5d2c998f44dcd1dd2d2c, type: 3}
+      - {fileID: 21300000, guid: 2deb838c07cf5787a6f7f8e039d11496, type: 3}
+      - {fileID: 21300000, guid: ab5ace3aca735f91b0e1171429c9a1a3, type: 3}
+      bodyMask: {fileID: 2800000, guid: 6942c34a372e5aeb926293de8a8d79b5, type: 3}
+      skinMask: {fileID: 2800000, guid: 45847ed95b6655d5bcc275ae71ccbb8c, type: 3}
+      partsWithoutHair:
+      - {fileID: 21300000, guid: f9392a5cd9d951fc88655d4331e9e8f0, type: 3}
+      - {fileID: 21300000, guid: 47aab9f80a2856f2b6e89feb3cbb183a, type: 3}
+      - {fileID: 21300000, guid: 0c10cc4f70f55d55b7399dc719438135, type: 3}
+      - {fileID: 21300000, guid: 0f7af2b14e28574ebb2f202959c689bd, type: 3}
+      - {fileID: 21300000, guid: e9f17800fd2a5950a1e5539af3985b20, type: 3}
+      - {fileID: 21300000, guid: 81956525ad235f96a5071cb0c2517a32, type: 3}
+      - {fileID: 21300000, guid: bb24cfcfe39f5a3daf56f7c479778595, type: 3}
+      - {fileID: 21300000, guid: 2ae044a93d1051fdbb2dd8c112034c5a, type: 3}
+      - {fileID: 21300000, guid: bac5ef09017e50128187523973dbb083, type: 3}
+      - {fileID: 21300000, guid: e3149b8651f65c9e8231f1129148f28b, type: 3}
+      - {fileID: 21300000, guid: 99b6937316ff562bae81aafcb3a7cf81, type: 3}
+      bodyMaskWithoutHair: {fileID: 2800000, guid: b756bf95327353f2a29f94ad8217611e, type: 3}
+      skinMaskWithoutHair: {fileID: 2800000, guid: 3ed936a93bcb5c2fb805a8637d206381, type: 3}
+  walkFramesPerSecond: 14
+  hair: 1
+  jacket: 1
+  bottom: 1
+  boots: 1
+  ornament: 1
+  equipment:
+  - {fileID: 11400000, guid: ed7c2bdf7b3553d889bcd9065a6ebd19, type: 2}
+  - {fileID: 11400000, guid: 81ac6ea629f85de4965f1f7392bb0c54, type: 2}
+  - {fileID: 11400000, guid: 44955628b2085cc685e484142b265fb3, type: 2}
+  - {fileID: 11400000, guid: 5441bb62738c5bf4a47d1a96344c7be2, type: 2}
+  - {fileID: 11400000, guid: a178533075ad5e01994720dff0bb68d1, type: 2}
+--- !u!114 &7066942600580175651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7831427744871102228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebf6c32000105d9d89d3dcb782aafb19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoHwa.DohwaWardrobeControls
+  character: {fileID: 6066942600580175651}
+  ivoryJacket: {fileID: 11400000, guid: 81ac6ea629f85de4965f1f7392bb0c54, type: 2}
+  roseJacket: {fileID: 11400000, guid: c699267e8ed8577990cdfbeaa1ae9386, type: 2}

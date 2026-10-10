@@ -9,6 +9,7 @@ namespace DoHwa
         [SerializeField] private Transform cameraTransform;
         [SerializeField] private Animator animator;
         [SerializeField] private ModularCharacter modularCharacter;
+        [SerializeField] private DohwaLayeredCharacter layeredCharacter;
         [SerializeField] private SpriteRenderer spriteRenderer;
         [SerializeField] private bool useOriginalFrontArt = true;
         [SerializeField] private bool useEightWayAnimations;
@@ -139,12 +140,21 @@ namespace DoHwa
             {
                 float x = Vector3.Dot(facing, right);
                 float y = Vector3.Dot(facing, forward);
-                facingRow = useModularCharacter || useEightWayAnimations
+                facingRow = layeredCharacter || useModularCharacter || useEightWayAnimations
                     ? Mathf.RoundToInt(Mathf.Atan2(x, -y) * Mathf.Rad2Deg / 45f + 8f) % 8
                     : Mathf.Abs(x) > Mathf.Abs(y) * 0.85f ? 1 : y > 0f ? 2 : 0;
                 flip = facingRow == 1 && x < 0f;
             }
             int motion = dashing ? 3 : !moving ? 0 : run.IsPressed() ? 2 : 1;
+            if (layeredCharacter)
+            {
+                float layeredPlaybackRate = dashing ? 1f
+                    : moving ? Mathf.Clamp(displacement.magnitude / Mathf.Max(dt, 0.0001f)
+                        / (run.IsPressed() ? runSpeed : walkSpeed), 0f, 1f) : 1f;
+                layeredCharacter.Animate((AvatarFacing)facingRow, (AvatarMotion)motion, dt, layeredPlaybackRate);
+                wasDashing = dashing;
+                return;
+            }
             if (useModularCharacter)
             {
                 float playbackRate = dashing ? 0.32f / dashDuration
