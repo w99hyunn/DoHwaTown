@@ -4,7 +4,7 @@ Shader "DoHwa/Hero Projected Shadow"
     {
         [PerRendererData] _MainTex("Sprite", 2D) = "white" {}
         _Color("Shadow tint", Color) = (.10,.08,.12,.30)
-        _GroundHeight("Ground height", Float) = 0
+        _GroundPlane("Ground plane", Vector) = (0,1,0,0)
     }
     SubShader
     {
@@ -31,7 +31,7 @@ Shader "DoHwa/Hero Projected Shadow"
             TEXTURE2D(_MainTex); SAMPLER(sampler_MainTex);
             CBUFFER_START(UnityPerMaterial)
             half4 _Color;
-            float _GroundHeight;
+            float4 _GroundPlane;
             CBUFFER_END
             struct Attributes { float4 positionOS:POSITION; float2 uv:TEXCOORD0; half4 color:COLOR; };
             struct Varyings { float4 positionCS:SV_POSITION; float2 uv:TEXCOORD0; half alpha:TEXCOORD1; };
@@ -40,9 +40,8 @@ Shader "DoHwa/Hero Projected Shadow"
                 Varyings output;
                 float3 positionWS=TransformObjectToWorld(input.positionOS.xyz);
                 Light sun=GetMainLight();
-                float height=max(0,positionWS.y-_GroundHeight);
-                positionWS.xz-=sun.direction.xz*height/max(.25,sun.direction.y);
-                positionWS.y=_GroundHeight;
+                float height=dot(_GroundPlane.xyz,positionWS)+_GroundPlane.w;
+                positionWS-=sun.direction*height/max(.25,dot(_GroundPlane.xyz,sun.direction));
                 output.positionCS=TransformWorldToHClip(positionWS);
                 output.uv=input.uv;
                 output.alpha=input.color.a;

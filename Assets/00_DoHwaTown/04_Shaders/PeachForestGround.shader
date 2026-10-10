@@ -5,6 +5,7 @@ Shader "DoHwa/Peach Forest Ground"
         _BaseMap("Painted atlas", 2D) = "white" {}
         _BaseColor("Tint", Color) = (1,1,1,1)
         _PathColor("Warm worn earth", Color) = (0.42,0.32,0.23,1)
+        _MossColor("Sage forest floor", Color) = (.18,.25,.19,1)
     }
     SubShader
     {
@@ -24,6 +25,7 @@ Shader "DoHwa/Peach Forest Ground"
                 float4 _BaseMap_ST;
                 half4 _BaseColor;
                 half4 _PathColor;
+                half4 _MossColor;
             CBUFFER_END
             struct Attributes { float4 positionOS : POSITION; float3 normalOS : NORMAL; };
             struct Varyings { float4 positionCS : SV_POSITION; float3 positionWS : TEXCOORD0; half3 normalWS : TEXCOORD1; half fog : TEXCOORD2; };
@@ -48,7 +50,7 @@ Shader "DoHwa/Peach Forest Ground"
                                 moss *= half3(0.75,0.83,0.92);
                 half mossLuma=dot(moss,half3(.25,.60,.15));
                 moss=lerp(mossLuma.xxx,moss,.72);
-                moss=lerp(half3(.10,.12,.075),moss,.46);
+                moss=lerp(_MossColor.rgb,moss*half3(.82,.95,1.05),.34);
                 moss*=.97+.035*sin(p.x*.28)*cos(p.y*.19);
                 float pathX=1.7*sin(p.y*0.115)-0.9*sin(p.y*0.23);
                 float edge=0.10*sin(p.y*2.1)+0.09*sin(p.x*3.7+p.y*1.3);

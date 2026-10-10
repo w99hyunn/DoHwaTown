@@ -19,6 +19,11 @@ namespace DoHwa
         [SerializeField] private float zoomStep = 0.14f;
         [SerializeField] private float rotationSensitivity = 0.18f;
         [SerializeField] private float zoomSharpness = 10f;
+        [SerializeField] private float footHeight = .02f;
+        private readonly RaycastHit[] groundHits = new RaycastHit[16];
+        public Vector3 GroundPoint { get; private set; }
+        public Vector3 GroundNormal { get; private set; } = Vector3.up;
+        public float FootHeight => footHeight;
         private float zoom;
         private float desiredZoom;
         private InputAction scroll;
@@ -91,6 +96,21 @@ namespace DoHwa
             transform.position = focus - transform.forward * distance;
             // Camera-aligned sprite plane keeps pixel proportions intact in the perspective view.
             spriteVisual.rotation = transform.rotation;
+            GroundPoint = target.position;
+            GroundNormal = Vector3.up;
+            float nearest = float.PositiveInfinity;
+            int count = Physics.RaycastNonAlloc(target.position + Vector3.up * .25f,
+                Vector3.down, groundHits, .45f, Physics.DefaultRaycastLayers, QueryTriggerInteraction.Ignore);
+            for (int i = 0; i < count; i++)
+            {
+                var hit = groundHits[i];
+                if (hit.collider.transform.IsChildOf(target) || hit.distance >= nearest) continue;
+                nearest = hit.distance;
+                GroundPoint = hit.point;
+                GroundNormal = hit.normal;
+            }
+            // Anchor the visible soles, rather than the controller's skin or sprite canvas origin.
+            spriteVisual.position = GroundPoint + Vector3.up * .003f - spriteVisual.up * footHeight;
         }
     }
 }

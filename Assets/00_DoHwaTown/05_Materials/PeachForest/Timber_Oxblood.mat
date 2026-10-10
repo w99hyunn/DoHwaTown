@@ -116,6 +116,7 @@ Material:
     - _GlossyReflections: 0
     - _MappingMode: 0
     - _Metallic: 0
+    - _MossCoverage: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _QueueOffset: 0
@@ -136,9 +137,10 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _AtlasRect: {r: 0.33333334, g: 0, b: 0.33333334, a: 0.5}
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _BaseColor: {r: 1, g: 0.87, b: 0.86, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _MossColor: {r: 0.15999997, g: 0.21999997, b: 0.09999997, a: 1}
     - _ReflectionColor: {r: 0.77, g: 0.68, b: 0.73, a: 1}
     - _ShadeTint: {r: 0.69, g: 0.73, b: 0.82, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}

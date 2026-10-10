@@ -34,6 +34,8 @@ Material:
     - _Cull: 2
     - _DstBlend: 0
     - _EnvironmentReflections: 1
+    - _FlowStrength: 0.24
+    - _FoamStrength: 0.34
     - _Metallic: 0
     - _ReceiveShadows: 1
     - _Smoothness: 0.81
@@ -41,14 +43,14 @@ Material:
     - _SrcBlend: 1
     - _Surface: 0
     - _WaveScale: 2.2
-    - _WaveSpeed: 0.22
+    - _WaveSpeed: 0.85
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.15, g: 0.32, b: 0.36, a: 1}
+    - _BaseColor: {r: 0.2, g: 0.39, b: 0.43, a: 1}
     - _Color: {r: 0.17, g: 0.39, b: 0.39, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _ReflectionColor: {r: 0.7, g: 0.64, b: 0.7, a: 1}
-    - _ShallowColor: {r: 0.32, g: 0.46, b: 0.39, a: 1}
+    - _ReflectionColor: {r: 0.83, g: 0.71, b: 0.8, a: 1}
+    - _ShallowColor: {r: 0.38, g: 0.56, b: 0.51, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
