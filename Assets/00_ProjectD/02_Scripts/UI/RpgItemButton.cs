@@ -61,7 +61,7 @@ namespace DoHwa.UI
                 cardFace.enabled=quantityBand.enabled=id>=0;
                 equippedBadge.enabled=worn;
             }
-            equipped.gameObject.SetActive(worn);
+            equipped.gameObject.SetActive(quick && worn);
             equipped.text=worn?"장착":""; button.interactable=id>=0 && (!quick || quantity>0);
             if(quick && hovered) owner.ShowQuickTooltip(index);
         }
@@ -73,5 +73,6 @@ namespace DoHwa.UI
         private void OnDisable() { hovered=pressed=false; art.rectTransform.anchoredPosition=artPosition; }
     }
 }
+
 
 
