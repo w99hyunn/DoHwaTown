@@ -402,6 +402,8 @@ GameObject:
   - component: {fileID: 830115632}
   - component: {fileID: 830115631}
   - component: {fileID: 830115630}
+  - component: {fileID: 830115635}
+  - component: {fileID: 830115634}
   m_Layer: 0
   m_Name: Splash Canvas
   m_TagString: Untagged
@@ -495,6 +497,33 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &830115634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 830115629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0826ae4cb53cfc4aa612c9405a478f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoHwa.UI.SplashTransition
+  content: {fileID: 830115635}
+  noticeDuration: 3
+  fadeDuration: 0.45
+--- !u!225 &830115635
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 830115629}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &934814558
 GameObject:
   m_ObjectHideFlags: 0
@@ -554,8 +583,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\uBCF8 \uAC8C\uC784\uC740 <color=#E0AB17>15\uC138 \uC774\uC6A9\uAC00\uC785\uB2C8\uB2E4.</color>\n\uD574\uB2F9 \uC5F0\uB839 \uBBF8\uB9CC\uC758 \uC5B4\uB9B0\uC774\uB098 \uCCAD\uC18C\uB144\uC774 \uC774\uC6A9\uD558\uAE30\uC5D0 \uBD80\uC801\uC808 \uD569\uB2C8\uB2E4."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 30038d82955ff314a9659b8aafeef8cc, type: 2}
-  m_sharedMaterial: {fileID: 9074009897950085871, guid: 30038d82955ff314a9659b8aafeef8cc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: c1bb35bf5dfd36e4794efd7e14d83f5c, type: 2}
+  m_sharedMaterial: {fileID: -1588621137353977741, guid: c1bb35bf5dfd36e4794efd7e14d83f5c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -581,7 +610,7 @@ MonoBehaviour:
     rgba: 4294967295
   m_fontSize: 33
   m_fontSizeBase: 33
-  m_fontWeight: 400
+  m_fontWeight: 500
   m_enableAutoSizing: 0
   m_fontSizeMin: 19
   m_fontSizeMax: 76

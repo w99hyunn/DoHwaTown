@@ -27,6 +27,7 @@ namespace DoHwa
         private InputAction dash;
         private Vector3 velocity;
         private Vector3 facing = Vector3.back;
+        public Vector3 Facing => facing;
         private Vector3 dashDirection;
         private float verticalSpeed;
         private float dashRemaining;
